@@ -7,10 +7,13 @@
     "build:quizzes": "node scripts/build-quizzes.cjs",
     "review:quizzes": "node scripts/export-quiz-review.cjs history geography science philosophy art-culture technology --v3 && node scripts/audit-answer-cues.cjs --write && node scripts/bundle-quiz-review.cjs --v3",
     "validate": "node scripts/validate-curio.js",
-    "test": "npm run validate && node tests/test-new-content.cjs && node tests/test-site.cjs && node tests/test-world-map.cjs && node tests/test-auth.cjs && node tests/test-profile.cjs && node tests/test-recovery-sdk.cjs && node tests/test-quiz-dom.cjs && node tests/test-server.cjs"
+    "test": "npm run validate && node tests/test-new-content.cjs && node tests/test-site.cjs && node tests/test-world-map.cjs && node tests/test-auth.cjs && node tests/test-profile.cjs && node tests/test-recovery-sdk.cjs && node tests/test-quiz-dom.cjs && node tests/test-server.cjs",
+    "build": "node scripts/build-site.cjs",
+    "test:production": "node tests/test-production.cjs"
   },
   "devDependencies": {
     "@supabase/supabase-js": "2.102.0",
-    "jsdom": "26.1.0"
+    "jsdom": "26.1.0",
+    "tailwindcss": "3.4.17"
   }
 }

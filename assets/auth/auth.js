@@ -36,6 +36,7 @@
   function validate(field) {
     let message = '';
     if (!field.value.trim()) message = 'Please complete this field.';
+    else if (signup && field.name === 'fullname' && field.value.trim().length > 100) message = 'Use a name of at most 100 characters.';
     else if (field.type === 'email' && field.validity.typeMismatch) message = 'Enter a valid email address.';
     else if ((signup || reset) && field === password && field.value.length < 8) message = 'Use at least 8 characters.';
     else if (field === confirmation && field.value !== password.value) message = 'Passwords must match.';

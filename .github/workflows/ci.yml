@@ -39,3 +39,7 @@ jobs:
         run: npm test
       - name: Audit dependencies
         run: npm audit --audit-level=high
+      - name: Build public site
+        run: npm run build
+      - name: Check production bundle
+        run: npm run test:production

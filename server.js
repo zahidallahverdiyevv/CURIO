@@ -16,11 +16,11 @@ const server = http.createServer((req,res) => {
   try { pathname = decodeURIComponent(req.url.split('?')[0]); } catch { res.writeHead(400); res.end(); return; }
   if (pathname === '/') pathname = '/index.html';
   // Strip trailing slashes so relative assets and links keep resolving at the root.
-  if (/^\/[a-z][a-z0-9-]*\/$/.test(pathname)) {
+  if (/^\/[a-z0-9][a-z0-9-]*\/$/.test(pathname)) {
     const query = req.url.includes('?') ? req.url.slice(req.url.indexOf('?')) : '';
     res.writeHead(307, {Location: pathname.slice(0, -1) + query}); res.end(); return;
   }
-  if (/^\/[a-z][a-z0-9-]*\/?$/.test(pathname)) pathname = pathname.replace(/\/$/, '') + '.html';
+  if (/^\/[a-z0-9][a-z0-9-]*\/?$/.test(pathname)) pathname = pathname.replace(/\/$/, '') + '.html';
   const file = path.resolve(ROOT, '.' + pathname);
   const relative = path.relative(ROOT,file);
   if (relative.startsWith('..') || path.isAbsolute(relative) || relative.split(/[\\/]/).some(p=>p.startsWith('.')) || !types[path.extname(file).toLowerCase()]) { res.writeHead(403); res.end(); return; }

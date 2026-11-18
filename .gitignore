@@ -25,3 +25,6 @@ docs/QUIZ-EDITORIAL-20*.md
 docs/QUIZ-EXPANSION-20*.md
 docs/SITE-AUDIT-20*.md
 /*-review-20*.md
+
+# Generated public deployment bundle
+dist/
