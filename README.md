@@ -1,6 +1,6 @@
 # CURIO
 
-İngilisdilli öyrənmə və quiz platforması: altı bölmə, 48 mövzu quizi, Daily Six və interaktiv dünya xəritəsi. HTML, JavaScript və Tailwind CDN istifadə edir. Node.js yerli serveri səhifələri təqdim edir; hesab funksiyaları Supabase Authentication ilə işləyir.
+İngilisdilli öyrənmə və quiz platforması: altı bölmə, 48 mövzu quizi, Daily Six və interaktiv dünya xəritəsi. HTML və JavaScript istifadə edir. İnkişaf zamanı Tailwind CDN, yayımlanan versiyada isə yerli yığılmış CSS və pinned SDK işləyir. Node.js yerli serveri səhifələri təqdim edir; hesab funksiyaları Supabase Authentication ilə işləyir.
 
 ## İşə salmaq
 
@@ -50,7 +50,7 @@ npm run validate
 npm test
 ```
 
-Testlər 63 səhifənin keçidlərini, 726 sualın strukturunu, 147 tam quiz gedişini, xəritəni, hesab formalarını və server marşrutlarını yoxlayır. Server testi boş `3087` portu tələb edir. Auth handler/SDK testləri saxta məlumat və mock HTTP istifadə edir; real hesab yaratmır, parol dəyişmir və email göndərmir.
+Testlər 64 səhifənin keçidlərini, 726 sualın strukturunu, 147 tam quiz gedişini, xəritəni, hesab formalarını və server marşrutlarını yoxlayır. Server testi boş `3087` portu tələb edir. Auth handler/SDK testləri saxta məlumat və mock HTTP istifadə edir; real hesab yaratmır, parol dəyişmir və email göndərmir.
 
 Yeni sualları `content/quizzes/` daxilində redaktə etdikdən sonra:
 
@@ -66,7 +66,7 @@ Review paketləri `docs/quiz-review/` daxilində yerli yaradılır və Git-ə da
 
 Brauzer konfiqurasiyasındakı Supabase URL və publishable key ictimai istifadə üçün nəzərdə tutulub. SMTP parolu, app password, secret/service_role açarı və istifadəçi məlumatı repoya əlavə edilməməlidir. Təhlükəsizlik problemi üçün [SECURITY.md](SECURITY.md) qaydasını izləyin.
 
-Sayt hələ production yayımına hazır hesab edilmir: final HTTPS ünvanı və Supabase redirect-ləri, canlı email/recovery sınağı, production CSS/header/cache konfiqurasiyası və hüquqi mətnlər tamamlanmalıdır. Custom SMTP qurulub; real çatdırılma ayrıca təsdiqlənməlidir. Stil, font, SDK və bəzi şəkillər hazırda xarici xidmətlərdən yüklənir.
+Yayım GitHub Pages üzərindən ilkin beta kimi aparılır. `npm run build` yalnız ictimai faylları `dist/` qovluğuna yığır; `npm run test:production` hazır faylları və script CSP-ni yoxlayır. JavaScript və CSS saytdan yüklənir, fontlar və bəzi şəkillər Google xidmətlərindən gəlir. Supabase redirect-ləri yayımlanan ünvana uyğun olmalıdır. SMTP qurulub; real email/recovery sınağı build yoxlamasından ayrıdır. Yayım və geri qaytarma qaydası: [DEPLOYMENT](docs/DEPLOYMENT.md).
 
 Köhnə auditlər, ekran görüntüləri və təkrar review/ZIP eksportları cari mənbə ağacından çıxarılıb, yerli arxivdə saxlanılıb. İlkin public commitdəki nüsxələr Git tarixçəsində qalır. Repo public-dir; ayrıca açıq mənbə lisenziyası verilməyib.
 

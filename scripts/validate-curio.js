@@ -57,7 +57,7 @@ for (const file of ['index', ...categories, ...quizzes]) {
   const html = read(file + '.html');
   for (const m of html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/g)) new vm.Script(m[1], { filename: file });
   for (const m of html.matchAll(/(?:href|src)="([^"#]+)"/g)) {
-    const url = m[1]; if (/^(https?:|javascript:)/.test(url)) continue;
+    const url = m[1]; if (/^(https?:|mailto:|tel:|javascript:)/.test(url)) continue;
     assert(!url.startsWith('/'), file + ': use relative paths: ' + url);
     assert(fs.existsSync(path.join(root, url.split('#')[0])), file + ': missing ' + url);
   }
