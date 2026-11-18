@@ -1,0 +1,3802 @@
+[
+  {
+    "quiz": "ancient-civilizations",
+    "question": 1,
+    "original": {
+      "question": "Which river's annual flooding made agriculture possible in ancient Egypt?",
+      "difficulty": "Easy",
+      "options": [
+        "Tigris",
+        "Nile",
+        "Indus",
+        "Yellow River"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Nile deposited fertile black silt along its banks each year, allowing Egyptians to grow surplus grain in an otherwise desert landscape."
+    },
+    "final": {
+      "question": "Which river's annual flooding made agriculture possible in ancient Egypt?",
+      "difficulty": "Easy",
+      "options": [
+        "Tigris",
+        "Indus",
+        "Nile",
+        "Yellow River"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Nile deposited fertile black silt along its banks each year, allowing Egyptians to grow surplus grain in an otherwise desert landscape."
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-civilizations",
+    "question": 2,
+    "original": {
+      "question": "In which city-state was the Parthenon built in the 5th century BCE?",
+      "difficulty": "Easy",
+      "options": [
+        "Sparta",
+        "Corinth",
+        "Athens",
+        "Thebes"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Parthenon was built on the Athenian Acropolis under the statesman Pericles and dedicated to the goddess Athena."
+    },
+    "final": {
+      "question": "In which city-state was the Parthenon built in the 5th century BCE?",
+      "difficulty": "Easy",
+      "options": [
+        "Sparta",
+        "Corinth",
+        "Thebes",
+        "Athens"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Parthenon was built on the Athenian Acropolis under the statesman Pericles and dedicated to the goddess Athena."
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-civilizations",
+    "question": 3,
+    "original": {
+      "question": "According to Roman tradition, what replaced the rule of kings in 509 BCE?",
+      "difficulty": "Easy",
+      "options": [
+        "The Roman Republic",
+        "The Roman Empire",
+        "The Athenian democracy",
+        "The Triumvirate"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tradition holds that Rome's last king, Tarquin the Proud, was expelled in 509 BCE, and power passed to annually elected magistrates called consuls. The Empire only emerged under Augustus nearly five centuries later."
+    },
+    "final": {
+      "question": "According to Roman tradition, what replaced the rule of kings in 509 BCE?",
+      "difficulty": "Easy",
+      "options": [
+        "The Roman Republic",
+        "The Roman Empire",
+        "The Athenian democracy",
+        "The Triumvirate"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tradition holds that Rome's last king, Tarquin the Proud, was expelled in 509 BCE, and power passed to annually elected magistrates called consuls. The Empire only emerged under Augustus nearly five centuries later."
+    },
+    "notes": [],
+    "status": "retained",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-civilizations",
+    "question": 4,
+    "original": {
+      "question": "Which pair of cities was among the largest urban centers of the Indus Valley Civilization?",
+      "difficulty": "Easy",
+      "options": [
+        "Memphis and Thebes",
+        "Ur and Uruk",
+        "Knossos and Phaistos",
+        "Harappa and Mohenjo-daro"
+      ],
+      "correctIndex": 3,
+      "explanation": "Both cities featured grid-planned streets and advanced drainage systems, evidence of sophisticated urban planning around 2500 BCE."
+    },
+    "final": {
+      "question": "Which pair of cities was among the largest urban centers of the Indus Valley Civilization?",
+      "difficulty": "Easy",
+      "options": [
+        "Memphis and Thebes",
+        "Ur and Uruk",
+        "Harappa and Mohenjo-daro",
+        "Knossos and Phaistos"
+      ],
+      "correctIndex": 2,
+      "explanation": "Both cities featured grid-planned streets and advanced drainage systems, evidence of sophisticated urban planning around 2500 BCE."
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-civilizations",
+    "question": 5,
+    "original": {
+      "question": "Who unified the Chinese states in 221 BCE and became the first emperor of China?",
+      "difficulty": "Easy",
+      "options": [
+        "Liu Bang",
+        "Qin Shi Huang",
+        "King Wu of Zhou",
+        "Emperor Wu of Han"
+      ],
+      "correctIndex": 1,
+      "explanation": "After conquering the rival states, Qin Shi Huang standardized writing, currency, and weights and measures. Liu Bang founded the Han dynasty after the Qin collapsed."
+    },
+    "final": {
+      "question": "Who unified the Chinese states in 221 BCE and became the first emperor of China?",
+      "difficulty": "Easy",
+      "options": [
+        "Liu Bang",
+        "Qin Shi Huang",
+        "King Wu of Zhou",
+        "Emperor Wu of Han"
+      ],
+      "correctIndex": 1,
+      "explanation": "After conquering the rival states, Qin Shi Huang standardized writing, currency, and weights and measures. Liu Bang founded the Han dynasty after the Qin collapsed."
+    },
+    "notes": [],
+    "status": "retained",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-civilizations",
+    "question": 6,
+    "original": {
+      "question": "Which discovery of 1799 later helped scholars decipher Egyptian hieroglyphs?",
+      "difficulty": "Medium",
+      "options": [
+        "The Narmer Palette",
+        "The Behistun Inscription",
+        "The Code of Hammurabi",
+        "The Rosetta Stone"
+      ],
+      "correctIndex": 3,
+      "explanation": "The stone carries one decree in hieroglyphic, Demotic, and Greek. Jean-François Champollion used the Greek text to announce his decipherment in 1822."
+    },
+    "final": {
+      "question": "Which discovery of 1799 later helped scholars decipher Egyptian hieroglyphs?",
+      "difficulty": "Medium",
+      "options": [
+        "The Narmer Palette",
+        "The Rosetta Stone",
+        "The Behistun Inscription",
+        "The Code of Hammurabi"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Rosetta Stone records a decree in Egyptian hieroglyphic and Demotic scripts and in Greek. Comparing these texts helped scholars, including Thomas Young and Jean-Francois Champollion, decipher hieroglyphs."
+    },
+    "notes": [
+      "Clarify three scripts, two languages; avoid implying Greek alone produced decipherment."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Clarify three scripts, two languages; avoid implying Greek alone produced decipherment.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-civilizations",
+    "question": 7,
+    "original": {
+      "question": "Which Babylonian king issued a famous law code carved on a stone stele around 1754 BCE?",
+      "difficulty": "Medium",
+      "options": [
+        "Hammurabi",
+        "Sargon of Akkad",
+        "Nebuchadnezzar II",
+        "Ashurbanipal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hammurabi's code listed offenses and penalties, showing that written law was publicly displayed in ancient Mesopotamia. Sargon ruled centuries earlier, and Nebuchadnezzar II more than a thousand years later."
+    },
+    "final": {
+      "question": "Which Babylonian king issued a famous law code carved on a stone stele around 1754 BCE?",
+      "difficulty": "Medium",
+      "options": [
+        "Sargon of Akkad",
+        "Nebuchadnezzar II",
+        "Hammurabi",
+        "Ashurbanipal"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hammurabi's code listed offenses and penalties, showing that written law was publicly displayed in ancient Mesopotamia. Sargon ruled centuries earlier, and Nebuchadnezzar II more than a thousand years later."
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-civilizations",
+    "question": 8,
+    "original": {
+      "question": "Which Bronze Age civilization built palace centers like Knossos on Crete, decorated with frescoes of bull-leaping?",
+      "difficulty": "Medium",
+      "options": [
+        "Mycenaean",
+        "Phoenician",
+        "Minoan",
+        "Etruscan"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Minoans flourished on Crete from about 2700 to 1450 BCE. The Mycenaeans of the Greek mainland are thought to have taken over Knossos late in that period."
+    },
+    "final": {
+      "question": "Which Bronze Age civilization built palace centers like Knossos on Crete, decorated with frescoes of bull-leaping?",
+      "difficulty": "Medium",
+      "options": [
+        "Minoan",
+        "Mycenaean",
+        "Phoenician",
+        "Etruscan"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Minoans flourished on Crete from about 2700 to 1450 BCE. The Mycenaeans of the Greek mainland are thought to have taken over Knossos late in that period."
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-civilizations",
+    "question": 9,
+    "original": {
+      "question": "Phoenician traders spread their alphabet around the Mediterranean. Which description fits that script?",
+      "difficulty": "Medium",
+      "options": [
+        "About 90 signs, each representing a syllable",
+        "22 signs, each representing a consonant",
+        "Several hundred signs, each representing a word",
+        "About 30 wedge signs, each representing a consonant"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Phoenician script had 22 consonant signs, which made it easy to learn and carry along trade routes. The Greeks adapted it around the 8th century BCE by adding vowel letters, and the Latin alphabet later descended from the Greek one."
+    },
+    "final": {
+      "question": "Phoenician traders spread their alphabet around the Mediterranean. Which description fits that script?",
+      "difficulty": "Medium",
+      "options": [
+        "About 90 signs representing syllables",
+        "Hundreds of signs representing words",
+        "About 30 wedge-shaped consonant signs",
+        "22 letters representing consonants"
+      ],
+      "correctIndex": 3,
+      "explanation": "Phoenician writing used 22 consonant letters. Greek adaptation supplied vowel letters; Latin developed through an Italic transmission that included Etruscan influence."
+    },
+    "notes": [
+      "Remove unsupported ease-of-learning assertion and clarify alphabet transmission.",
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Remove unsupported ease-of-learning assertion and clarify alphabet transmission. Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-civilizations",
+    "question": 10,
+    "original": {
+      "question": "Who founded the Achaemenid Persian Empire around 550 BCE by defeating the Medes?",
+      "difficulty": "Medium",
+      "options": [
+        "Darius I",
+        "Xerxes I",
+        "Cambyses II",
+        "Cyrus the Great"
+      ],
+      "correctIndex": 3,
+      "explanation": "Cyrus went on to conquer Lydia and Babylon in 539 BCE. Darius I later organized the empire into provinces called satrapies."
+    },
+    "final": {
+      "question": "Who founded the Achaemenid Persian Empire around 550 BCE by defeating the Medes?",
+      "difficulty": "Medium",
+      "options": [
+        "Cyrus the Great",
+        "Darius I",
+        "Xerxes I",
+        "Cambyses II"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cyrus defeated the Medes around 550 BCE, then conquered Lydia and later Babylon in 539 BCE. Darius I subsequently reorganized imperial administration."
+    },
+    "notes": [
+      "Remove implication that Lydia and Babylon both fell in 539 BCE."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Remove implication that Lydia and Babylon both fell in 539 BCE.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-civilizations",
+    "question": 11,
+    "original": {
+      "question": "Which long-term problem caused by irrigation damaged farmland in southern Mesopotamia?",
+      "difficulty": "Hard",
+      "options": [
+        "Wind erosion of exposed topsoil",
+        "Depletion of nitrogen by flooding",
+        "Accumulation of salt in the soil",
+        "Spread of waterborne livestock disease"
+      ],
+      "correctIndex": 2,
+      "explanation": "Evaporating irrigation water left salts behind in the soil. Over centuries this is linked to falling wheat yields in southern Sumer and a shift toward more salt-tolerant barley."
+    },
+    "final": {
+      "question": "Which long-term problem caused by irrigation damaged farmland in southern Mesopotamia?",
+      "difficulty": "Hard",
+      "options": [
+        "Accumulation of salt in the soil",
+        "Wind erosion of exposed topsoil",
+        "Depletion of nitrogen by flooding",
+        "Spread of waterborne livestock disease"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaporating irrigation water left salts behind in the soil. Over centuries this is linked to falling wheat yields in southern Sumer and a shift toward more salt-tolerant barley."
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-civilizations",
+    "question": 12,
+    "original": {
+      "question": "Which Han dynasty envoy, sent westward around 138 BCE, gathered information that helped open the Silk Road?",
+      "difficulty": "Hard",
+      "options": [
+        "Zhang Qian",
+        "Sima Qian",
+        "Cai Lun",
+        "Ban Chao"
+      ],
+      "correctIndex": 0,
+      "explanation": "Zhang Qian's journeys to Central Asia revealed new peoples and trade opportunities. Sima Qian was the court historian, and Cai Lun is credited with improving papermaking."
+    },
+    "final": {
+      "question": "Which Han dynasty envoy, sent westward around 138 BCE, gathered information that helped open the Silk Road?",
+      "difficulty": "Hard",
+      "options": [
+        "Sima Qian",
+        "Zhang Qian",
+        "Cai Lun",
+        "Ban Chao"
+      ],
+      "correctIndex": 1,
+      "explanation": "Zhang Qian's journeys to Central Asia revealed new peoples and trade opportunities. Sima Qian was the court historian, and Cai Lun is credited with improving papermaking."
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-civilizations",
+    "question": 13,
+    "original": {
+      "question": "Which Athenian reformer reorganized citizens into ten tribes based on local districts around 508/507 BCE, laying the foundations of democracy?",
+      "difficulty": "Hard",
+      "options": [
+        "Solon",
+        "Draco",
+        "Pericles",
+        "Cleisthenes"
+      ],
+      "correctIndex": 3,
+      "explanation": "Cleisthenes weakened aristocratic clan loyalties by basing political membership on demes, or local districts. Pericles later deepened Athenian democracy."
+    },
+    "final": {
+      "question": "Which Athenian reformer reorganized citizens into ten tribes based on local districts around 508/507 BCE, laying the foundations of democracy?",
+      "difficulty": "Hard",
+      "options": [
+        "Solon",
+        "Cleisthenes",
+        "Draco",
+        "Pericles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cleisthenes weakened aristocratic clan loyalties by basing political membership on demes, or local districts. Pericles later deepened Athenian democracy."
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-civilizations",
+    "question": 14,
+    "original": {
+      "question": "Elected magistrates and the Senate continued to function under Augustus. Which statement best explains why his rule is still seen as a break from the Republic?",
+      "difficulty": "Hard",
+      "options": [
+        "He abolished the consulship and governed through prefects chosen by himself alone",
+        "He commanded the provinces holding most legions and kept tribunician power for life",
+        "He dissolved the Senate and transferred its legislative powers to the popular assemblies",
+        "He held the consulship every year and personally appointed every provincial governor"
+      ],
+      "correctIndex": 1,
+      "explanation": "Augustus kept republican institutions in form, but his command of the provinces holding most legions, together with lifelong tribunician power, concentrated real authority in one man."
+    },
+    "final": {
+      "question": "Elected magistrates and the Senate continued to function under Augustus. Which statement best explains why his rule is still seen as a break from the Republic?",
+      "difficulty": "Hard",
+      "options": [
+        "He abolished the consulship and governed through prefects chosen by himself alone",
+        "He dissolved the Senate and transferred its legislative powers to the popular assemblies",
+        "He commanded the provinces holding most legions and kept tribunician power for life",
+        "He held the consulship every year and personally appointed every provincial governor"
+      ],
+      "correctIndex": 2,
+      "explanation": "Augustus kept republican institutions in form, but his command of the provinces holding most legions, together with lifelong tribunician power, concentrated real authority in one man."
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-civilizations",
+    "question": 15,
+    "original": {
+      "question": "According to the Greek historian Herodotus, the Achaemenid Royal Road ran from Sardis in western Anatolia to which city?",
+      "difficulty": "Hard",
+      "options": [
+        "Persepolis",
+        "Babylon",
+        "Susa",
+        "Ecbatana"
+      ],
+      "correctIndex": 2,
+      "explanation": "Herodotus describes a road of roughly 2,500 km with relay stations for couriers, linking Sardis to Susa. Royal messages could cross the empire far faster than ordinary travel."
+    },
+    "final": {
+      "question": "According to the Greek historian Herodotus, the Achaemenid Royal Road ran from Sardis in western Anatolia to which city?",
+      "difficulty": "Hard",
+      "options": [
+        "Persepolis",
+        "Babylon",
+        "Ecbatana",
+        "Susa"
+      ],
+      "correctIndex": 3,
+      "explanation": "Herodotus describes a road of roughly 2,500 km with relay stations for couriers, linking Sardis to Susa. Royal messages could cross the empire far faster than ordinary travel."
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "countries-capitals",
+    "question": 1,
+    "original": {
+      "question": "What is the capital of Australia?",
+      "difficulty": "Easy",
+      "options": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Perth"
+      ],
+      "correctIndex": 2,
+      "explanation": "Canberra was selected as the capital of Australia in 1908 as a compromise between rival cities Sydney and Melbourne."
+    },
+    "final": {
+      "question": "What is the capital of Australia?",
+      "difficulty": "Easy",
+      "options": [
+        "Sydney",
+        "Melbourne",
+        "Perth",
+        "Canberra"
+      ],
+      "correctIndex": 3,
+      "explanation": "Canberra was selected as the capital of Australia in 1908 as a compromise between rival cities Sydney and Melbourne."
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "countries-capitals",
+    "question": 2,
+    "original": {
+      "question": "What is the capital of Canada?",
+      "difficulty": "Easy",
+      "options": [
+        "Toronto",
+        "Ottawa",
+        "Vancouver",
+        "Montreal"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ottawa was chosen as the capital of Canada in 1857 by Queen Victoria due to its central location between English and French speaking regions."
+    },
+    "final": {
+      "question": "What is the capital of Canada?",
+      "difficulty": "Easy",
+      "options": [
+        "Ottawa",
+        "Toronto",
+        "Vancouver",
+        "Montreal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Queen Victoria selected Ottawa in 1857 as the capital of the Province of Canada. It remained the federal capital after Confederation in 1867."
+    },
+    "notes": [
+      "Distinguish pre-Confederation selection from the later country."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Distinguish pre-Confederation selection from the later country.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "countries-capitals",
+    "question": 3,
+    "original": {
+      "question": "What is the capital of Brazil?",
+      "difficulty": "Easy",
+      "options": [
+        "Rio de Janeiro",
+        "São Paulo",
+        "Brasília",
+        "Salvador"
+      ],
+      "correctIndex": 2,
+      "explanation": "Brasília was inaugurated in 1960 as a planned city to replace Rio de Janeiro and encourage interior development."
+    },
+    "final": {
+      "question": "What is the capital of Brazil?",
+      "difficulty": "Easy",
+      "options": [
+        "Rio de Janeiro",
+        "São Paulo",
+        "Salvador",
+        "Brasília"
+      ],
+      "correctIndex": 3,
+      "explanation": "Brasília was inaugurated in 1960 as a planned city to replace Rio de Janeiro and encourage interior development."
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "countries-capitals",
+    "question": 4,
+    "original": {
+      "question": "What is the capital of Japan?",
+      "difficulty": "Easy",
+      "options": [
+        "Kyoto",
+        "Osaka",
+        "Tokyo",
+        "Yokohama"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tokyo became the imperial capital in 1868 when Emperor Meiji moved his seat from Kyoto, renaming Edo to Tokyo ('Eastern Capital')."
+    },
+    "final": {
+      "question": "What is the capital of Japan?",
+      "difficulty": "Easy",
+      "options": [
+        "Tokyo",
+        "Kyoto",
+        "Osaka",
+        "Yokohama"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tokyo became the imperial capital in 1868 when Emperor Meiji moved his seat from Kyoto, renaming Edo to Tokyo ('Eastern Capital')."
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "countries-capitals",
+    "question": 5,
+    "original": {
+      "question": "What is the capital of Turkey?",
+      "difficulty": "Medium",
+      "options": [
+        "Istanbul",
+        "Ankara",
+        "Izmir",
+        "Antalya"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ankara became the capital of the Republic of Turkey in 1923 under Mustafa Kemal Atatürk, succeeding Istanbul."
+    },
+    "final": {
+      "question": "What is the capital of Argentina?",
+      "difficulty": "Easy",
+      "options": [
+        "Cordoba",
+        "Rosario",
+        "Buenos Aires",
+        "Mendoza"
+      ],
+      "correctIndex": 2,
+      "explanation": "Buenos Aires is the autonomous capital and largest city of Argentina, situated along the Rio de la Plata estuary."
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "countries-capitals",
+    "question": 6,
+    "original": {
+      "question": "What is the capital of Morocco?",
+      "difficulty": "Medium",
+      "options": [
+        "Casablanca",
+        "Marrakech",
+        "Rabat",
+        "Fez"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rabat is the political and administrative capital of Morocco, located on the Atlantic coast."
+    },
+    "final": {
+      "question": "What is the capital of Turkey?",
+      "difficulty": "Medium",
+      "options": [
+        "Istanbul",
+        "Ankara",
+        "Izmir",
+        "Antalya"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ankara became the capital of the Republic of Turkey in 1923 under Mustafa Kemal Atatürk, succeeding Istanbul."
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "countries-capitals",
+    "question": 7,
+    "original": {
+      "question": "What is the capital of New Zealand?",
+      "difficulty": "Easy",
+      "options": [
+        "Auckland",
+        "Wellington",
+        "Christchurch",
+        "Queenstown"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wellington replaced Auckland as New Zealand's capital in 1865 due to its more central geographic position on Cook Strait."
+    },
+    "final": {
+      "question": "What is the capital of Morocco?",
+      "difficulty": "Medium",
+      "options": [
+        "Rabat",
+        "Casablanca",
+        "Marrakech",
+        "Fez"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rabat is the political and administrative capital of Morocco, located on the Atlantic coast."
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "countries-capitals",
+    "question": 8,
+    "original": {
+      "question": "What is the capital of Switzerland?",
+      "difficulty": "Medium",
+      "options": [
+        "Zurich",
+        "Geneva",
+        "Bern",
+        "Basel"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bern serves as the federal city and de facto capital of Switzerland, designated as the seat of the federal government in 1848."
+    },
+    "final": {
+      "question": "What is the capital of New Zealand?",
+      "difficulty": "Medium",
+      "options": [
+        "Auckland",
+        "Christchurch",
+        "Queenstown",
+        "Wellington"
+      ],
+      "correctIndex": 3,
+      "explanation": "Wellington replaced Auckland as New Zealand's capital in 1865 due to its more central geographic position on Cook Strait."
+    },
+    "notes": [
+      "Specify federal city rather than an unqualified official capital."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Specify federal city rather than an unqualified official capital.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "countries-capitals",
+    "question": 9,
+    "original": {
+      "question": "What is the capital of Nigeria?",
+      "difficulty": "Medium",
+      "options": [
+        "Lagos",
+        "Abuja",
+        "Kano",
+        "Ibadan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Abuja was planned in the 1980s and officially replaced Lagos as Nigeria's capital in 1991 to promote unity in a centrally positioned location."
+    },
+    "final": {
+      "question": "Which city serves as Switzerland’s federal city and seat of its federal government?",
+      "difficulty": "Medium",
+      "options": [
+        "Zurich",
+        "Bern",
+        "Geneva",
+        "Basel"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bern serves as the federal city and de facto capital of Switzerland, designated as the seat of the federal government in 1848."
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "countries-capitals",
+    "question": 10,
+    "original": {
+      "question": "What is the capital of Argentina?",
+      "difficulty": "Easy",
+      "options": [
+        "Buenos Aires",
+        "Cordoba",
+        "Rosario",
+        "Mendoza"
+      ],
+      "correctIndex": 0,
+      "explanation": "Buenos Aires is the autonomous capital and largest city of Argentina, situated along the Rio de la Plata estuary."
+    },
+    "final": {
+      "question": "What is the capital of Kazakhstan?",
+      "difficulty": "Medium",
+      "options": [
+        "Almaty",
+        "Shymkent",
+        "Astana",
+        "Aktobe"
+      ],
+      "correctIndex": 2,
+      "explanation": "Astana (briefly named Nur-Sultan from 2019 to 2022) replaced Almaty as Kazakhstan's capital in 1997."
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "countries-capitals",
+    "question": 11,
+    "original": {
+      "question": "What is the capital of Vietnam?",
+      "difficulty": "Easy",
+      "options": [
+        "Ho Chi Minh City",
+        "Hanoi",
+        "Da Nang",
+        "Hue"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hanoi is the historic capital of Vietnam, recognized for its centuries-old architecture and rich cultural heritage."
+    },
+    "final": {
+      "question": "Which pair correctly matches the former and current capitals of Brazil?",
+      "options": [
+        "Salvador to Sao Paulo",
+        "Rio de Janeiro to Brasilia",
+        "Brasilia to Rio de Janeiro",
+        "Sao Paulo to Salvador"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rio de Janeiro preceded Brasilia, inaugurated in 1960. Salvador was an earlier colonial capital, not Brasilia’s immediate predecessor.",
+      "difficulty": "Hard"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "countries-capitals",
+    "question": 12,
+    "original": {
+      "question": "What is the capital of Kenya?",
+      "difficulty": "Easy",
+      "options": [
+        "Mombasa",
+        "Kisumu",
+        "Nairobi",
+        "Nakuru"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nairobi grew from a rail depot in 1899 to become Kenya's capital in 1907, replacing the coastal town of Mombasa."
+    },
+    "final": {
+      "question": "Which sequence places these transfers of national capitals in chronological order?",
+      "options": [
+        "Brazil, New Zealand, Nigeria",
+        "Nigeria, Brazil, New Zealand",
+        "New Zealand, Brazil, Nigeria",
+        "New Zealand, Nigeria, Brazil"
+      ],
+      "correctIndex": 2,
+      "explanation": "Wellington became New Zealand’s capital in 1865; Brasilia replaced Rio de Janeiro in 1960; Abuja replaced Lagos in 1991.",
+      "difficulty": "Hard"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "countries-capitals",
+    "question": 13,
+    "original": {
+      "question": "What is the capital of Kazakhstan?",
+      "difficulty": "Hard",
+      "options": [
+        "Almaty",
+        "Astana",
+        "Shymkent",
+        "Aktobe"
+      ],
+      "correctIndex": 1,
+      "explanation": "Astana (briefly named Nur-Sultan from 2019 to 2022) replaced Almaty as Kazakhstan's capital in 1997."
+    },
+    "final": {
+      "question": "Which capital is farther south than both Canberra and Buenos Aires?",
+      "options": [
+        "Tokyo",
+        "Wellington",
+        "Rabat",
+        "Ottawa"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wellington is near 41 degrees south, compared with Canberra near 35 degrees south and Buenos Aires near 35 degrees south. More negative latitude is farther south.",
+      "difficulty": "Hard"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "countries-capitals",
+    "question": 14,
+    "original": {
+      "question": "What is the capital of Norway?",
+      "difficulty": "Easy",
+      "options": [
+        "Bergen",
+        "Oslo",
+        "Trondheim",
+        "Stavanger"
+      ],
+      "correctIndex": 1,
+      "explanation": "Oslo has served as the capital of Norway since 1299 and is celebrated for its fjords, green spaces, and cultural institutions."
+    },
+    "final": {
+      "question": "Which pair consists of national capitals located in landlocked countries?",
+      "options": [
+        "Rabat and Bern",
+        "Astana and Ankara",
+        "Bern and Astana",
+        "Ankara and Rabat"
+      ],
+      "correctIndex": 2,
+      "explanation": "Switzerland and Kazakhstan are landlocked; Morocco and Turkey have coastlines. A capital being inland does not make its country landlocked.",
+      "difficulty": "Hard"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "countries-capitals",
+    "question": 15,
+    "original": {
+      "question": "What is the capital of South Korea?",
+      "difficulty": "Easy",
+      "options": [
+        "Busan",
+        "Incheon",
+        "Seoul",
+        "Daegu"
+      ],
+      "correctIndex": 2,
+      "explanation": "Seoul has been the core capital of Korea for over 600 years, established during the Joseon dynasty."
+    },
+    "final": {
+      "question": "Which statement distinguishes Nigeria’s capital from its largest city?",
+      "options": [
+        "Abuja is the capital; Lagos is the largest city",
+        "Lagos is the capital; Abuja is the largest city",
+        "Kano is the capital; Abuja is the largest city",
+        "Abuja is the capital; Kano is the largest city"
+      ],
+      "correctIndex": 0,
+      "explanation": "Abuja replaced Lagos as capital in 1991. Lagos remains the country’s largest urban centre; capital status does not imply the greatest population.",
+      "difficulty": "Hard"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "physics-fundamentals",
+    "question": 1,
+    "original": {
+      "question": "What is the SI unit of force?",
+      "options": [
+        "Joule",
+        "Newton",
+        "Watt",
+        "Pascal"
+      ],
+      "correctIndex": 1,
+      "explanation": "A newton is the force that gives a one-kilogram mass an acceleration of one metre per second squared.",
+      "difficulty": "Easy"
+    },
+    "final": {
+      "question": "What is the SI unit of force?",
+      "options": [
+        "Joule",
+        "Newton",
+        "Watt",
+        "Pascal"
+      ],
+      "correctIndex": 1,
+      "explanation": "A newton is the force that gives a one-kilogram mass an acceleration of one metre per second squared.",
+      "difficulty": "Easy"
+    },
+    "notes": [],
+    "status": "retained",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "physics-fundamentals",
+    "question": 2,
+    "original": {
+      "question": "Which quantity measures the rate of change of velocity?",
+      "options": [
+        "Speed",
+        "Momentum",
+        "Acceleration",
+        "Displacement"
+      ],
+      "correctIndex": 2,
+      "explanation": "Acceleration describes how quickly velocity changes, including changes in direction.",
+      "difficulty": "Easy"
+    },
+    "final": {
+      "question": "Which quantity measures the rate of change of velocity?",
+      "options": [
+        "Speed",
+        "Momentum",
+        "Acceleration",
+        "Displacement"
+      ],
+      "correctIndex": 2,
+      "explanation": "Acceleration describes how quickly velocity changes, including changes in direction.",
+      "difficulty": "Easy"
+    },
+    "notes": [],
+    "status": "retained",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "physics-fundamentals",
+    "question": 3,
+    "original": {
+      "question": "Which form of energy does a moving object have?",
+      "options": [
+        "Kinetic energy",
+        "Chemical energy",
+        "Elastic potential energy",
+        "Gravitational potential energy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kinetic energy is energy associated with motion and equals one half of mass times speed squared.",
+      "difficulty": "Easy"
+    },
+    "final": {
+      "question": "Which form of energy does a moving object have?",
+      "options": [
+        "Chemical energy",
+        "Kinetic energy",
+        "Elastic potential energy",
+        "Gravitational potential energy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kinetic energy is energy associated with motion and equals one half of mass times speed squared.",
+      "difficulty": "Easy"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "physics-fundamentals",
+    "question": 4,
+    "original": {
+      "question": "Which instrument measures electric current?",
+      "options": [
+        "Voltmeter",
+        "Barometer",
+        "Thermometer",
+        "Ammeter"
+      ],
+      "correctIndex": 3,
+      "explanation": "An ammeter measures current in amperes and is normally connected in series with a circuit branch.",
+      "difficulty": "Easy"
+    },
+    "final": {
+      "question": "Which instrument measures electric current?",
+      "options": [
+        "Voltmeter",
+        "Ohmmeter",
+        "Wattmeter",
+        "Ammeter"
+      ],
+      "correctIndex": 3,
+      "explanation": "An ammeter measures current in amperes and is normally connected in series with a circuit branch.",
+      "difficulty": "Easy"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "physics-fundamentals",
+    "question": 5,
+    "original": {
+      "question": "What is the approximate speed of light in a vacuum?",
+      "options": [
+        "300 metres per second",
+        "300,000 kilometres per second",
+        "3,000 kilometres per second",
+        "30,000 metres per second"
+      ],
+      "correctIndex": 1,
+      "explanation": "Light travels in a vacuum at exactly 299,792,458 metres per second, approximately 300,000 kilometres per second.",
+      "difficulty": "Easy"
+    },
+    "final": {
+      "question": "What is the approximate speed of light in a vacuum?",
+      "options": [
+        "300,000 metres per second",
+        "30,000 kilometres per second",
+        "300,000 kilometres per second",
+        "3,000,000 kilometres per second"
+      ],
+      "correctIndex": 2,
+      "explanation": "Light travels in a vacuum at exactly 299,792,458 metres per second, approximately 300,000 kilometres per second.",
+      "difficulty": "Easy"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "physics-fundamentals",
+    "question": 6,
+    "original": {
+      "question": "A net force of 12 N acts on a 3 kg object. What is its acceleration?",
+      "options": [
+        "36 m/s squared",
+        "9 m/s squared",
+        "4 m/s squared",
+        "0.25 m/s squared"
+      ],
+      "correctIndex": 2,
+      "explanation": "Newton's second law gives acceleration as force divided by mass: 12 divided by 3 equals 4 metres per second squared.",
+      "difficulty": "Medium"
+    },
+    "final": {
+      "question": "A net force of 12 N acts on a 3 kg object. What is its acceleration?",
+      "options": [
+        "36 m/s squared",
+        "9 m/s squared",
+        "4 m/s squared",
+        "0.25 m/s squared"
+      ],
+      "correctIndex": 2,
+      "explanation": "Newton's second law gives acceleration as force divided by mass: 12 divided by 3 equals 4 metres per second squared.",
+      "difficulty": "Medium"
+    },
+    "notes": [],
+    "status": "retained",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "physics-fundamentals",
+    "question": 7,
+    "original": {
+      "question": "A resistor has 6 V across it and carries 2 A. What is its resistance?",
+      "options": [
+        "3 ohms",
+        "12 ohms",
+        "8 ohms",
+        "0.33 ohms"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ohm's law gives resistance as voltage divided by current: 6 divided by 2 equals 3 ohms.",
+      "difficulty": "Medium"
+    },
+    "final": {
+      "question": "A resistor has 6 V across it and carries 2 A. What is its resistance?",
+      "options": [
+        "3 ohms",
+        "12 ohms",
+        "8 ohms",
+        "0.33 ohms"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ohm's law gives resistance as voltage divided by current: 6 divided by 2 equals 3 ohms.",
+      "difficulty": "Medium"
+    },
+    "notes": [],
+    "status": "retained",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "physics-fundamentals",
+    "question": 8,
+    "original": {
+      "question": "Which wave property primarily determines the pitch of a pure sound?",
+      "options": [
+        "Amplitude",
+        "Speed in air",
+        "Intensity",
+        "Frequency"
+      ],
+      "correctIndex": 3,
+      "explanation": "Frequency is the number of oscillations per second. Higher frequencies generally produce higher perceived pitches.",
+      "difficulty": "Medium"
+    },
+    "final": {
+      "question": "A sound wave has speed 340 m/s and wavelength 0.85 m. What is its frequency?",
+      "options": [
+        "289 Hz",
+        "400 Hz",
+        "200 Hz",
+        "680 Hz"
+      ],
+      "correctIndex": 1,
+      "explanation": "Frequency equals wave speed divided by wavelength: 340 / 0.85 = 400 Hz. This frequency determines the pitch of the pure tone.",
+      "difficulty": "Medium"
+    },
+    "notes": [
+      "Medium now applies the wave relation rather than recalling pitch."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Medium now applies the wave relation rather than recalling pitch.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "physics-fundamentals",
+    "question": 9,
+    "original": {
+      "question": "How does energy from the Sun travel through the vacuum of space?",
+      "options": [
+        "Conduction",
+        "Radiation",
+        "Convection",
+        "Diffusion"
+      ],
+      "correctIndex": 1,
+      "explanation": "Electromagnetic radiation can travel through a vacuum, whereas conduction and convection require matter.",
+      "difficulty": "Medium"
+    },
+    "final": {
+      "question": "Two identical black plates receive sunlight in space; one is turned edge-on to the Sun. Why does it absorb less energy?",
+      "options": [
+        "Less radiation intercepts its projected area",
+        "Less heat reaches it by conduction",
+        "Less air reaches it by convection",
+        "Less mass remains available to absorb heat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sunlight transfers energy by radiation. Turning a plate edge-on reduces its area projected toward the Sun, reducing intercepted power.",
+      "difficulty": "Medium"
+    },
+    "notes": [
+      "Medium applies radiative transfer."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Medium applies radiative transfer.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "physics-fundamentals",
+    "question": 10,
+    "original": {
+      "question": "An object's speed doubles while its mass stays constant. How does its kinetic energy change?",
+      "options": [
+        "It doubles",
+        "It halves",
+        "It quadruples",
+        "It stays constant"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kinetic energy is proportional to the square of speed, so multiplying speed by two multiplies energy by four.",
+      "difficulty": "Medium"
+    },
+    "final": {
+      "question": "An object's speed doubles while its mass stays constant. How does its kinetic energy change?",
+      "options": [
+        "It doubles",
+        "It halves",
+        "It stays constant",
+        "It quadruples"
+      ],
+      "correctIndex": 3,
+      "explanation": "Kinetic energy is proportional to the square of speed, so multiplying speed by two multiplies energy by four.",
+      "difficulty": "Medium"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "physics-fundamentals",
+    "question": 11,
+    "original": {
+      "question": "A 2 kg object moving at 3 m/s sticks to a stationary 1 kg object. What is their final speed if external impulse is negligible?",
+      "options": [
+        "2 m/s",
+        "3 m/s",
+        "1 m/s",
+        "6 m/s"
+      ],
+      "correctIndex": 0,
+      "explanation": "Momentum is conserved: the initial 6 kilogram metres per second is shared by a total mass of 3 kilograms, giving 2 metres per second.",
+      "difficulty": "Hard"
+    },
+    "final": {
+      "question": "A 2 kg object moving at 3 m/s sticks to a stationary 1 kg object. What is their final speed if external impulse is negligible?",
+      "options": [
+        "2 m/s",
+        "3 m/s",
+        "1 m/s",
+        "6 m/s"
+      ],
+      "correctIndex": 0,
+      "explanation": "Momentum is conserved: the initial 6 kilogram metres per second is shared by a total mass of 3 kilograms, giving 2 metres per second.",
+      "difficulty": "Hard"
+    },
+    "notes": [],
+    "status": "retained",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "physics-fundamentals",
+    "question": 12,
+    "original": {
+      "question": "A gas absorbs 500 J of heat and does 200 J of work on its surroundings. How does its internal energy change?",
+      "options": [
+        "It decreases by 700 J",
+        "It increases by 700 J",
+        "It decreases by 300 J",
+        "It increases by 300 J"
+      ],
+      "correctIndex": 3,
+      "explanation": "The first law gives the internal energy change as heat absorbed minus work done by the gas: 500 minus 200 equals 300 joules.",
+      "difficulty": "Hard"
+    },
+    "final": {
+      "question": "A gas absorbs 500 J of heat and does 200 J of work on its surroundings. How does its internal energy change?",
+      "options": [
+        "It decreases by 700 J",
+        "It increases by 300 J",
+        "It increases by 700 J",
+        "It decreases by 300 J"
+      ],
+      "correctIndex": 1,
+      "explanation": "The first law gives the internal energy change as heat absorbed minus work done by the gas: 500 minus 200 equals 300 joules.",
+      "difficulty": "Hard"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "physics-fundamentals",
+    "question": 13,
+    "original": {
+      "question": "For ideal projectile motion without air resistance, which quantity remains constant during flight?",
+      "options": [
+        "Vertical velocity",
+        "Horizontal velocity",
+        "Speed",
+        "Gravitational potential energy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gravity acts vertically, so horizontal acceleration is zero and the horizontal component of velocity stays constant.",
+      "difficulty": "Hard"
+    },
+    "final": {
+      "question": "For ideal projectile motion without air resistance, which quantity remains constant during flight?",
+      "options": [
+        "Vertical velocity",
+        "Speed",
+        "Horizontal velocity",
+        "Gravitational potential energy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gravity acts vertically, so horizontal acceleration is zero and the horizontal component of velocity stays constant.",
+      "difficulty": "Hard"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "physics-fundamentals",
+    "question": 14,
+    "original": {
+      "question": "What happens to the wavelength of light as it enters glass from air if its frequency stays constant?",
+      "options": [
+        "It increases because light slows down",
+        "It remains constant",
+        "It decreases because light slows down",
+        "It becomes zero"
+      ],
+      "correctIndex": 2,
+      "explanation": "Wave speed equals frequency times wavelength. A lower speed at the same frequency therefore means a shorter wavelength.",
+      "difficulty": "Hard"
+    },
+    "final": {
+      "question": "What happens to the wavelength of light as it enters glass from air if its frequency stays constant?",
+      "options": [
+        "It decreases as its speed decreases",
+        "It increases as its speed decreases",
+        "It stays fixed as its speed decreases",
+        "It decreases as its speed increases"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wave speed equals frequency times wavelength. A lower speed at the same frequency therefore means a shorter wavelength.",
+      "difficulty": "Hard"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "physics-fundamentals",
+    "question": 15,
+    "original": {
+      "question": "A satellite moves in a circular orbit at constant speed. Why is it accelerating?",
+      "options": [
+        "Its velocity direction changes continuously",
+        "Its mass decreases continuously",
+        "No force acts on it",
+        "Its kinetic energy increases continuously"
+      ],
+      "correctIndex": 0,
+      "explanation": "Velocity includes direction. Gravity supplies centripetal acceleration that changes the velocity direction even when speed stays constant.",
+      "difficulty": "Hard"
+    },
+    "final": {
+      "question": "A satellite moves in a circular orbit at constant speed. Why is it accelerating?",
+      "options": [
+        "Its tangential speed keeps increasing",
+        "Its orbital radius keeps decreasing",
+        "Its gravitational force keeps vanishing",
+        "Its velocity direction keeps changing"
+      ],
+      "correctIndex": 3,
+      "explanation": "Velocity includes direction. Gravity supplies centripetal acceleration that changes the velocity direction even when speed stays constant.",
+      "difficulty": "Hard"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-philosophy",
+    "question": 1,
+    "original": {
+      "question": "Which philosopher taught Plato?",
+      "options": [
+        "Aristotle",
+        "Socrates",
+        "Epicurus",
+        "Zeno of Citium"
+      ],
+      "correctIndex": 1,
+      "explanation": "Plato was a follower of Socrates and made him the central speaker in many philosophical dialogues.",
+      "difficulty": "Easy"
+    },
+    "final": {
+      "question": "Which philosopher taught Plato?",
+      "options": [
+        "Socrates",
+        "Aristotle",
+        "Epicurus",
+        "Zeno of Citium"
+      ],
+      "correctIndex": 0,
+      "explanation": "Plato was a follower of Socrates and made him the central speaker in many philosophical dialogues.",
+      "difficulty": "Easy"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-philosophy",
+    "question": 2,
+    "original": {
+      "question": "Who founded the Academy in Athens?",
+      "options": [
+        "Socrates",
+        "Diogenes",
+        "Plato",
+        "Aristotle"
+      ],
+      "correctIndex": 2,
+      "explanation": "Plato established the Academy, a major centre of philosophical inquiry in ancient Athens.",
+      "difficulty": "Easy"
+    },
+    "final": {
+      "question": "Who founded the Academy in Athens?",
+      "options": [
+        "Socrates",
+        "Diogenes",
+        "Plato",
+        "Aristotle"
+      ],
+      "correctIndex": 2,
+      "explanation": "Plato established the Academy, a major centre of philosophical inquiry in ancient Athens.",
+      "difficulty": "Easy"
+    },
+    "notes": [],
+    "status": "retained",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-philosophy",
+    "question": 3,
+    "original": {
+      "question": "Which ancient thinker wrote the Nicomachean Ethics?",
+      "options": [
+        "Aristotle",
+        "Plato",
+        "Epicurus",
+        "Seneca"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aristotle's Nicomachean Ethics examines flourishing, virtue, practical wisdom, and friendship.",
+      "difficulty": "Easy"
+    },
+    "final": {
+      "question": "Which ancient thinker wrote the Nicomachean Ethics?",
+      "options": [
+        "Plato",
+        "Aristotle",
+        "Epicurus",
+        "Seneca"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aristotle's Nicomachean Ethics examines flourishing, virtue, practical wisdom, and friendship.",
+      "difficulty": "Easy"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-philosophy",
+    "question": 4,
+    "original": {
+      "question": "Which school was founded by Zeno of Citium?",
+      "options": [
+        "Epicureanism",
+        "Cynicism",
+        "The Academy",
+        "Stoicism"
+      ],
+      "correctIndex": 3,
+      "explanation": "Zeno taught in Athens at the Stoa Poikile, the painted porch from which Stoicism takes its name.",
+      "difficulty": "Easy"
+    },
+    "final": {
+      "question": "Which school was founded by Zeno of Citium?",
+      "options": [
+        "Epicureanism",
+        "Cynicism",
+        "Stoicism",
+        "The Academy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Zeno taught in Athens at the Stoa Poikile, the painted porch from which Stoicism takes its name.",
+      "difficulty": "Easy"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-philosophy",
+    "question": 5,
+    "original": {
+      "question": "Which early Greek thinker proposed water as the fundamental principle of nature?",
+      "options": [
+        "Heraclitus",
+        "Thales",
+        "Parmenides",
+        "Anaxagoras"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aristotle reports that Thales identified water as the basic principle underlying things.",
+      "difficulty": "Easy"
+    },
+    "final": {
+      "question": "Which early Greek thinker proposed water as the fundamental principle of nature?",
+      "options": [
+        "Heraclitus",
+        "Parmenides",
+        "Thales",
+        "Anaxagoras"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aristotle reports that Thales identified water as the basic principle underlying things.",
+      "difficulty": "Easy"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-philosophy",
+    "question": 6,
+    "original": {
+      "question": "What is the main purpose of the Socratic method?",
+      "options": [
+        "To memorize accepted doctrines",
+        "To replace argument with storytelling",
+        "To examine beliefs through questions",
+        "To prove every belief equally true"
+      ],
+      "correctIndex": 2,
+      "explanation": "Socratic questioning tests definitions and assumptions, often exposing contradictions in a person's beliefs.",
+      "difficulty": "Medium"
+    },
+    "final": {
+      "question": "What is the main purpose of the Socratic method?",
+      "options": [
+        "To examine stated beliefs through questioning",
+        "To preserve inherited beliefs through recitation",
+        "To defend personal beliefs through persuasion",
+        "To suspend all beliefs through meditation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Socratic questioning tests definitions and assumptions, often exposing contradictions in a person's beliefs.",
+      "difficulty": "Medium"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-philosophy",
+    "question": 7,
+    "original": {
+      "question": "In Plato's theory of Forms, what are Forms?",
+      "options": [
+        "Intelligible realities independent of particular sensible things",
+        "Physical copies of everyday objects",
+        "Private feelings that determine truth",
+        "Names without any reality beyond speech"
+      ],
+      "correctIndex": 0,
+      "explanation": "Forms are stable intelligible realities, such as Beauty itself, which particular sensible things imperfectly exemplify.",
+      "difficulty": "Medium"
+    },
+    "final": {
+      "question": "In Plato's theory of Forms, what are Forms?",
+      "options": [
+        "Material structures underlying sensible particulars",
+        "Stable intelligible realities beyond sensible particulars",
+        "Mental images abstracted from sensible particulars",
+        "Conventional names assigned to sensible particulars"
+      ],
+      "correctIndex": 1,
+      "explanation": "Forms are stable intelligible realities, such as Beauty itself, which particular sensible things imperfectly exemplify.",
+      "difficulty": "Medium"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-philosophy",
+    "question": 8,
+    "original": {
+      "question": "What does Aristotle mean by the mean in moral virtue?",
+      "options": [
+        "Always choosing a mathematical average",
+        "Avoiding all strong feelings",
+        "Following whatever most people do",
+        "Responding appropriately between excess and deficiency"
+      ],
+      "correctIndex": 3,
+      "explanation": "Aristotle's mean is relative to the person and circumstances and is guided by reason, rather than a numerical midpoint.",
+      "difficulty": "Medium"
+    },
+    "final": {
+      "question": "What does Aristotle mean by the mean in moral virtue?",
+      "options": [
+        "Responding fittingly between excess and deficiency",
+        "Choosing the midpoint of two numerical extremes",
+        "Suppressing emotion regardless of circumstances",
+        "Following the customary response of the majority"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aristotle's mean is relative to the person and circumstances and is guided by reason, rather than a numerical midpoint.",
+      "difficulty": "Medium"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-philosophy",
+    "question": 9,
+    "original": {
+      "question": "Which description best captures Epicurus's ideal of pleasure?",
+      "options": [
+        "Constant luxury and excitement",
+        "Freedom from bodily pain and mental disturbance",
+        "Political domination",
+        "The complete rejection of friendship"
+      ],
+      "correctIndex": 1,
+      "explanation": "Epicurus emphasizes absence of bodily pain and mental disturbance, supported by prudent desires and friendship.",
+      "difficulty": "Medium"
+    },
+    "final": {
+      "question": "Which description best captures Epicurus's ideal of pleasure?",
+      "options": [
+        "Enjoyment through continual luxury and excitement",
+        "Freedom from bodily pain and mental disturbance",
+        "Satisfaction through political influence and honour",
+        "Fulfilment through strict self-denial and isolation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Epicurus emphasizes absence of bodily pain and mental disturbance, supported by prudent desires and friendship.",
+      "difficulty": "Medium"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-philosophy",
+    "question": 10,
+    "original": {
+      "question": "What is eudaimonia in Aristotle's ethics usually understood to mean?",
+      "options": [
+        "Material wealth",
+        "Obedience to political rulers",
+        "Human flourishing",
+        "Momentary amusement"
+      ],
+      "correctIndex": 2,
+      "explanation": "Eudaimonia concerns living well over a complete life through activity in accordance with virtue.",
+      "difficulty": "Medium"
+    },
+    "final": {
+      "question": "What is eudaimonia in Aristotle's ethics usually understood to mean?",
+      "options": [
+        "Material wealth",
+        "Obedience to political rulers",
+        "Momentary amusement",
+        "Human flourishing"
+      ],
+      "correctIndex": 3,
+      "explanation": "Eudaimonia concerns living well over a complete life through activity in accordance with virtue.",
+      "difficulty": "Medium"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-philosophy",
+    "question": 11,
+    "original": {
+      "question": "What is the central challenge posed by Meno's paradox in Plato's Meno?",
+      "options": [
+        "How inquiry can begin if we either know or do not know what we seek",
+        "How motion is physically possible",
+        "Whether pleasure can be measured",
+        "Whether rulers should own property"
+      ],
+      "correctIndex": 0,
+      "explanation": "The paradox asks why we need inquiry if we already know, and how we can recognize an answer if we do not know what we seek.",
+      "difficulty": "Hard"
+    },
+    "final": {
+      "question": "What is the central challenge posed by Meno's paradox in Plato's Meno?",
+      "options": [
+        "How sensation can explain what does not move",
+        "How pleasure can measure what is morally right",
+        "How rulers can govern what they do not own",
+        "How inquiry can find what it does not yet know"
+      ],
+      "correctIndex": 3,
+      "explanation": "The paradox asks why we need inquiry if we already know, and how we can recognize an answer if we do not know what we seek.",
+      "difficulty": "Hard"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-philosophy",
+    "question": 12,
+    "original": {
+      "question": "In Aristotle's four causes, which cause describes what a thing is for?",
+      "options": [
+        "Material cause",
+        "Efficient cause",
+        "Formal cause",
+        "Final cause"
+      ],
+      "correctIndex": 3,
+      "explanation": "The final cause is a thing's end or purpose. The material cause concerns what it is made of.",
+      "difficulty": "Hard"
+    },
+    "final": {
+      "question": "In Aristotle's four causes, which cause describes what a thing is for?",
+      "options": [
+        "Material cause",
+        "Efficient cause",
+        "Final cause",
+        "Formal cause"
+      ],
+      "correctIndex": 2,
+      "explanation": "The final cause is a thing's end or purpose. The material cause concerns what it is made of.",
+      "difficulty": "Hard"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-philosophy",
+    "question": 13,
+    "original": {
+      "question": "Which view is associated with the ancient atomism of Democritus?",
+      "options": [
+        "Only water exists",
+        "Reality consists of atoms and void",
+        "All change is impossible",
+        "Matter is infinitely divisible with no smallest constituents"
+      ],
+      "correctIndex": 1,
+      "explanation": "Democritean atomism explains change through the arrangement and movement of indivisible atoms in empty space.",
+      "difficulty": "Hard"
+    },
+    "final": {
+      "question": "Which view is associated with the ancient atomism of Democritus?",
+      "options": [
+        "Reality consists of atoms and empty space",
+        "Reality consists of water and its transformations",
+        "Reality consists of one changeless continuous being",
+        "Reality consists of infinitely divisible matter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Democritean atomism explains change through the arrangement and movement of indivisible atoms in empty space.",
+      "difficulty": "Hard"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-philosophy",
+    "question": 14,
+    "original": {
+      "question": "What does the Stoic term preferred indifferent describe?",
+      "options": [
+        "A virtue that guarantees happiness",
+        "An action that is always immoral",
+        "Something such as health that has value but is not moral goodness",
+        "A belief that cannot be questioned"
+      ],
+      "correctIndex": 2,
+      "explanation": "Stoics distinguish virtue, the genuine good, from things such as health or wealth that can reasonably be preferred but do not ensure a good life.",
+      "difficulty": "Hard"
+    },
+    "final": {
+      "question": "What does the Stoic term preferred indifferent describe?",
+      "options": [
+        "An external condition that is itself a moral virtue",
+        "An external condition that must always be avoided",
+        "An external condition irrelevant to any rational choice",
+        "An external condition worth choosing but not morally good"
+      ],
+      "correctIndex": 3,
+      "explanation": "Stoics distinguish virtue, the genuine good, from things such as health or wealth that can reasonably be preferred but do not ensure a good life.",
+      "difficulty": "Hard"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "ancient-philosophy",
+    "question": 15,
+    "original": {
+      "question": "Why does Aristotle argue that practical wisdom is necessary for full moral virtue?",
+      "options": [
+        "It helps determine the right action in particular circumstances",
+        "It supplies an exceptionless numerical formula for conduct",
+        "It eliminates the need for experience",
+        "It turns all desires into virtues automatically"
+      ],
+      "correctIndex": 0,
+      "explanation": "Practical wisdom applies sound judgment to specific situations; good character needs this judgment to guide action appropriately.",
+      "difficulty": "Hard"
+    },
+    "final": {
+      "question": "Why does Aristotle argue that practical wisdom is necessary for full moral virtue?",
+      "options": [
+        "It derives all actions from a fixed numerical rule",
+        "It identifies fitting action in specific circumstances",
+        "It replaces character with detached factual knowledge",
+        "It makes good intentions sufficient for right action"
+      ],
+      "correctIndex": 1,
+      "explanation": "Practical wisdom applies sound judgment to specific situations; good character needs this judgment to guide action appropriately.",
+      "difficulty": "Hard"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "art-history",
+    "question": 1,
+    "original": {
+      "question": "Who painted the Mona Lisa?",
+      "options": [
+        "Michelangelo",
+        "Leonardo da Vinci",
+        "Raphael",
+        "Titian"
+      ],
+      "correctIndex": 1,
+      "explanation": "Leonardo da Vinci painted the Mona Lisa during the Italian Renaissance, using subtle tonal transitions and a carefully constructed portrait.",
+      "difficulty": "Easy"
+    },
+    "final": {
+      "question": "Who painted the Mona Lisa?",
+      "options": [
+        "Michelangelo",
+        "Raphael",
+        "Titian",
+        "Leonardo da Vinci"
+      ],
+      "correctIndex": 3,
+      "explanation": "Leonardo da Vinci painted the Mona Lisa during the Italian Renaissance, using subtle tonal transitions and a carefully constructed portrait.",
+      "difficulty": "Easy"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "art-history",
+    "question": 2,
+    "original": {
+      "question": "Which movement is associated with Claude Monet?",
+      "options": [
+        "Cubism",
+        "Surrealism",
+        "Impressionism",
+        "Neoclassicism"
+      ],
+      "correctIndex": 2,
+      "explanation": "Monet explored changing light and atmosphere with broken brushwork, becoming a central figure in Impressionism.",
+      "difficulty": "Easy"
+    },
+    "final": {
+      "question": "Which movement is associated with Claude Monet?",
+      "options": [
+        "Impressionism",
+        "Cubism",
+        "Surrealism",
+        "Neoclassicism"
+      ],
+      "correctIndex": 0,
+      "explanation": "Monet explored changing light and atmosphere with broken brushwork, becoming a central figure in Impressionism.",
+      "difficulty": "Easy"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "art-history",
+    "question": 3,
+    "original": {
+      "question": "Which artist painted The Starry Night in 1889?",
+      "options": [
+        "Vincent van Gogh",
+        "Paul Cezanne",
+        "Edouard Manet",
+        "Henri Matisse"
+      ],
+      "correctIndex": 0,
+      "explanation": "Van Gogh painted The Starry Night while staying at Saint-Remy, combining an observed landscape with expressive forms.",
+      "difficulty": "Easy"
+    },
+    "final": {
+      "question": "Which artist painted The Starry Night in 1889?",
+      "options": [
+        "Paul Cezanne",
+        "Edouard Manet",
+        "Henri Matisse",
+        "Vincent van Gogh"
+      ],
+      "correctIndex": 3,
+      "explanation": "Van Gogh painted The Starry Night while staying at Saint-Remy, combining an observed landscape with expressive forms.",
+      "difficulty": "Easy"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "art-history",
+    "question": 4,
+    "original": {
+      "question": "Which ancient civilization built the Parthenon in Athens?",
+      "options": [
+        "Roman",
+        "Egyptian",
+        "Persian",
+        "Greek"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Parthenon was built in fifth-century BCE Athens as a temple dedicated to Athena.",
+      "difficulty": "Easy"
+    },
+    "final": {
+      "question": "Which ancient civilization built the Parthenon in Athens?",
+      "options": [
+        "Greek",
+        "Roman",
+        "Egyptian",
+        "Persian"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Parthenon was built in fifth-century BCE Athens as a temple dedicated to Athena.",
+      "difficulty": "Easy"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "art-history",
+    "question": 5,
+    "original": {
+      "question": "Which medium uses small pieces of stone, glass, or other materials to form an image?",
+      "options": [
+        "Fresco",
+        "Mosaic",
+        "Etching",
+        "Watercolour"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mosaics assemble small pieces called tesserae into images or patterns on surfaces such as walls and floors.",
+      "difficulty": "Easy"
+    },
+    "final": {
+      "question": "Which medium uses small pieces of stone, glass, or other materials to form an image?",
+      "options": [
+        "Fresco",
+        "Etching",
+        "Mosaic",
+        "Watercolour"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mosaics assemble small pieces called tesserae into images or patterns on surfaces such as walls and floors.",
+      "difficulty": "Easy"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "art-history",
+    "question": 6,
+    "original": {
+      "question": "What does linear perspective use to suggest depth?",
+      "options": [
+        "Uniform object size throughout",
+        "Only warm colours",
+        "Lines that converge toward vanishing points",
+        "The complete removal of overlap"
+      ],
+      "correctIndex": 2,
+      "explanation": "Linear perspective represents receding parallel lines as converging, helping create the illusion of three-dimensional space.",
+      "difficulty": "Medium"
+    },
+    "final": {
+      "question": "What does linear perspective use to suggest depth?",
+      "options": [
+        "Parallel lines drawn at identical spacing",
+        "Warm colours placed behind cool colours",
+        "Receding lines converging to vanishing points",
+        "Distant objects drawn larger than near ones"
+      ],
+      "correctIndex": 2,
+      "explanation": "Linear perspective represents receding parallel lines as converging, helping create the illusion of three-dimensional space.",
+      "difficulty": "Medium"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "art-history",
+    "question": 7,
+    "original": {
+      "question": "Which artists were central to the development of Cubism?",
+      "options": [
+        "Pablo Picasso and Georges Braque",
+        "Claude Monet and Pierre-Auguste Renoir",
+        "Salvador Dali and Rene Magritte",
+        "Jacques-Louis David and Jean-Auguste-Dominique Ingres"
+      ],
+      "correctIndex": 0,
+      "explanation": "Picasso and Braque developed Cubism by breaking forms into geometric facets and exploring multiple viewpoints.",
+      "difficulty": "Medium"
+    },
+    "final": {
+      "question": "Which artists were central to the development of Cubism?",
+      "options": [
+        "Claude Monet and Pierre-Auguste Renoir",
+        "Pablo Picasso and Georges Braque",
+        "Salvador Dali and Rene Magritte",
+        "Jacques-Louis David and Jean-Auguste-Dominique Ingres"
+      ],
+      "correctIndex": 1,
+      "explanation": "Picasso and Braque developed Cubism by breaking forms into geometric facets and exploring multiple viewpoints.",
+      "difficulty": "Medium"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "art-history",
+    "question": 8,
+    "original": {
+      "question": "What is a defining technical feature of buon fresco?",
+      "options": [
+        "Painting on dry wood with oils",
+        "Printing from a metal plate",
+        "Applying pigment to woven cloth",
+        "Applying pigment to fresh wet plaster"
+      ],
+      "correctIndex": 3,
+      "explanation": "In buon fresco, water-based pigment is applied to wet lime plaster and becomes bound into the surface as it sets.",
+      "difficulty": "Medium"
+    },
+    "final": {
+      "question": "What is a defining technical feature of buon fresco?",
+      "options": [
+        "Applying pigment to dried lime plaster",
+        "Applying pigment to an oiled wood panel",
+        "Applying pigment to fresh lime plaster",
+        "Applying pigment to a prepared canvas"
+      ],
+      "correctIndex": 2,
+      "explanation": "In buon fresco, water-based pigment is applied to wet lime plaster and becomes bound into the surface as it sets.",
+      "difficulty": "Medium"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "art-history",
+    "question": 9,
+    "original": {
+      "question": "Which movement explored dreams and the unconscious in works by Salvador Dali and Rene Magritte?",
+      "options": [
+        "Realism",
+        "Surrealism",
+        "Fauvism",
+        "Minimalism"
+      ],
+      "correctIndex": 1,
+      "explanation": "Surrealist artists drew on dreams, unexpected associations, and the unconscious to challenge ordinary perceptions of reality.",
+      "difficulty": "Medium"
+    },
+    "final": {
+      "question": "Which movement explored dreams and the unconscious in works by Salvador Dali and Rene Magritte?",
+      "options": [
+        "Surrealism",
+        "Realism",
+        "Fauvism",
+        "Minimalism"
+      ],
+      "correctIndex": 0,
+      "explanation": "Surrealist artists drew on dreams, unexpected associations, and the unconscious to challenge ordinary perceptions of reality.",
+      "difficulty": "Medium"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "art-history",
+    "question": 10,
+    "original": {
+      "question": "Katsushika Hokusai's The Great Wave off Kanagawa was made primarily using which process?",
+      "options": [
+        "Oil painting",
+        "Marble carving",
+        "Woodblock printing",
+        "Bronze casting"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Great Wave is a Japanese ukiyo-e woodblock print, made by printing successive colours from carved blocks.",
+      "difficulty": "Medium"
+    },
+    "final": {
+      "question": "Katsushika Hokusai's The Great Wave off Kanagawa was made primarily using which process?",
+      "options": [
+        "Oil painting",
+        "Woodblock printing",
+        "Marble carving",
+        "Bronze casting"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Great Wave is a Japanese ukiyo-e woodblock print, made by printing successive colours from carved blocks.",
+      "difficulty": "Medium"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "art-history",
+    "question": 11,
+    "original": {
+      "question": "What distinguishes an intaglio print from a relief print?",
+      "options": [
+        "Ink is transferred from recessed grooves rather than raised surfaces",
+        "It can only be printed in one colour",
+        "It requires no pressure",
+        "It must be made on fabric"
+      ],
+      "correctIndex": 0,
+      "explanation": "Intaglio processes such as engraving hold ink below the plate surface; relief printing transfers ink from raised areas.",
+      "difficulty": "Hard"
+    },
+    "final": {
+      "question": "What distinguishes an intaglio print from a relief print?",
+      "options": [
+        "Ink transfers from raised rather than recessed areas",
+        "Ink transfers from recessed rather than raised areas",
+        "Ink transfers through a stencil rather than a plate",
+        "Ink transfers from a flat chemically treated surface"
+      ],
+      "correctIndex": 1,
+      "explanation": "Intaglio processes such as engraving hold ink below the plate surface; relief printing transfers ink from raised areas.",
+      "difficulty": "Hard"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "art-history",
+    "question": 12,
+    "original": {
+      "question": "What does contrapposto describe in sculpture?",
+      "options": [
+        "A figure with both arms raised symmetrically",
+        "A sculpture carved entirely in relief",
+        "A surface made of contrasting materials",
+        "A stance with weight mainly on one leg and a resulting shift in the hips and shoulders"
+      ],
+      "correctIndex": 3,
+      "explanation": "Contrapposto balances the body asymmetrically, producing a natural sense of weight and potential movement.",
+      "difficulty": "Hard"
+    },
+    "final": {
+      "question": "What does contrapposto describe in sculpture?",
+      "options": [
+        "Weight on one leg with shifted hips and shoulders",
+        "Weight shared evenly with level hips and shoulders",
+        "Weight on both knees with the torso facing forward",
+        "Weight on both feet with a rigid frontal alignment"
+      ],
+      "correctIndex": 0,
+      "explanation": "Contrapposto balances the body asymmetrically, producing a natural sense of weight and potential movement.",
+      "difficulty": "Hard"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "art-history",
+    "question": 13,
+    "original": {
+      "question": "Which description best characterizes tenebrism associated with Caravaggio?",
+      "options": [
+        "Even illumination with no shadows",
+        "Strongly lit figures emerging from deep darkness",
+        "Colour applied in separate dots",
+        "Geometric abstraction without figures"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tenebrism uses pronounced darkness and concentrated illumination for dramatic emphasis, going beyond ordinary tonal modelling.",
+      "difficulty": "Hard"
+    },
+    "final": {
+      "question": "Which description best characterizes tenebrism associated with Caravaggio?",
+      "options": [
+        "Soft transitions within an evenly illuminated scene",
+        "Separate colour dots within an optically mixed scene",
+        "Concentrated illumination within a deeply dark scene",
+        "Flat colour planes within a geometrically ordered scene"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tenebrism uses pronounced darkness and concentrated illumination for dramatic emphasis, going beyond ordinary tonal modelling.",
+      "difficulty": "Hard"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "art-history",
+    "question": 14,
+    "original": {
+      "question": "Why was Marcel Duchamp's Fountain significant for twentieth-century art?",
+      "options": [
+        "It restored Renaissance fresco techniques",
+        "It introduced oil paint to Europe",
+        "It challenged whether selection and context can make an ordinary object art",
+        "It was the first freestanding marble sculpture"
+      ],
+      "correctIndex": 2,
+      "explanation": "Duchamp's readymade questioned the role of craftsmanship, artistic choice, institutions, and context in defining art.",
+      "difficulty": "Hard"
+    },
+    "final": {
+      "question": "Why was Marcel Duchamp's Fountain significant for twentieth-century art?",
+      "options": [
+        "It questioned whether fresco could rival oil painting",
+        "It questioned whether geometry could convey movement",
+        "It questioned whether colour could replace perspective",
+        "It questioned whether choosing an object could make art"
+      ],
+      "correctIndex": 3,
+      "explanation": "Duchamp's readymade questioned the role of craftsmanship, artistic choice, institutions, and context in defining art.",
+      "difficulty": "Hard"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "art-history",
+    "question": 15,
+    "original": {
+      "question": "What is iconography primarily concerned with in art history?",
+      "options": [
+        "Identifying and interpreting subjects, symbols, and attributes",
+        "Measuring pigment particle size",
+        "Determining the market price of a work",
+        "Restoring damaged frames"
+      ],
+      "correctIndex": 0,
+      "explanation": "Iconography studies recognizable subjects and symbolic motifs, using cultural context to explain what images represent.",
+      "difficulty": "Hard"
+    },
+    "final": {
+      "question": "What is iconography primarily concerned with in art history?",
+      "options": [
+        "Attributing authorship through brushwork and technique",
+        "Interpreting subjects through symbols and attributes",
+        "Dating objects through materials and pigment chemistry",
+        "Tracing ownership through inventories and sale records"
+      ],
+      "correctIndex": 1,
+      "explanation": "Iconography studies recognizable subjects and symbolic motifs, using cultural context to explain what images represent.",
+      "difficulty": "Hard"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "computer-fundamentals",
+    "question": 1,
+    "original": {
+      "question": "What is the main role of a computer's CPU?",
+      "options": [
+        "Store files permanently",
+        "Execute program instructions",
+        "Display images on a screen",
+        "Supply electrical power"
+      ],
+      "correctIndex": 1,
+      "explanation": "The central processing unit fetches, decodes, and executes instructions, coordinating computation with other components.",
+      "difficulty": "Easy"
+    },
+    "final": {
+      "question": "What is the main role of a computer's CPU?",
+      "options": [
+        "Store files permanently",
+        "Display images on a screen",
+        "Execute program instructions",
+        "Supply electrical power"
+      ],
+      "correctIndex": 2,
+      "explanation": "The central processing unit fetches, decodes, and executes instructions, coordinating computation with other components.",
+      "difficulty": "Easy"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "computer-fundamentals",
+    "question": 2,
+    "original": {
+      "question": "Which component normally loses its stored contents when power is removed?",
+      "options": [
+        "SSD",
+        "Hard disk drive",
+        "RAM",
+        "Optical disc"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ordinary system RAM is volatile memory, used for active programs and data rather than long-term storage.",
+      "difficulty": "Easy"
+    },
+    "final": {
+      "question": "Which component normally loses its stored contents when power is removed?",
+      "options": [
+        "RAM",
+        "SSD",
+        "Hard disk drive",
+        "Optical disc"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ordinary system RAM is volatile memory, used for active programs and data rather than long-term storage.",
+      "difficulty": "Easy"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "computer-fundamentals",
+    "question": 3,
+    "original": {
+      "question": "Which of these is an operating system?",
+      "options": [
+        "Linux",
+        "HTML",
+        "USB",
+        "JPEG"
+      ],
+      "correctIndex": 0,
+      "explanation": "Linux is an operating system kernel used in systems that manage hardware resources and provide services to applications.",
+      "difficulty": "Easy"
+    },
+    "final": {
+      "question": "Which of these is an operating system kernel?",
+      "options": [
+        "HTML",
+        "USB",
+        "JPEG",
+        "Linux"
+      ],
+      "correctIndex": 3,
+      "explanation": "Linux is an operating system kernel used in systems that manage hardware resources and provide services to applications.",
+      "difficulty": "Easy"
+    },
+    "notes": [
+      "Correct the Linux kernel/complete operating system distinction."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Correct the Linux kernel/complete operating system distinction.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "computer-fundamentals",
+    "question": 4,
+    "original": {
+      "question": "Which number system uses only the digits 0 and 1?",
+      "options": [
+        "Decimal",
+        "Hexadecimal",
+        "Octal",
+        "Binary"
+      ],
+      "correctIndex": 3,
+      "explanation": "Binary uses base two. Digital computers represent data using bits that each have one of two values.",
+      "difficulty": "Easy"
+    },
+    "final": {
+      "question": "Which number system uses only the digits 0 and 1?",
+      "options": [
+        "Binary",
+        "Decimal",
+        "Hexadecimal",
+        "Octal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Binary uses base two. Digital computers represent data using bits that each have one of two values.",
+      "difficulty": "Easy"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "computer-fundamentals",
+    "question": 5,
+    "original": {
+      "question": "Which device is primarily used for input?",
+      "options": [
+        "Monitor",
+        "Keyboard",
+        "Speaker",
+        "Projector"
+      ],
+      "correctIndex": 1,
+      "explanation": "A keyboard sends user input to a computer; monitors, speakers, and projectors primarily present output.",
+      "difficulty": "Easy"
+    },
+    "final": {
+      "question": "Which device is primarily used for input?",
+      "options": [
+        "Monitor",
+        "Speaker",
+        "Keyboard",
+        "Projector"
+      ],
+      "correctIndex": 2,
+      "explanation": "A keyboard sends user input to a computer; monitors, speakers, and projectors primarily present output.",
+      "difficulty": "Easy"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Easy: foundational recognition or recall. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "computer-fundamentals",
+    "question": 6,
+    "original": {
+      "question": "How many bits are in one byte?",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "correctIndex": 2,
+      "explanation": "A modern byte contains eight bits, allowing 256 distinct bit patterns.",
+      "difficulty": "Medium"
+    },
+    "final": {
+      "question": "How many distinct bit patterns can one 8-bit byte represent?",
+      "options": [
+        "256",
+        "128",
+        "64",
+        "512"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each of eight bits has two states. There are 2^8 = 256 distinct patterns, including the all-zero pattern.",
+      "difficulty": "Medium"
+    },
+    "notes": [
+      "Medium now requires applying the binary capacity rule."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Medium now requires applying the binary capacity rule.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "computer-fundamentals",
+    "question": 7,
+    "original": {
+      "question": "What is the decimal value of binary 1010?",
+      "options": [
+        "10",
+        "8",
+        "12",
+        "5"
+      ],
+      "correctIndex": 0,
+      "explanation": "The place values are 8, 4, 2, and 1. The digits in 1010 therefore represent 8 plus 2, or 10.",
+      "difficulty": "Medium"
+    },
+    "final": {
+      "question": "What is the decimal value of binary 1010?",
+      "options": [
+        "8",
+        "12",
+        "5",
+        "10"
+      ],
+      "correctIndex": 3,
+      "explanation": "The place values are 8, 4, 2, and 1. The digits in 1010 therefore represent 8 plus 2, or 10.",
+      "difficulty": "Medium"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "computer-fundamentals",
+    "question": 8,
+    "original": {
+      "question": "What is the main purpose of cache memory near a CPU?",
+      "options": [
+        "Provide removable storage",
+        "Replace every secondary storage device",
+        "Convert AC power to DC",
+        "Reduce average access time for frequently needed data and instructions"
+      ],
+      "correctIndex": 3,
+      "explanation": "Cache holds copies of data or instructions likely to be reused, reducing slower accesses to main memory.",
+      "difficulty": "Medium"
+    },
+    "final": {
+      "question": "What is the main purpose of cache memory near a CPU?",
+      "options": [
+        "Keep files safe after the power is removed",
+        "Reduce average access time to frequently used data",
+        "Provide more permanent storage for installed programs",
+        "Translate virtual addresses into disk file names"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cache holds copies of data or instructions likely to be reused, reducing slower accesses to main memory.",
+      "difficulty": "Medium"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "computer-fundamentals",
+    "question": 9,
+    "original": {
+      "question": "Which description best distinguishes software from hardware?",
+      "options": [
+        "Software is always stored online",
+        "Software consists of programs and instructions; hardware consists of physical components",
+        "Hardware can operate without any instructions",
+        "Software refers only to operating systems"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hardware is the physical equipment, while software specifies operations through programs and related instructions.",
+      "difficulty": "Medium"
+    },
+    "final": {
+      "question": "Which description best distinguishes software from hardware?",
+      "options": [
+        "Software is instructions; hardware is equipment",
+        "Software is remote data; hardware is local data",
+        "Software is output data; hardware is input data",
+        "Software is temporary data; hardware is saved data"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hardware is the physical equipment, while software specifies operations through programs and related instructions.",
+      "difficulty": "Medium"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "computer-fundamentals",
+    "question": 10,
+    "original": {
+      "question": "What is an algorithm?",
+      "options": [
+        "A physical processor socket",
+        "A file extension for images",
+        "A finite sequence of well-defined steps for solving a problem",
+        "The amount of memory in a computer"
+      ],
+      "correctIndex": 2,
+      "explanation": "An algorithm specifies a clear procedure that transforms inputs into a result through a finite set of steps.",
+      "difficulty": "Medium"
+    },
+    "final": {
+      "question": "What is an algorithm?",
+      "options": [
+        "A physical connection between computer components",
+        "A naming convention used for computer files",
+        "A finite procedure with well-defined problem-solving steps",
+        "A storage layout used to organize computer memory"
+      ],
+      "correctIndex": 2,
+      "explanation": "An algorithm specifies a clear procedure that transforms inputs into a result through a finite set of steps.",
+      "difficulty": "Medium"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Medium: subject-specific recall, conceptual distinction or basic application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "computer-fundamentals",
+    "question": 11,
+    "original": {
+      "question": "Why can signed 8-bit two's-complement integers represent -128 but not +128?",
+      "options": [
+        "One of the 256 patterns represents zero, giving a range of -128 to +127",
+        "Negative numbers require twice as many bits",
+        "The processor reserves +128 for text",
+        "Eight bits represent only 128 patterns"
+      ],
+      "correctIndex": 0,
+      "explanation": "Two's complement with eight bits has 256 patterns. The most significant bit has weight -128, yielding values from -128 through +127.",
+      "difficulty": "Hard"
+    },
+    "final": {
+      "question": "Why can signed 8-bit two's-complement integers represent -128 but not +128?",
+      "options": [
+        "The sign bit has weight -127; zero uses two patterns",
+        "The sign bit has weight -128; positive zero is omitted",
+        "The sign bit has weight -128; zero uses one pattern",
+        "The sign bit has weight -127; negative zero is omitted"
+      ],
+      "correctIndex": 2,
+      "explanation": "Two's complement with eight bits has 256 patterns. The most significant bit has weight -128, yielding values from -128 through +127.",
+      "difficulty": "Hard"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "computer-fundamentals",
+    "question": 12,
+    "original": {
+      "question": "What does virtual memory allow an operating system to do?",
+      "options": [
+        "Make all storage as fast as CPU registers",
+        "Remove the need for physical RAM",
+        "Guarantee that programs never run out of memory",
+        "Map process address spaces to physical memory and optionally backing storage"
+      ],
+      "correctIndex": 3,
+      "explanation": "Virtual memory separates program addresses from physical locations, supporting isolation and features such as paging to storage.",
+      "difficulty": "Hard"
+    },
+    "final": {
+      "question": "What does virtual memory allow an operating system to do?",
+      "options": [
+        "Map all storage directly to processor registers",
+        "Map process addresses to RAM and optional backing storage",
+        "Give every process direct access to all physical RAM",
+        "Allocate disk space in place of every physical page"
+      ],
+      "correctIndex": 1,
+      "explanation": "Virtual memory separates program addresses from physical locations, supporting isolation and features such as paging to storage.",
+      "difficulty": "Hard"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "computer-fundamentals",
+    "question": 13,
+    "original": {
+      "question": "A computer has a byte-addressable 16-bit address space. How many distinct byte addresses are possible?",
+      "options": [
+        "32,768",
+        "65,536",
+        "16,384",
+        "131,072"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sixteen address bits encode 2 to the power of 16 distinct values, giving 65,536 byte addresses.",
+      "difficulty": "Hard"
+    },
+    "final": {
+      "question": "A computer has a byte-addressable 16-bit address space. How many distinct byte addresses are possible?",
+      "options": [
+        "32,768",
+        "16,384",
+        "131,072",
+        "65,536"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sixteen address bits encode 2 to the power of 16 distinct values, giving 65,536 byte addresses.",
+      "difficulty": "Hard"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "computer-fundamentals",
+    "question": 14,
+    "original": {
+      "question": "Why does increasing CPU clock frequency alone not guarantee faster execution of every program?",
+      "options": [
+        "Clock frequency has no relationship to execution",
+        "Every instruction always takes one cycle",
+        "Performance also depends on work per cycle and bottlenecks such as memory access",
+        "Higher frequencies always reduce the number of cores"
+      ],
+      "correctIndex": 2,
+      "explanation": "Execution time depends on instruction count, cycles per instruction, clock rate, and constraints such as memory or input/output delays.",
+      "difficulty": "Hard"
+    },
+    "final": {
+      "question": "Why does increasing CPU clock frequency alone not guarantee faster execution of every program?",
+      "options": [
+        "All instructions use the same number of cycles",
+        "Work per cycle and memory stalls also affect execution",
+        "Clock speed sets memory latency in equal proportion",
+        "Core count rises in direct proportion to clock speed"
+      ],
+      "correctIndex": 1,
+      "explanation": "Execution time depends on instruction count, cycles per instruction, clock rate, and constraints such as memory or input/output delays.",
+      "difficulty": "Hard"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "computer-fundamentals",
+    "question": 15,
+    "original": {
+      "question": "What distinguishes lossless compression from lossy compression?",
+      "options": [
+        "Lossless compression permits exact reconstruction of the original data",
+        "Lossless compression always produces a smaller file than lossy compression",
+        "Lossy compression can only be used for text",
+        "Lossless compression removes all metadata permanently"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lossless methods preserve every original bit when decompressed; lossy methods discard information to achieve other size or quality tradeoffs.",
+      "difficulty": "Hard"
+    },
+    "final": {
+      "question": "What distinguishes lossless compression from lossy compression?",
+      "options": [
+        "It reduces file size for every possible input",
+        "It reconstructs the original data exactly",
+        "It preserves only perceptually important data",
+        "It restores an approximation of the source"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lossless methods preserve every original bit when decompressed; lossy methods discard information to achieve other size or quality tradeoffs.",
+      "difficulty": "Hard"
+    },
+    "notes": [
+      "Parallel, plausible distractors remove length or specificity cues."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Hard: specialist terminology, historical detail or multi-step application. Expert judgment; requires learner response data for calibration.",
+      "clarity": "Parallel, plausible distractors remove length or specificity cues.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "index",
+    "question": 1,
+    "original": {
+      "id": 1,
+      "category": "Geography",
+      "question": "Which country has the most time zones in the world?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Russia"
+        },
+        {
+          "key": "B",
+          "text": "United States"
+        },
+        {
+          "key": "C",
+          "text": "France"
+        },
+        {
+          "key": "D",
+          "text": "China"
+        }
+      ],
+      "correctKey": "C",
+      "explanation": "France has the most time zones because its overseas territories are spread across different parts of the world.",
+      "topicLink": "Explore Geography ↗"
+    },
+    "final": {
+      "id": 1,
+      "category": "Geography",
+      "question": "Which of these countries has territory in both Europe and South America?",
+      "options": [
+        {
+          "key": "A",
+          "text": "France"
+        },
+        {
+          "key": "B",
+          "text": "Germany"
+        },
+        {
+          "key": "C",
+          "text": "Poland"
+        },
+        {
+          "key": "D",
+          "text": "Austria"
+        }
+      ],
+      "correctKey": "A",
+      "explanation": "French Guiana lies in South America and is an overseas department of France. Metropolitan France lies in Europe.",
+      "topicLink": "Explore Geography ↗"
+    },
+    "notes": [
+      "Replace convention-sensitive time-zone superlative with an explicit territorial comparison."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Daily Six: mixed introductory/intermediate subjects; no displayed level.",
+      "clarity": "Replace convention-sensitive time-zone superlative with an explicit territorial comparison.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "index",
+    "question": 2,
+    "original": {
+      "id": 2,
+      "category": "History",
+      "question": "Which ancient civilization developed the earliest known system of writing, cuneiform?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ancient Egypt"
+        },
+        {
+          "key": "B",
+          "text": "Sumerians of Mesopotamia"
+        },
+        {
+          "key": "C",
+          "text": "Indus Valley"
+        },
+        {
+          "key": "D",
+          "text": "Minoan Crete"
+        }
+      ],
+      "correctKey": "B",
+      "explanation": "Cuneiform was invented by the Sumerians in Mesopotamia around 3400 BCE, initially using pictographs pressed into clay tablets.",
+      "topicLink": "Explore History ↗"
+    },
+    "final": {
+      "id": 2,
+      "category": "History",
+      "question": "Which civilization developed the Mesopotamian writing tradition that evolved into cuneiform?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Egyptians"
+        },
+        {
+          "key": "B",
+          "text": "Minoans"
+        },
+        {
+          "key": "C",
+          "text": "Sumerians"
+        },
+        {
+          "key": "D",
+          "text": "Romans"
+        }
+      ],
+      "correctKey": "C",
+      "explanation": "Writing emerged in southern Mesopotamia around 3400 BCE as pictographs. This tradition developed into wedge-shaped cuneiform; early Egyptian writing developed separately.",
+      "topicLink": "Explore History ↗"
+    },
+    "notes": [
+      "Remove disputed priority claim and distinguish early pictographs from later cuneiform.",
+      "Parallel civilization names."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Daily Six: mixed introductory/intermediate subjects; no displayed level.",
+      "clarity": "Remove disputed priority claim and distinguish early pictographs from later cuneiform. Parallel civilization names.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "index",
+    "question": 3,
+    "original": {
+      "id": 3,
+      "category": "Science",
+      "question": "What particle is primarily responsible for conducting electricity through metallic conductors?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Protons"
+        },
+        {
+          "key": "B",
+          "text": "Neutrons"
+        },
+        {
+          "key": "C",
+          "text": "Free electrons"
+        },
+        {
+          "key": "D",
+          "text": "Positrons"
+        }
+      ],
+      "correctKey": "C",
+      "explanation": "In metals, outermost valence electrons become delocalized and flow freely through the atomic lattice when an electric potential is applied.",
+      "topicLink": "Explore Science ↗"
+    },
+    "final": {
+      "id": 3,
+      "category": "Science",
+      "question": "What particle is primarily responsible for conducting electricity through metallic conductors?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Protons"
+        },
+        {
+          "key": "B",
+          "text": "Free electrons"
+        },
+        {
+          "key": "C",
+          "text": "Neutrons"
+        },
+        {
+          "key": "D",
+          "text": "Positrons"
+        }
+      ],
+      "correctKey": "B",
+      "explanation": "In metals, outermost valence electrons become delocalized and flow freely through the atomic lattice when an electric potential is applied.",
+      "topicLink": "Explore Science ↗"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Daily Six: mixed introductory/intermediate subjects; no displayed level.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "index",
+    "question": 4,
+    "original": {
+      "id": 4,
+      "category": "Philosophy",
+      "question": "Which philosophical thought experiment asks if a ship remains the same object after all its wooden planks are replaced?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Plato's Cave"
+        },
+        {
+          "key": "B",
+          "text": "The Ship of Theseus"
+        },
+        {
+          "key": "C",
+          "text": "Buridan's Donkey"
+        },
+        {
+          "key": "D",
+          "text": "Achilles and the Tortoise"
+        }
+      ],
+      "correctKey": "B",
+      "explanation": "First recorded by Plutarch, the Ship of Theseus explores whether identity persists over time as physical constituents change entirely.",
+      "topicLink": "Explore Philosophy ↗"
+    },
+    "final": {
+      "id": 4,
+      "category": "Philosophy",
+      "question": "Which philosophical thought experiment asks if a ship remains the same object after all its wooden planks are replaced?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Ship of Theseus"
+        },
+        {
+          "key": "B",
+          "text": "Plato's Cave"
+        },
+        {
+          "key": "C",
+          "text": "Buridan's Donkey"
+        },
+        {
+          "key": "D",
+          "text": "Achilles and the Tortoise"
+        }
+      ],
+      "correctKey": "A",
+      "explanation": "First recorded by Plutarch, the Ship of Theseus explores whether identity persists over time as physical constituents change entirely.",
+      "topicLink": "Explore Philosophy ↗"
+    },
+    "notes": [],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Daily Six: mixed introductory/intermediate subjects; no displayed level.",
+      "clarity": "No specific wording defect identified; original wording preserved except option ordering.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "index",
+    "question": 5,
+    "original": {
+      "id": 5,
+      "category": "Art & Culture",
+      "question": "The architectural technique of 'chiaroscuro' in painting is primarily defined by the dramatic treatment of what?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Light and shadow"
+        },
+        {
+          "key": "B",
+          "text": "Perspective vanishing points"
+        },
+        {
+          "key": "C",
+          "text": "Pigment dilution"
+        },
+        {
+          "key": "D",
+          "text": "Geometric symmetry"
+        }
+      ],
+      "correctKey": "A",
+      "explanation": "Chiaroscuro, meaning 'light-dark' in Italian, uses stark tonal contrast between illumination and deep shadow to achieve volume and psychological drama.",
+      "topicLink": "Explore Art & Culture ↗"
+    },
+    "final": {
+      "id": 5,
+      "category": "Art & Culture",
+      "question": "In painting, chiaroscuro primarily models volume using contrasts between what?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Perspective vanishing points"
+        },
+        {
+          "key": "B",
+          "text": "Light and shadow"
+        },
+        {
+          "key": "C",
+          "text": "Pigment dilution"
+        },
+        {
+          "key": "D",
+          "text": "Geometric symmetry"
+        }
+      ],
+      "correctKey": "B",
+      "explanation": "Chiaroscuro uses light and shade to suggest three-dimensional form. Tenebrism describes a more pronounced use of darkness and concentrated light.",
+      "topicLink": "Explore Art & Culture ↗"
+    },
+    "notes": [
+      "Correct architectural misclassification and distinction from tenebrism."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Daily Six: mixed introductory/intermediate subjects; no displayed level.",
+      "clarity": "Correct architectural misclassification and distinction from tenebrism.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  },
+  {
+    "quiz": "index",
+    "question": 6,
+    "original": {
+      "id": 6,
+      "category": "Technology",
+      "question": "Which cryptographic concept forms the computational foundation of zero-knowledge proofs?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Proving knowledge of a secret without revealing it"
+        },
+        {
+          "key": "B",
+          "text": "Quantum key distribution"
+        },
+        {
+          "key": "C",
+          "text": "Symmetric bit shifting"
+        },
+        {
+          "key": "D",
+          "text": "Lossless data compression"
+        }
+      ],
+      "correctKey": "A",
+      "explanation": "Zero-knowledge proofs allow one party (the prover) to mathematically convince another (the verifier) that a statement is true without disclosing any secret information.",
+      "topicLink": "Explore Technology ↗"
+    },
+    "final": {
+      "id": 6,
+      "category": "Technology",
+      "question": "What does a zero-knowledge proof allow a prover to demonstrate?",
+      "options": [
+        {
+          "key": "A",
+          "text": "That a message is encrypted without requiring an encryption key"
+        },
+        {
+          "key": "B",
+          "text": "That a file is compressed without losing any original information"
+        },
+        {
+          "key": "C",
+          "text": "That a network is secure without checking its individual devices"
+        },
+        {
+          "key": "D",
+          "text": "That a statement is true without revealing its secret witness"
+        }
+      ],
+      "correctKey": "D",
+      "explanation": "A zero-knowledge proof establishes a statement’s validity without revealing information beyond that validity. For knowledge proofs, the secret witness itself is not disclosed.",
+      "topicLink": "Explore Technology ↗"
+    },
+    "notes": [
+      "Replace circular foundation question with the property actually assessed."
+    ],
+    "status": "modified",
+    "assessment": {
+      "correctness": "No remaining error identified by editorial review; only linked claims in report were externally cross-checked.",
+      "difficulty": "Daily Six: mixed introductory/intermediate subjects; no displayed level.",
+      "clarity": "Replace circular foundation question with the property actually assessed.",
+      "distractors": "Four distinct alternatives checked for one intended answer, parallelism and plausibility. Length differences alone are not treated as defects.",
+      "duplicates": "No verbatim duplicate within quiz. Some foundational concepts recur across subjects or later applied questions intentionally."
+    }
+  }
+]

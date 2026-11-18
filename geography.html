@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><title>Curio — Geography</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="web_standard" name="shell-type"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+    @layer base {
+      html, body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+      }
+      body {
+        overscroll-behavior: none;
+      }
+      main > :first-child {
+        margin-top: 0 !important;
+      }
+      main > :last-child {
+        margin-bottom: 0 !important;
+      }
+    }
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "surface-warm": "#F5F5F2",
+            "text-main": "#16181D",
+            "text-muted": "#565B66",
+            "border-subtle": "#DEDED8",
+            "border-hover": "#8A8D94",
+            "btn-dark": "#20232B",
+            "btn-dark-hover": "#323744",
+            "coral": "#FF5C3A",
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="bg-[#F5F5F2] font-sans text-[#16181D] antialiased">
+<!-- Fixed Header -->
+<header class="fixed top-0 left-0 right-0 z-50 h-20 bg-[#F5F5F2]/90 backdrop-blur-xl border-b border-[#DEDED8]">
+<div class="max-w-[1200px] mx-auto px-6 lg:px-8 h-full flex items-center justify-between">
+<a class="flex items-baseline font-extrabold text-2xl tracking-tight text-[#16181D] select-none" data-path="explore" href="index.html">
+        Curio<span class="inline-block w-2 h-2 ml-1 rounded-full bg-[#FF5C3A]"></span>
+</a>
+<div class="flex items-center gap-6">
+<a class="font-semibold text-sm text-[#16181D] hover:text-[#565B66] transition-colors" data-path="sign-in" href="signin.html">Sign In</a>
+<a class="inline-flex items-center justify-center font-semibold text-sm bg-[#20232B] text-white hover:bg-[#323744] transition-colors px-5 py-2.5 rounded-lg shadow-sm" data-path="start-exploring" href="index.html#categories">Start Exploring</a>
+<a href="signin.html" aria-label="Account access" class="w-9 h-9 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">person</span>
+</a>
+</div>
+</div>
+</header>
+<!-- Main Content -->
+<main class="w-full pt-20 bg-[#F5F5F2] min-h-[calc(100vh-20rem)]">
+<div class="flex flex-col w-full">
+<div class="max-w-[1200px] w-full mx-auto px-6 lg:px-8 pb-24">
+<!-- Breadcrumb Navigation -->
+<nav aria-label="Breadcrumb" class="pt-8 pb-4">
+<ol class="flex items-center gap-1.5 text-xs font-medium text-[#565B66]">
+<li>
+<a class="hover:text-[#16181D] transition-colors" href="index.html">Home</a>
+</li>
+<li aria-hidden="true" class="select-none text-[#DEDED8]">/</li>
+<li aria-current="page" class="text-[#16181D] font-semibold">
+              Geography
+            </li>
+</ol>
+</nav>
+<!-- Geography Hero Section -->
+<section class="mt-4 pb-10 border-b border-[#DEDED8]">
+<div class="flex items-center gap-2 mb-3">
+<span class="w-1.5 h-1.5 rounded-full bg-[#FF5C3A]"></span>
+<span class="text-xs font-bold tracking-wider text-[#FF5C3A] uppercase">
+              • EXPLORE THE WORLD
+            </span>
+</div>
+<h1 class="font-extrabold text-5xl leading-tight text-[#16181D] tracking-tight mb-4">
+            Geography
+          </h1>
+<p class="text-lg leading-relaxed text-[#565B66] max-w-2xl mt-4">
+            Discover our planet, from countries and capitals to mountains, oceans, climates, and the people who shape our world.
+          </p>
+</section>
+<!-- Topic Collection Section -->
+<section class="pt-8" aria-label="Interactive world map">
+<a href="world-map.html" class="flex flex-col sm:flex-row sm:items-center justify-between gap-5 bg-white border border-[#DEDED8] rounded-xl p-6 hover:border-[#8A8D94] hover:shadow-md transition-all group" aria-label="Play Find the Country on the world map">
+<div><span class="text-[10px] font-bold tracking-widest text-[#FF5C3A] uppercase">NEW · INTERACTIVE WORLD MAP</span><h2 class="font-bold text-2xl tracking-tight text-[#16181D] mt-2">Can you find it on the map?</h2><p class="text-sm text-[#565B66] mt-2">15 countries. No multiple choice. Explore the world, one country at a time.</p></div>
+<span class="inline-flex items-center justify-center gap-5 whitespace-nowrap font-semibold text-sm bg-[#20232B] text-white rounded-lg px-5 py-3">Play the map <span aria-hidden="true">→</span></span>
+</a></section>
+<section class="pt-10">
+<div class="mb-8">
+<h2 class="font-bold text-2xl tracking-tight text-[#16181D]">
+              Explore our planet, uncover the world.
+            </h2>
+<p class="text-sm text-[#565B66] mt-1 mb-8">
+              Explore eight fascinating paths across physical and human geography.
+            </p>
+</div>
+<!-- 4 cols x 2 rows Topic Cards Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-[1200px] mx-auto">
+<!-- Card 1: Countries & Capitals -->
+<a href="countries-capitals.html" aria-label="Explore Countries and Capitals quiz" class="group bg-white border border-[#DEDED8] rounded-xl overflow-hidden flex flex-col justify-between hover:-translate-y-1 hover:shadow-md hover:border-[#8A8D94] transition-all duration-200 cursor-pointer">
+<div class="overflow-hidden h-44 w-full bg-[#F5F5F2]">
+<img alt="Countries &amp; Capitals" class="w-full h-44 object-cover transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjoIZ1oFLIRp7puHWAyqbWHu3boAY9T6XWzNrln0N96YBMVnmsolj8ipN7pekkLXBQcEndpaYAyYkoqDOGITV4wQI-DLxX_UkbqYe4Bw6ua7eU1GCikY0d3dXy-VzgtkMG-gmtewCTQpi5IUGXR17WQ-3ioFFpf08OcgurZDvHs_8gTHWDI3nz4tSlUJN_M3eMAObvd2bEYthhXNTHLmcD1twtNO5YFxwwGAkumhkq"/>
+</div>
+<div class="p-5 flex flex-col flex-grow justify-between">
+<div class="mb-6">
+<h3 class="font-bold text-lg text-[#16181D] leading-snug mb-2 group-hover:text-[#4D63A8] transition-colors">
+                    Countries &amp; Capitals
+                  </h3>
+<p class="text-xs text-[#565B66] leading-relaxed">
+                    Explore nations, capital cities, and their locations.
+                  </p>
+</div>
+<div class="flex items-center justify-between pt-3 border-t border-[#F5F5F2]">
+<span class="text-xs font-semibold text-[#16181D] transition-colors">
+                    Explore topic
+                  </span>
+<span class="material-symbols-outlined text-[#16181D] text-base group-hover:translate-x-1 transition-transform">
+                    arrow_forward
+                  </span>
+</div>
+</div>
+</a>
+<!-- Card 2: Flags & Borders -->
+<a href="flags-borders.html" aria-label="Explore Flags &amp; Borders quiz" class="group bg-white border border-[#DEDED8] rounded-xl overflow-hidden flex flex-col justify-between hover:-translate-y-1 hover:shadow-md hover:border-[#8A8D94] transition-all duration-200 cursor-pointer">
+<div class="overflow-hidden h-44 w-full bg-[#F5F5F2]">
+<img alt="Flags &amp; Borders" class="w-full h-44 object-cover transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXghmXgQSVplcsF8_sXwy0o_ivy1pm02HzPC0gNiLvh6uNujlKAJ7PxYfalvWs4OYdQ1IaWImNQWI8bBVEG5GDJDbvnyEmlJ44pAu-Jp94o2pBJnfq-3F6Mquo8Tc_0EXbDmVi0_0tj4iX6S5Fgt0UF5RJY-gsryVxB3siGAzLYCZ0ljM8f-Sw43aEo3lxgEBqlBg__PbnZHgO_ksDaVjcQ8JocMwG9E2Xsk_rt0pl"/>
+</div>
+<div class="p-5 flex flex-col flex-grow justify-between">
+<div class="mb-6">
+<h3 class="font-bold text-lg text-[#16181D] leading-snug mb-2 group-hover:text-[#4D63A8] transition-colors">
+                    Flags &amp; Borders
+                  </h3>
+<p class="text-xs text-[#565B66] leading-relaxed">
+                    Discover national flags, neighboring countries, and borders.
+                  </p>
+</div>
+<div class="flex items-center justify-between pt-3 border-t border-[#F5F5F2]">
+<span class="text-xs font-semibold text-[#16181D] transition-colors">
+                    Explore topic
+                  </span>
+<span class="material-symbols-outlined text-[#16181D] text-base group-hover:translate-x-1 transition-transform">
+                    arrow_forward
+                  </span>
+</div>
+</div>
+</a>
+<!-- Card 3: Mountains & Landforms -->
+<a href="mountains-landforms.html" aria-label="Explore Mountains &amp; Landforms quiz" class="group bg-white border border-[#DEDED8] rounded-xl overflow-hidden flex flex-col justify-between hover:-translate-y-1 hover:shadow-md hover:border-[#8A8D94] transition-all duration-200 cursor-pointer">
+<div class="overflow-hidden h-44 w-full bg-[#F5F5F2]">
+<img alt="Mountains &amp; Landforms" class="w-full h-44 object-cover transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDyonIR544XmvkyGpIcWQaNmtRDurnJvciR8Nj9md_vy0HeEER2ctyPkOwQF9_WIcOOHBKxxqmP27_9lIpswkyBczM0E90XU2Q2Uv9fYoEUaaq3iskN-nP9IQqxqc9rr-KbVBr0x25_z10Xxb0GHQ966mc3SiXnP8ahyE2MbZvJTZDM-RvlSIaEQpo2vrDjHJ5qgAowXhvmDFO3EdZyb_YMu6pzNRYgN71-UcKz2i47"/>
+</div>
+<div class="p-5 flex flex-col flex-grow justify-between">
+<div class="mb-6">
+<h3 class="font-bold text-lg text-[#16181D] leading-snug mb-2 group-hover:text-[#4D63A8] transition-colors">
+                    Mountains &amp; Landforms
+                  </h3>
+<p class="text-xs text-[#565B66] leading-relaxed">
+                    Explore mountain ranges, deserts, valleys, and landscapes.
+                  </p>
+</div>
+<div class="flex items-center justify-between pt-3 border-t border-[#F5F5F2]">
+<span class="text-xs font-semibold text-[#16181D] transition-colors">
+                    Explore topic
+                  </span>
+<span class="material-symbols-outlined text-[#16181D] text-base group-hover:translate-x-1 transition-transform">
+                    arrow_forward
+                  </span>
+</div>
+</div>
+</a>
+<!-- Card 4: Rivers, Lakes & Oceans -->
+<a href="rivers-lakes-oceans.html" aria-label="Explore Rivers, Lakes &amp; Oceans quiz" class="group bg-white border border-[#DEDED8] rounded-xl overflow-hidden flex flex-col justify-between hover:-translate-y-1 hover:shadow-md hover:border-[#8A8D94] transition-all duration-200 cursor-pointer">
+<div class="overflow-hidden h-44 w-full bg-[#F5F5F2]">
+<img alt="Rivers, Lakes &amp; Oceans" class="w-full h-44 object-cover transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeL80JEfqTPO06F1auGiNNzDv9_xyFPXqZDe0nccCxXtqYNFA0A9Qe2NjkcdzIsYN9vpfkg8VYxIWNkNPcsQFcYrtopERraRvPGNngcilHYEEDqX5ifR8aql5iCSIHJ2OIWKOwvYqSiEFTCIl4qeLe8_7sn7m08QdDk4Mgt6GHzUD6tTE_5h5xenIcWE1eTsSHqL3PnUGCDS4x2IQb0wT7L6QOZjZnwyU8QE_9xvlw"/>
+</div>
+<div class="p-5 flex flex-col flex-grow justify-between">
+<div class="mb-6">
+<h3 class="font-bold text-lg text-[#16181D] leading-snug mb-2 group-hover:text-[#4D63A8] transition-colors">
+                    Rivers, Lakes &amp; Oceans
+                  </h3>
+<p class="text-xs text-[#565B66] leading-relaxed">
+                    Discover the waterways and bodies of water that shape Earth.
+                  </p>
+</div>
+<div class="flex items-center justify-between pt-3 border-t border-[#F5F5F2]">
+<span class="text-xs font-semibold text-[#16181D] transition-colors">
+                    Explore topic
+                  </span>
+<span class="material-symbols-outlined text-[#16181D] text-base group-hover:translate-x-1 transition-transform">
+                    arrow_forward
+                  </span>
+</div>
+</div>
+</a>
+<!-- Card 5: Climate & Weather -->
+<a href="climate-weather.html" aria-label="Explore Climate &amp; Weather quiz" class="group bg-white border border-[#DEDED8] rounded-xl overflow-hidden flex flex-col justify-between hover:-translate-y-1 hover:shadow-md hover:border-[#8A8D94] transition-all duration-200 cursor-pointer">
+<div class="overflow-hidden h-44 w-full bg-[#F5F5F2]">
+<img alt="Climate &amp; Weather" class="w-full h-44 object-cover transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbgXkqmDgfcdstQ7XVJZHfR-cD5dQO1QUzaskQ3YoD8wpw83-1DZMBi2tGfAa2YfQE3fNm5GFr1SMO486bbsfJEQtMPR8uTZTjs55JJk5b6KyhNmGqY0ofp_8FnEsQkg82cpvBEQTIV9IqZ6TYqhfkc2Cr4zfALy8xLwrExrEaADDUgmvt11W_Yfkbnd1dhjpBhmjqvcUyXooThdc586Crv3YXPE3wtGBZi4uOt4ur"/>
+</div>
+<div class="p-5 flex flex-col flex-grow justify-between">
+<div class="mb-6">
+<h3 class="font-bold text-lg text-[#16181D] leading-snug mb-2 group-hover:text-[#4D63A8] transition-colors">
+                    Climate &amp; Weather
+                  </h3>
+<p class="text-xs text-[#565B66] leading-relaxed">
+                    Understand climate zones, weather patterns, and atmospheric phenomena.
+                  </p>
+</div>
+<div class="flex items-center justify-between pt-3 border-t border-[#F5F5F2]">
+<span class="text-xs font-semibold text-[#16181D] transition-colors">
+                    Explore topic
+                  </span>
+<span class="material-symbols-outlined text-[#16181D] text-base group-hover:translate-x-1 transition-transform">
+                    arrow_forward
+                  </span>
+</div>
+</div>
+</a>
+<!-- Card 6: Continents & Regions -->
+<a href="continents-regions.html" aria-label="Explore Continents &amp; Regions quiz" class="group bg-white border border-[#DEDED8] rounded-xl overflow-hidden flex flex-col justify-between hover:-translate-y-1 hover:shadow-md hover:border-[#8A8D94] transition-all duration-200 cursor-pointer">
+<div class="overflow-hidden h-44 w-full bg-[#F5F5F2]">
+<img alt="Continents &amp; Regions" class="w-full h-44 object-cover transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUOFOZcbA5BWoTgxqJm7_JCnPU4XVZzdHuhO3ubwtZscdg9MR7BZefiE7oCylS5ZGkOkZWDjwfPNPkYN_wzMenn1KFc8KAjvdaEC8AEO9ZLWJnc6ncBs9tg8F5Owl1NpYYQCPI76Uv5KzkTNJVQDnJidQlKIxs9SjtdX4IrX9xGlug6o1YEx3h8KLIXFNm2kAzjTm8pVP1YGyfDBk0HldWOg4Cwurq-Wt86fScmrmh"/>
+</div>
+<div class="p-5 flex flex-col flex-grow justify-between">
+<div class="mb-6">
+<h3 class="font-bold text-lg text-[#16181D] leading-snug mb-2 group-hover:text-[#4D63A8] transition-colors">
+                    Continents &amp; Regions
+                  </h3>
+<p class="text-xs text-[#565B66] leading-relaxed">
+                    Explore continents, world regions, and geographic divisions.
+                  </p>
+</div>
+<div class="flex items-center justify-between pt-3 border-t border-[#F5F5F2]">
+<span class="text-xs font-semibold text-[#16181D] transition-colors">
+                    Explore topic
+                  </span>
+<span class="material-symbols-outlined text-[#16181D] text-base group-hover:translate-x-1 transition-transform">
+                    arrow_forward
+                  </span>
+</div>
+</div>
+</a>
+<!-- Card 7: Population & Human Geography -->
+<a href="population-human-geography.html" aria-label="Explore Population &amp; Human Geography quiz" class="group bg-white border border-[#DEDED8] rounded-xl overflow-hidden flex flex-col justify-between hover:-translate-y-1 hover:shadow-md hover:border-[#8A8D94] transition-all duration-200 cursor-pointer">
+<div class="overflow-hidden h-44 w-full bg-[#F5F5F2]">
+<img alt="Population &amp; Human Geography" class="w-full h-44 object-cover transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMtg_TNQgMXYd8zs_LsjwOJxNaWLuzFFvG0qJhaWPG0azfBzERVbOZ7T918p09gw5ZwisQcy9ZjlOSaRxuqL1LSbXlgw4-2DgDiG00V6tWKJOy5pugb4IiHbXdQXECENFEQT5AP4uC-XPuks75Lcx3AcNWH8JwGeCRjBu0TkPMl6TzABA9WQj-Rp3zkAUr54emx1qGH1zWm7syrqPZ-hhvGtAXI27cGvji_kQHoI2K"/>
+</div>
+<div class="p-5 flex flex-col flex-grow justify-between">
+<div class="mb-6">
+<h3 class="font-bold text-lg text-[#16181D] leading-snug mb-2 group-hover:text-[#4D63A8] transition-colors">
+                    Population &amp; Human Geography
+                  </h3>
+<p class="text-xs text-[#565B66] leading-relaxed">
+                    Discover population patterns, cities, migration, and human settlement.
+                  </p>
+</div>
+<div class="flex items-center justify-between pt-3 border-t border-[#F5F5F2]">
+<span class="text-xs font-semibold text-[#16181D] transition-colors">
+                    Explore topic
+                  </span>
+<span class="material-symbols-outlined text-[#16181D] text-base group-hover:translate-x-1 transition-transform">
+                    arrow_forward
+                  </span>
+</div>
+</div>
+</a>
+<!-- Card 8: Maps & Geographic Discoveries -->
+<a href="maps-geographic-discoveries.html" aria-label="Explore Maps &amp; Geographic Discoveries quiz" class="group bg-white border border-[#DEDED8] rounded-xl overflow-hidden flex flex-col justify-between hover:-translate-y-1 hover:shadow-md hover:border-[#8A8D94] transition-all duration-200 cursor-pointer">
+<div class="overflow-hidden h-44 w-full bg-[#F5F5F2]">
+<img alt="Maps &amp; Geographic Discoveries" class="w-full h-44 object-cover transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDoFCxCeWXjGZn6Nz2t2wSALzLhrdU2iSXqAKFrCP_5OZfF1nl67VFy8zviRo6mPIBfWgsO3a6hdQr9rGfr6C0DDPw8LjwUEkq2_9df2nIZb3GekMmizeWYPWCiCp483LeOQkVF4s-pqZw05nf83YB2X0bw3UHT1o07gZ_e6nen3zJ1JxONidgL6wNaN9LJegPAAuTrFn1u-4ju00fmOUgIAIFPG48lUDDDml_xe5sN"/>
+</div>
+<div class="p-5 flex flex-col flex-grow justify-between">
+<div class="mb-6">
+<h3 class="font-bold text-lg text-[#16181D] leading-snug mb-2 group-hover:text-[#4D63A8] transition-colors">
+                    Maps &amp; Geographic Discoveries
+                  </h3>
+<p class="text-xs text-[#565B66] leading-relaxed">
+                    Explore cartography, coordinates, navigation, and geographic exploration.
+                  </p>
+</div>
+<div class="flex items-center justify-between pt-3 border-t border-[#F5F5F2]">
+<span class="text-xs font-semibold text-[#16181D] transition-colors">
+                    Explore topic
+                  </span>
+<span class="material-symbols-outlined text-[#16181D] text-base group-hover:translate-x-1 transition-transform">
+                    arrow_forward
+                  </span>
+</div>
+</div>
+</a>
+</div>
+</section>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full border-t border-[#DEDED8] bg-[#F5F5F2] py-12">
+<div class="max-w-[1200px] mx-auto px-6 lg:px-8 flex flex-col gap-8">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-6">
+<div>
+<div class="flex items-baseline font-bold text-[22px] tracking-tight text-[#16181D] select-none">
+            Curio<span class="inline-block w-2 h-2 ml-1 rounded-full bg-[#FF5C3A]"></span>
+</div>
+<p class="mt-1 text-[13px] leading-[20px] text-[#565B66]">
+            Learn the world, one question at a time.
+          </p>
+</div>
+<nav class="flex flex-wrap items-center gap-6">
+<a class="text-[13px] text-[#565B66] hover:text-[#16181D] transition-colors" data-path="about" href="index.html#how-it-works">About</a>
+<a class="text-[13px] text-[#565B66] hover:text-[#16181D] transition-colors" data-path="curriculum" href="index.html#categories">Curriculum</a>
+<a class="text-[13px] text-[#565B66] hover:text-[#16181D] transition-colors" data-path="topics" href="index.html#categories">Topics</a>
+<a class="text-[13px] text-[#565B66] hover:text-[#16181D] transition-colors" data-path="privacy" href="privacy.html">Privacy</a>
+<a class="text-[13px] text-[#565B66] hover:text-[#16181D] transition-colors" data-path="terms" href="terms.html">Terms</a>
+</nav>
+</div>
+<div class="pt-4 border-t border-[#DEDED8] flex flex-col sm:flex-row items-center justify-between gap-2">
+<p class="text-[11px] font-semibold tracking-wider text-[#565B66]">
+          © 2026 Curio. All rights reserved.
+        </p>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.102.0/dist/umd/supabase.js" defer></script>
+<script src="assets/auth/config.js" defer></script>
+<script src="assets/auth/client.js" defer></script>
+<script src="assets/auth/session.js" defer></script>
+</body></html>

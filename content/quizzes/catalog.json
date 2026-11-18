@@ -1,0 +1,386 @@
+[
+  {
+    "slug": "ancient-civilizations",
+    "title": "Ancient Civilizations",
+    "category": "history",
+    "categoryTitle": "History",
+    "description": "Discover how the earliest societies built the foundations of our world.",
+    "image": "assets/images/history/ancient-civilizations-ai.jpg"
+  },
+  {
+    "slug": "medieval-world",
+    "title": "Medieval World",
+    "category": "history",
+    "categoryTitle": "History",
+    "description": "Explore kingdoms, cultures, and extraordinary lives across the Middle Ages.",
+    "image": "assets/images/history/medieval-world-ai.jpg"
+  },
+  {
+    "slug": "empires-conquerors",
+    "title": "Empires & Conquerors",
+    "category": "history",
+    "categoryTitle": "History",
+    "description": "Meet the rulers and empires that reshaped continents.",
+    "image": "assets/images/history/empires-and-conquerors-ai.jpg"
+  },
+  {
+    "slug": "wars-conflicts",
+    "title": "Wars & Conflicts",
+    "category": "history",
+    "categoryTitle": "History",
+    "description": "Understand the conflicts that changed nations and generations.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBZ1TFfPojZwaF-qEhC1Fn0bHl3VMH93w4XfCAZs1IumaPlImpH093zaYY-ynQxi0fd6AyN6f6y-pQDA_GZz6rzCTPFQ72gINu2tZ-XNZpUS2VCcWwbKziYDAzkylNj22E7O2ZnTI2SF_jnSO2rw8rfqnGN6OE0gzLXtgpPt6rzbps2qd8FhCXfejSDkNhWGXmSjZiyTW8FLEhYy7hiEASz4J8PVU0u_2a5tPTVlkhY"
+  },
+  {
+    "slug": "revolutions-turning-points",
+    "title": "Revolutions & Turning Points",
+    "category": "history",
+    "categoryTitle": "History",
+    "description": "Discover the ideas and upheavals that transformed societies.",
+    "image": "assets/images/history/revolutions-and-turning-points-ai.jpg"
+  },
+  {
+    "slug": "exploration-discovery",
+    "title": "Exploration & Discovery",
+    "category": "history",
+    "categoryTitle": "History",
+    "description": "Follow the journeys that connected distant parts of the world.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCf7gdbWj9ke6l4Po5eVru1F5kKYSjv_QIMCmg3BHnWzIFLYzgkyLcEI6KYmEI1naX_Drndn_gGB8dl2Hq4tvDlRooK2aq1Vd2jSO7DlmGQgCeBwAgtnaAGuJVTQPfaJ-rXLFq7DhxxfHPsHZBs9Y7wjKP-_uguvk1mbTsvCebizkIL9dUMGrj7_fYohZX5KB5boIT75nnV74xNG5q66FaNdaEVcrfEgyqtyOw8_1oQ"
+  },
+  {
+    "slug": "historical-figures",
+    "title": "Historical Figures",
+    "category": "history",
+    "categoryTitle": "History",
+    "description": "Explore the lives and decisions of people who left their mark on history.",
+    "image": "assets/images/history/historical-figures-ai.jpg"
+  },
+  {
+    "slug": "historical-mysteries",
+    "title": "Historical Mysteries",
+    "category": "history",
+    "categoryTitle": "History",
+    "description": "Investigate the unanswered questions and discoveries of the past.",
+    "image": "assets/images/history/historical-mysteries-ai.jpg"
+  },
+  {
+    "slug": "countries-capitals",
+    "title": "Countries & Capitals",
+    "category": "geography",
+    "categoryTitle": "Geography",
+    "description": "Explore nations, capital cities, and their locations.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBjoIZ1oFLIRp7puHWAyqbWHu3boAY9T6XWzNrln0N96YBMVnmsolj8ipN7pekkLXBQcEndpaYAyYkoqDOGITV4wQI-DLxX_UkbqYe4Bw6ua7eU1GCikY0d3dXy-VzgtkMG-gmtewCTQpi5IUGXR17WQ-3ioFFpf08OcgurZDvHs_8gTHWDI3nz4tSlUJN_M3eMAObvd2bEYthhXNTHLmcD1twtNO5YFxwwGAkumhkq"
+  },
+  {
+    "slug": "flags-borders",
+    "title": "Flags & Borders",
+    "category": "geography",
+    "categoryTitle": "Geography",
+    "description": "Discover national flags, neighboring countries, and borders.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCXghmXgQSVplcsF8_sXwy0o_ivy1pm02HzPC0gNiLvh6uNujlKAJ7PxYfalvWs4OYdQ1IaWImNQWI8bBVEG5GDJDbvnyEmlJ44pAu-Jp94o2pBJnfq-3F6Mquo8Tc_0EXbDmVi0_0tj4iX6S5Fgt0UF5RJY-gsryVxB3siGAzLYCZ0ljM8f-Sw43aEo3lxgEBqlBg__PbnZHgO_ksDaVjcQ8JocMwG9E2Xsk_rt0pl"
+  },
+  {
+    "slug": "mountains-landforms",
+    "title": "Mountains & Landforms",
+    "category": "geography",
+    "categoryTitle": "Geography",
+    "description": "Explore mountain ranges, deserts, valleys, and landscapes.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDyonIR544XmvkyGpIcWQaNmtRDurnJvciR8Nj9md_vy0HeEER2ctyPkOwQF9_WIcOOHBKxxqmP27_9lIpswkyBczM0E90XU2Q2Uv9fYoEUaaq3iskN-nP9IQqxqc9rr-KbVBr0x25_z10Xxb0GHQ966mc3SiXnP8ahyE2MbZvJTZDM-RvlSIaEQpo2vrDjHJ5qgAowXhvmDFO3EdZyb_YMu6pzNRYgN71-UcKz2i47"
+  },
+  {
+    "slug": "rivers-lakes-oceans",
+    "title": "Rivers, Lakes & Oceans",
+    "category": "geography",
+    "categoryTitle": "Geography",
+    "description": "Discover the waterways and bodies of water that shape Earth.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDeL80JEfqTPO06F1auGiNNzDv9_xyFPXqZDe0nccCxXtqYNFA0A9Qe2NjkcdzIsYN9vpfkg8VYxIWNkNPcsQFcYrtopERraRvPGNngcilHYEEDqX5ifR8aql5iCSIHJ2OIWKOwvYqSiEFTCIl4qeLe8_7sn7m08QdDk4Mgt6GHzUD6tTE_5h5xenIcWE1eTsSHqL3PnUGCDS4x2IQb0wT7L6QOZjZnwyU8QE_9xvlw"
+  },
+  {
+    "slug": "climate-weather",
+    "title": "Climate & Weather",
+    "category": "geography",
+    "categoryTitle": "Geography",
+    "description": "Understand climate zones, weather patterns, and atmospheric phenomena.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDbgXkqmDgfcdstQ7XVJZHfR-cD5dQO1QUzaskQ3YoD8wpw83-1DZMBi2tGfAa2YfQE3fNm5GFr1SMO486bbsfJEQtMPR8uTZTjs55JJk5b6KyhNmGqY0ofp_8FnEsQkg82cpvBEQTIV9IqZ6TYqhfkc2Cr4zfALy8xLwrExrEaADDUgmvt11W_Yfkbnd1dhjpBhmjqvcUyXooThdc586Crv3YXPE3wtGBZi4uOt4ur"
+  },
+  {
+    "slug": "continents-regions",
+    "title": "Continents & Regions",
+    "category": "geography",
+    "categoryTitle": "Geography",
+    "description": "Explore continents, world regions, and geographic divisions.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBUOFOZcbA5BWoTgxqJm7_JCnPU4XVZzdHuhO3ubwtZscdg9MR7BZefiE7oCylS5ZGkOkZWDjwfPNPkYN_wzMenn1KFc8KAjvdaEC8AEO9ZLWJnc6ncBs9tg8F5Owl1NpYYQCPI76Uv5KzkTNJVQDnJidQlKIxs9SjtdX4IrX9xGlug6o1YEx3h8KLIXFNm2kAzjTm8pVP1YGyfDBk0HldWOg4Cwurq-Wt86fScmrmh"
+  },
+  {
+    "slug": "population-human-geography",
+    "title": "Population & Human Geography",
+    "category": "geography",
+    "categoryTitle": "Geography",
+    "description": "Discover population patterns, cities, migration, and human settlement.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCMtg_TNQgMXYd8zs_LsjwOJxNaWLuzFFvG0qJhaWPG0azfBzERVbOZ7T918p09gw5ZwisQcy9ZjlOSaRxuqL1LSbXlgw4-2DgDiG00V6tWKJOy5pugb4IiHbXdQXECENFEQT5AP4uC-XPuks75Lcx3AcNWH8JwGeCRjBu0TkPMl6TzABA9WQj-Rp3zkAUr54emx1qGH1zWm7syrqPZ-hhvGtAXI27cGvji_kQHoI2K"
+  },
+  {
+    "slug": "maps-geographic-discoveries",
+    "title": "Maps & Geographic Discoveries",
+    "category": "geography",
+    "categoryTitle": "Geography",
+    "description": "Explore cartography, coordinates, navigation, and geographic exploration.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDoFCxCeWXjGZn6Nz2t2wSALzLhrdU2iSXqAKFrCP_5OZfF1nl67VFy8zviRo6mPIBfWgsO3a6hdQr9rGfr6C0DDPw8LjwUEkq2_9df2nIZb3GekMmizeWYPWCiCp483LeOQkVF4s-pqZw05nf83YB2X0bw3UHT1o07gZ_e6nen3zJ1JxONidgL6wNaN9LJegPAAuTrFn1u-4ju00fmOUgIAIFPG48lUDDDml_xe5sN"
+  },
+  {
+    "slug": "physics-fundamentals",
+    "title": "Physics Fundamentals",
+    "category": "science",
+    "categoryTitle": "Science",
+    "description": "Explore motion, forces, energy, and the laws of nature.",
+    "image": "assets/science/premium_modern_editorial_illustration_of_isaac_newton_s_optics_experiment.png"
+  },
+  {
+    "slug": "chemistry-essentials",
+    "title": "Chemistry Essentials",
+    "category": "science",
+    "categoryTitle": "Science",
+    "description": "Discover atoms, bonds, reactions, and the properties of matter.",
+    "image": "assets/science/premium_modern_editorial_illustration_of_chemistry_essentials._a_scientist_s.png"
+  },
+  {
+    "slug": "biology-life",
+    "title": "Biology & Life",
+    "category": "science",
+    "categoryTitle": "Science",
+    "description": "Explore cells, organisms, and the processes that sustain life.",
+    "image": "assets/science/premium_modern_editorial_scientific_illustration_representing_biology_life._a.png"
+  },
+  {
+    "slug": "astronomy-space",
+    "title": "Astronomy & Space",
+    "category": "science",
+    "categoryTitle": "Science",
+    "description": "Discover stars, planets, galaxies, and the wider universe.",
+    "image": "assets/science/premium_modern_editorial_illustration_representing_astronomy_space._the_planet.png"
+  },
+  {
+    "slug": "earth-science",
+    "title": "Earth Science",
+    "category": "science",
+    "categoryTitle": "Science",
+    "description": "Understand rocks, plate tectonics, and our changing planet.",
+    "image": "assets/science/premium_modern_editorial_geological_illustration_representing_earth_science_and.png"
+  },
+  {
+    "slug": "human-anatomy",
+    "title": "Human Anatomy",
+    "category": "science",
+    "categoryTitle": "Science",
+    "description": "Explore the structures and systems of the human body.",
+    "image": "assets/science/premium_modern_editorial_medical_illustration_representing_human_anatomy._a.png"
+  },
+  {
+    "slug": "ecology-environment",
+    "title": "Ecology & Environment",
+    "category": "science",
+    "categoryTitle": "Science",
+    "description": "Discover ecosystems, biodiversity, and environmental change.",
+    "image": "assets/science/premium_modern_editorial_nature_illustration_representing_ecology_environment.png"
+  },
+  {
+    "slug": "great-scientific-discoveries",
+    "title": "Great Scientific Discoveries",
+    "category": "science",
+    "categoryTitle": "Science",
+    "description": "Explore groundbreaking discoveries, famous scientists, and scientific breakthroughs that changed our understanding of the world.",
+    "image": "assets/science/premium_modern_editorial_historical_science_illustration_representing_great.png"
+  },
+  {
+    "slug": "ancient-philosophy",
+    "title": "Ancient Philosophy",
+    "category": "philosophy",
+    "categoryTitle": "Philosophy",
+    "description": "Meet the thinkers and schools that shaped ancient inquiry.",
+    "image": "assets/philosophy/ancient-philosophy.png"
+  },
+  {
+    "slug": "ethics-moral-reasoning",
+    "title": "Ethics & Moral Reasoning",
+    "category": "philosophy",
+    "categoryTitle": "Philosophy",
+    "description": "Examine duties, virtues, consequences, and moral choices.",
+    "image": "assets/philosophy/ethics-moral-reasoning.png"
+  },
+  {
+    "slug": "logic-argument",
+    "title": "Logic & Argument",
+    "category": "philosophy",
+    "categoryTitle": "Philosophy",
+    "description": "Learn to evaluate arguments and recognize faulty reasoning.",
+    "image": "assets/philosophy/logic-argument.png"
+  },
+  {
+    "slug": "knowledge-belief",
+    "title": "Knowledge & Belief",
+    "category": "philosophy",
+    "categoryTitle": "Philosophy",
+    "description": "Explore evidence, skepticism, and the limits of knowledge.",
+    "image": "assets/philosophy/knowledge-belief.png"
+  },
+  {
+    "slug": "metaphysics",
+    "title": "Metaphysics",
+    "category": "philosophy",
+    "categoryTitle": "Philosophy",
+    "description": "Investigate reality, identity, causation, and existence.",
+    "image": "assets/philosophy/metaphysics.png"
+  },
+  {
+    "slug": "political-philosophy",
+    "title": "Political Philosophy",
+    "category": "philosophy",
+    "categoryTitle": "Philosophy",
+    "description": "Examine justice, freedom, authority, and social cooperation.",
+    "image": "assets/philosophy/political-philosophy.png"
+  },
+  {
+    "slug": "philosophy-of-mind",
+    "title": "Philosophy of Mind",
+    "category": "philosophy",
+    "categoryTitle": "Philosophy",
+    "description": "Explore consciousness, thought, and the mind-body problem.",
+    "image": "assets/philosophy/philosophy-of-mind.png"
+  },
+  {
+    "slug": "modern-philosophy",
+    "title": "Modern Philosophy",
+    "category": "philosophy",
+    "categoryTitle": "Philosophy",
+    "description": "Trace influential ideas from the Enlightenment onward.",
+    "image": "assets/philosophy/modern-philosophy.png"
+  },
+  {
+    "slug": "art-history",
+    "title": "Art History",
+    "category": "art-culture",
+    "categoryTitle": "Art & Culture",
+    "description": "Trace visual art through influential works and movements.",
+    "image": "assets/art-culture/art-history.png"
+  },
+  {
+    "slug": "world-literature",
+    "title": "World Literature",
+    "category": "art-culture",
+    "categoryTitle": "Art & Culture",
+    "description": "Explore novels, poetry, and storytelling across cultures.",
+    "image": "assets/art-culture/world-literature.png"
+  },
+  {
+    "slug": "music-composers",
+    "title": "Music & Composers",
+    "category": "art-culture",
+    "categoryTitle": "Art & Culture",
+    "description": "Discover musical forms, instruments, and influential composers.",
+    "image": "assets/art-culture/music-composers.png"
+  },
+  {
+    "slug": "architecture-design",
+    "title": "Architecture & Design",
+    "category": "art-culture",
+    "categoryTitle": "Art & Culture",
+    "description": "Explore the buildings and designs that shape everyday life.",
+    "image": "assets/art-culture/architecture-design.png"
+  },
+  {
+    "slug": "film-cinema",
+    "title": "Film & Cinema",
+    "category": "art-culture",
+    "categoryTitle": "Art & Culture",
+    "description": "Discover film language, genres, and cinematic traditions.",
+    "image": "assets/art-culture/film-cinema.png"
+  },
+  {
+    "slug": "theatre-performance",
+    "title": "Theatre & Performance",
+    "category": "art-culture",
+    "categoryTitle": "Art & Culture",
+    "description": "Explore drama, stagecraft, dance, and live performance.",
+    "image": "assets/art-culture/theatre-performance.png"
+  },
+  {
+    "slug": "mythology-folklore",
+    "title": "Mythology & Folklore",
+    "category": "art-culture",
+    "categoryTitle": "Art & Culture",
+    "description": "Discover the stories and symbols passed down through generations.",
+    "image": "assets/art-culture/mythology-folklore.png"
+  },
+  {
+    "slug": "cultural-traditions",
+    "title": "Cultural Traditions",
+    "category": "art-culture",
+    "categoryTitle": "Art & Culture",
+    "description": "Explore festivals, customs, crafts, and shared heritage.",
+    "image": "assets/art-culture/cultural-traditions.png"
+  },
+  {
+    "slug": "computer-fundamentals",
+    "title": "Computer Fundamentals",
+    "category": "technology",
+    "categoryTitle": "Technology",
+    "description": "Understand hardware, software, data, and how computers work.",
+    "image": "assets/technology/computer-fundamentals.png"
+  },
+  {
+    "slug": "programming-concepts",
+    "title": "Programming Concepts",
+    "category": "technology",
+    "categoryTitle": "Technology",
+    "description": "Explore algorithms, variables, functions, and computational thinking.",
+    "image": "assets/technology/programming-concepts.png"
+  },
+  {
+    "slug": "internet-networks",
+    "title": "Internet & Networks",
+    "category": "technology",
+    "categoryTitle": "Technology",
+    "description": "Discover how connected devices exchange information.",
+    "image": "assets/technology/internet-networks.png"
+  },
+  {
+    "slug": "cybersecurity-basics",
+    "title": "Cybersecurity Basics",
+    "category": "technology",
+    "categoryTitle": "Technology",
+    "description": "Learn how encryption, authentication, and secure habits protect data.",
+    "image": "assets/technology/cybersecurity-basics.png"
+  },
+  {
+    "slug": "artificial-intelligence",
+    "title": "Artificial Intelligence",
+    "category": "technology",
+    "categoryTitle": "Technology",
+    "description": "Explore learning systems, models, and machine intelligence.",
+    "image": "assets/technology/artificial-intelligence.png"
+  },
+  {
+    "slug": "digital-electronics",
+    "title": "Digital Electronics",
+    "category": "technology",
+    "categoryTitle": "Technology",
+    "description": "Discover circuits, logic gates, sensors, and digital signals.",
+    "image": "assets/technology/digital-electronics.png"
+  },
+  {
+    "slug": "technology-society",
+    "title": "Technology & Society",
+    "category": "technology",
+    "categoryTitle": "Technology",
+    "description": "Examine accessibility, privacy, and the social impact of invention.",
+    "image": "assets/technology/technology-society.png"
+  },
+  {
+    "slug": "history-innovation",
+    "title": "History of Innovation",
+    "category": "technology",
+    "categoryTitle": "Technology",
+    "description": "Trace the breakthroughs that transformed tools and communication.",
+    "image": "assets/technology/history-innovation.png"
+  }
+]

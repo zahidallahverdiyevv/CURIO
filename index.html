@@ -1,0 +1,512 @@
+<!DOCTYPE html><html lang="en"><head><title>Curio — Learn the world, one question at a time</title><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}
+
+/* Smooth scrolling with sticky header offset */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+}
+
+/* Base button and interactive link micro-interactions (150–200ms) */
+a, button {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 180ms;
+}
+
+/* Category cards: subtle lift on hover (2–4px) with soft shadow transition */
+#categories article, #categories .category-card {
+  transition: transform 200ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 200ms cubic-bezier(0.16, 1, 0.3, 1), border-color 180ms ease;
+  will-change: transform, box-shadow;
+}
+
+#categories article:hover, #categories .category-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px -5px rgba(22, 24, 29, 0.08), 0 8px 10px -6px rgba(22, 24, 29, 0.04);
+}
+
+/* Quiz answers: smooth background and border-color transitions */
+.quiz-btn {
+  transition: background-color 180ms ease, border-color 180ms ease, color 180ms ease, box-shadow 180ms ease, transform 150ms ease !important;
+}
+
+.quiz-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px -2px rgba(22, 24, 29, 0.06);
+}
+
+.quiz-badge {
+  transition: background-color 180ms ease, border-color 180ms ease, color 180ms ease;
+}
+
+.quiz-text {
+  transition: color 180ms ease;
+}
+
+.quiz-status-icon, .quiz-feedback-label {
+  transition: opacity 180ms ease-out, transform 180ms ease-out;
+}
+
+/* Accessibility: Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+  #quiz-explanation-box, #quiz-active-view, #quiz-completed-view, #quiz-dynamic-body, #categories article, #categories .category-card, .quiz-btn, a, button {
+    transition: none !important;
+    transform: none !important;
+    animation: none !important;
+  }
+}
+</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"tertiary-fixed-dim":"#fdbb3e","surface-container-highest":"#e2e3e0","primary-fixed":"#e0e2ed","surface":"#F5F5F2","on-error-container":"#93000a","surface-bright":"#F5F5F2","surface-variant":"#EEEEEA","secondary-container":"#dbe1ff","surface-dim":"#dadad7","on-primary-fixed-variant":"#44474f","surface-container-high":"#EAEAE5","error":"#B3261E","on-primary-container":"#888a94","outline":"#8A8D94","background":"#F5F5F2","tertiary-fixed":"#ffdad3","on-tertiary-fixed":"#3e0500","tertiary-container":"#4b0800","inverse-on-surface":"#f1f1ee","surface-container-lowest":"#FFFFFF","surface-container-low":"#EEEEEA","secondary-fixed":"#dbe1ff","outline-variant":"#DEDED8","on-secondary-fixed-variant":"#2c4386","primary-container":"#20232B","on-error":"#ffffff","surface-container":"#EAEAE5","secondary-fixed-dim":"#b5c4ff","on-tertiary-fixed-variant":"#8c1700","surface-tint":"#5b5e67","on-tertiary":"#ffffff","on-primary-fixed":"#181b23","secondary":"#4D63A8","on-background":"#16181D","inverse-surface":"#2f312f","tertiary":"#230200","on-tertiary-container":"#f35332","on-secondary":"#ffffff","error-container":"#ffdad6","on-surface":"#16181D","on-surface-variant":"#565B66","on-secondary-fixed":"#00174c","on-primary":"#ffffff","primary":"#20232B","inverse-primary":"#c4c6d1","on-secondary-container":"#2c4386","primary-fixed-dim":"#c4c6d1","brand-coral":"#FF5C3A","brand-ink":"#16181D","brand-dark":"#20232B","brand-secondary":"#4D63A8","brand-muted":"#565B66","brand-border":"#DEDED8","semantic-correct":"#1E7A4F","semantic-error":"#B3261E"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"margin-mobile":"1rem",margin:"2rem",gutter:"1.5rem","space-md":"1rem","space-xl":"2.5rem","gutter-sm":"1rem","space-xs":"0.25rem","space-sm":"0.5rem","margin-desktop":"3rem","gutter-lg":"2rem","space-lg":"1.5rem"},fontFamily:{"headline-md":["Plus Jakarta Sans"],"display-hero":["Plus Jakarta Sans"],"display-hero-mobile":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"title-card":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"label-coord":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"]},fontSize:{"headline-md":["24px",{lineHeight:"32px",letterSpacing:"-0.015em",fontWeight:"700"}],"display-hero":["56px",{lineHeight:"64px",letterSpacing:"-0.03em",fontWeight:"800"}],"display-hero-mobile":["38px",{lineHeight:"44px",letterSpacing:"-0.025em",fontWeight:"800"}],"body-md":["16px",{lineHeight:"24px",letterSpacing:"0em",fontWeight:"400"}],"body-lg":["18px",{lineHeight:"28px",letterSpacing:"0em",fontWeight:"400"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.03em",fontWeight:"600"}],"title-card":["18px",{lineHeight:"26px",letterSpacing:"-0.005em",fontWeight:"600"}],"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.01em",fontWeight:"600"}],"headline-lg":["36px",{lineHeight:"44px",letterSpacing:"-0.02em",fontWeight:"700"}],"body-sm":["14px",{lineHeight:"20px",letterSpacing:"0.005em",fontWeight:"400"}],"label-coord":["11px",{lineHeight:"14px",letterSpacing:"0.08em",fontWeight:"700"}],"headline-lg-mobile":["28px",{lineHeight:"34px",letterSpacing:"-0.015em",fontWeight:"700"}],"headline-sm":["20px",{lineHeight:"28px",letterSpacing:"-0.01em",fontWeight:"600"}]}}}};</script><link rel="stylesheet" href="assets/quiz/quiz.css"/></head><body class="bg-[#F5F5F2] font-body-md text-[#16181D] antialiased"><header class="fixed top-0 left-0 w-full z-50 bg-[#F5F5F2]/90 backdrop-blur-xl border-b border-[#DEDED8] shadow-[0_1px_4px_rgba(0,0,0,0.02)]"><div class="h-20 max-w-[1200px] mx-auto px-6 lg:px-8 flex items-center justify-between"><div class="flex items-center"><a class="flex items-center gap-1.5 text-decoration-none group" href="index.html" aria-label="Curio Homepage"><span class="font-headline-md text-headline-md font-bold tracking-tight text-[#16181D]">Curio</span><span class="w-1.5 h-1.5 rounded-full bg-[#FF5C3A] mt-1"></span></a></div><div class="flex items-center gap-5 sm:gap-6"><a class="font-label-lg text-label-lg text-[#565B66] hover:text-[#16181D] transition-colors" data-path="sign-in" href="signin.html">Sign In</a><a class="inline-flex items-center justify-center font-label-lg text-label-lg px-5 py-2.5 rounded-lg bg-[#20232B] hover:bg-[#323744] active:bg-[#0C0E12] text-white transition-all duration-150 shadow-sm hover:shadow hover:-translate-y-0.5 active:translate-y-0 cursor-pointer" href="signup.html" aria-label="Start Exploring">Start Exploring</a><a href="signin.html" aria-label="Account access" class="w-8 h-8 rounded-full bg-[#20232B] flex items-center justify-center"><span aria-hidden="true" class="material-symbols-outlined text-white text-[18px]">person</span></a></div></div></header><main class="w-full pt-20 bg-[#F5F5F2] min-h-[calc(100vh-160px)]"><div class="flex flex-col w-full">
+<div class="max-w-[1200px] mx-auto w-full px-6 lg:px-8 py-10 lg:py-14 space-y-16 lg:space-y-20">
+<!-- 1. HERO SECTION -->
+<section class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+<!-- Left Column -->
+<div class="lg:col-span-5 flex flex-col justify-center space-y-6">
+<div class="flex items-center gap-2 text-[#20232B]">
+<span class="material-symbols-outlined text-[18px]">explore</span>
+<span class="font-label-coord text-label-coord uppercase tracking-widest text-[#20232B]">DISCOVER SOMETHING NEW</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg lg:text-display-hero text-[#16181D] leading-[1.08] tracking-tight">
+          Curiosity makes the world bigger.
+        </h1>
+<p class="font-body-md text-body-md text-[#565B66] max-w-lg leading-relaxed">
+          Explore six questions from six different subjects every day. Discover something new, one answer at a time.
+        </p>
+<div class="flex items-center gap-6 pt-2">
+<a class="inline-flex items-center justify-center font-label-lg text-label-lg bg-[#20232B] hover:bg-[#323744] active:bg-[#0C0E12] text-white px-6 py-3.5 rounded-lg shadow-sm transition-all duration-150 hover:-translate-y-0.5 hover:shadow-md active:translate-y-0" href="#categories">
+            Explore Topics
+          </a>
+<a class="inline-flex items-center gap-1.5 font-label-lg text-label-lg text-[#16181D] hover:text-[#4D63A8] underline underline-offset-4 transition-colors duration-150 group" href="#how-it-works">
+<span class="">How It Works</span>
+<span class="material-symbols-outlined text-[16px] transition-transform duration-150 group-hover:translate-y-0.5">arrow_downward</span>
+</a>
+</div>
+</div>
+<!-- Right Column (Daily Six Quiz Card) -->
+<div class="lg:col-span-7">
+<div class="bg-white rounded-2xl p-6 lg:p-7 shadow-[0_4px_24px_-4px_rgba(22,24,29,0.06)] border border-[#DEDED8] relative overflow-hidden min-h-[460px] flex flex-col justify-between" id="daily-six-card">
+<!-- Subtle cartographic graticule watermark -->
+<svg class="absolute -right-12 -top-12 w-48 h-48 opacity-[0.05] pointer-events-none text-[#20232B]" fill="none" stroke="currentColor" viewBox="0 0 100 100">
+<circle cx="50" cy="50" r="45" stroke-dasharray="2 2" stroke-width="0.8"></circle>
+<circle cx="50" cy="50" r="30" stroke-width="0.8"></circle>
+<line stroke-width="0.8" x1="5" x2="95" y1="50" y2="50"></line>
+<line stroke-width="0.8" x1="50" x2="50" y1="5" y2="95"></line>
+</svg>
+<!-- Active Quiz View -->
+<div class="w-full flex flex-col justify-between flex-1" id="quiz-active-view">
+<div>
+<!-- Header / Labels -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between pb-3.5 border-b border-[#DEDED8]/60 gap-3">
+<div class="space-y-0.5">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-[#FF5C3A]"></span>
+<span class="font-label-coord text-label-coord uppercase tracking-widest text-[#16181D] font-bold">DAILY SIX</span>
+</div>
+<p class="font-body-sm text-[12px] text-[#565B66]">Six questions. Six subjects. Every day.</p>
+</div>
+<div class="flex items-center gap-3">
+<span class="font-label-md text-label-md text-[#565B66] font-semibold tracking-wide whitespace-nowrap" id="quiz-progress-text">QUESTION 1 OF 6</span>
+<!-- 6-segment Progress Indicator -->
+<div aria-label="Progress: 6 questions" aria-valuemax="6" aria-valuemin="1" aria-valuenow="1" class="flex items-center gap-1.5" id="quiz-progress-segments" role="progressbar">
+<div class="w-4 h-1.5 rounded-full bg-[#20232B] transition-colors" data-segment="0"></div>
+<div class="w-4 h-1.5 rounded-full bg-[#EEEEEA] transition-colors" data-segment="1"></div>
+<div class="w-4 h-1.5 rounded-full bg-[#EEEEEA] transition-colors" data-segment="2"></div>
+<div class="w-4 h-1.5 rounded-full bg-[#EEEEEA] transition-colors" data-segment="3"></div>
+<div class="w-4 h-1.5 rounded-full bg-[#EEEEEA] transition-colors" data-segment="4"></div>
+<div class="w-4 h-1.5 rounded-full bg-[#EEEEEA] transition-colors" data-segment="5"></div>
+</div>
+</div>
+</div>
+<!-- Dynamic Question Body for Question Transitions -->
+<div id="quiz-dynamic-body">
+<!-- Subject Badge & Question -->
+<div class="mt-4 mb-4">
+<div class="mb-2">
+<span class="inline-flex items-center gap-1.5 font-label-coord text-label-coord uppercase tracking-wider text-[#4D63A8] bg-[#4D63A8]/10 px-2.5 py-1 rounded" id="quiz-subject-badge">
+<span class="w-1.5 h-1.5 rounded-full bg-[#4D63A8]"></span>
+<span id="quiz-subject-text" class="">GEOGRAPHY</span>
+</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-[#16181D] font-semibold leading-snug" id="quiz-question-title">Which country has the most time zones in the world?</h2>
+</div>
+<!-- Interactive Choices Form -->
+<div aria-label="Quiz Choices" class="space-y-2.5" id="quiz-options-group" role="group"><button type="button" class="quiz-btn w-full flex items-center justify-between px-3.5 py-2.5 rounded-lg bg-white hover:border-[#8A8D94] border border-[#DEDED8] text-left transition-all duration-150 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#20232B]/30 group" data-quiz-option="A" data-correct="false" aria-label="Option A: Russia">
+          <div class="flex items-center gap-3">
+            <span class="quiz-badge w-7 h-7 rounded-full bg-[#F5F5F2] border border-[#DEDED8] flex items-center justify-center font-label-md text-label-md text-[#565B66] group-hover:text-[#20232B] font-bold shrink-0">
+              A
+            </span>
+            <span class="quiz-text font-body-md text-body-md text-[#16181D] font-medium">Russia</span>
+          </div>
+          <div class="quiz-status flex items-center gap-1.5">
+            <span class="quiz-feedback-label hidden text-xs font-semibold"></span>
+            <span class="quiz-status-icon hidden shrink-0"></span>
+          </div>
+        </button><button type="button" class="quiz-btn w-full flex items-center justify-between px-3.5 py-2.5 rounded-lg bg-white hover:border-[#8A8D94] border border-[#DEDED8] text-left transition-all duration-150 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#20232B]/30 group" data-quiz-option="B" data-correct="false" aria-label="Option B: United States">
+          <div class="flex items-center gap-3">
+            <span class="quiz-badge w-7 h-7 rounded-full bg-[#F5F5F2] border border-[#DEDED8] flex items-center justify-center font-label-md text-label-md text-[#565B66] group-hover:text-[#20232B] font-bold shrink-0">
+              B
+            </span>
+            <span class="quiz-text font-body-md text-body-md text-[#16181D] font-medium">United States</span>
+          </div>
+          <div class="quiz-status flex items-center gap-1.5">
+            <span class="quiz-feedback-label hidden text-xs font-semibold"></span>
+            <span class="quiz-status-icon hidden shrink-0"></span>
+          </div>
+        </button><button type="button" class="quiz-btn w-full flex items-center justify-between px-3.5 py-2.5 rounded-lg bg-white hover:border-[#8A8D94] border border-[#DEDED8] text-left transition-all duration-150 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#20232B]/30 group" data-quiz-option="C" data-correct="true" aria-label="Option C: France">
+          <div class="flex items-center gap-3">
+            <span class="quiz-badge w-7 h-7 rounded-full bg-[#F5F5F2] border border-[#DEDED8] flex items-center justify-center font-label-md text-label-md text-[#565B66] group-hover:text-[#20232B] font-bold shrink-0">
+              C
+            </span>
+            <span class="quiz-text font-body-md text-body-md text-[#16181D] font-medium">France</span>
+          </div>
+          <div class="quiz-status flex items-center gap-1.5">
+            <span class="quiz-feedback-label hidden text-xs font-semibold"></span>
+            <span class="quiz-status-icon hidden shrink-0"></span>
+          </div>
+        </button><button type="button" class="quiz-btn w-full flex items-center justify-between px-3.5 py-2.5 rounded-lg bg-white hover:border-[#8A8D94] border border-[#DEDED8] text-left transition-all duration-150 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#20232B]/30 group" data-quiz-option="D" data-correct="false" aria-label="Option D: China">
+          <div class="flex items-center gap-3">
+            <span class="quiz-badge w-7 h-7 rounded-full bg-[#F5F5F2] border border-[#DEDED8] flex items-center justify-center font-label-md text-label-md text-[#565B66] group-hover:text-[#20232B] font-bold shrink-0">
+              D
+            </span>
+            <span class="quiz-text font-body-md text-body-md text-[#16181D] font-medium">China</span>
+          </div>
+          <div class="quiz-status flex items-center gap-1.5">
+            <span class="quiz-feedback-label hidden text-xs font-semibold"></span>
+            <span class="quiz-status-icon hidden shrink-0"></span>
+          </div>
+        </button></div>
+</div>
+</div>
+<!-- Explanation Panel -->
+<div aria-live="polite" class="mt-4 pt-4 border-t border-[#DEDED8] transition-opacity duration-200 hidden" id="quiz-explanation-box" style="opacity: 0; transition: opacity 0.25s ease-out;">
+<div class="bg-[#EEEEEA] rounded-xl p-4 border border-[#DEDED8]/80 space-y-3">
+<div class="space-y-1">
+<div class="flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-[#FF5C3A] inline-block"></span>
+<span class="font-label-coord text-label-coord uppercase tracking-wider font-bold text-[#16181D]">DID YOU KNOW?</span>
+</div>
+<p class="font-body-sm text-body-sm text-[#565B66] leading-relaxed" id="quiz-explanation-text">France has the most time zones because its overseas territories are spread across different parts of the world.</p>
+</div>
+<div class="flex items-center justify-between pt-1">
+<button class="inline-flex items-center gap-1.5 font-label-lg text-label-lg px-4 py-2 rounded-lg bg-[#20232B] hover:bg-[#323744] active:bg-[#0C0E12] text-white font-semibold transition-colors shadow-sm focus:outline-none focus:ring-2 focus:ring-[#20232B]/30" id="btn-next-question" type="button">
+<span id="btn-next-text" class="">Next Question</span>
+<span class="text-sm">→</span>
+</button>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-[#565B66] hover:text-[#16181D] font-semibold transition-colors" href="#categories" id="quiz-topic-link">
+<span id="quiz-topic-link-text" class="">Explore Geography ↗</span>
+<span class="text-xs">↗</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Completion State View (Initially Hidden) -->
+<div class="hidden w-full flex-col justify-center items-center py-10 px-4 text-center my-auto space-y-6" id="quiz-completed-view">
+<div class="w-14 h-14 rounded-full bg-[#EEEEEA] border border-[#DEDED8] flex items-center justify-center text-[#20232B]">
+<span class="material-symbols-outlined text-[28px]">check</span>
+</div>
+<div class="space-y-2 max-w-md">
+<div class="flex items-center justify-center gap-2 mb-1">
+<span class="w-2 h-2 rounded-full bg-[#FF5C3A]"></span>
+<span class="font-label-coord text-label-coord uppercase tracking-widest text-[#565B66]">DAILY RITUAL</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg font-bold text-[#16181D] leading-tight">
+      Today's Six Complete!
+    </h2>
+<p class="font-body-md text-body-md text-[#565B66]">
+      Six questions. Six new discoveries.
+    </p>
+</div>
+<div class="bg-[#EEEEEA] rounded-xl px-6 py-3.5 border border-[#DEDED8]/80 inline-flex items-center gap-3">
+<span class="font-label-coord uppercase tracking-wider text-[#565B66]">SCORE:</span>
+<span class="font-headline-sm text-headline-sm font-bold text-[#16181D]" id="quiz-final-score">6 / 6 correct</span>
+</div>
+<div class="space-y-3 pt-2">
+<div>
+<a class="inline-flex items-center gap-2 font-label-lg text-label-lg bg-[#20232B] hover:bg-[#323744] active:bg-[#0C0E12] text-white px-7 py-3 rounded-lg shadow-sm transition-all duration-150" href="#categories">
+<span class="">Explore More Topics</span>
+<span class="text-sm">→</span>
+</a>
+</div>
+<p class="font-body-sm text-[13px] text-[#565B66]">
+      Come back tomorrow for six new questions.
+    </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. EXPLORE CATEGORIES (3-column × 2-row grid) -->
+<section class="space-y-8 scroll-mt-24" id="categories">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+<div>
+<div class="flex items-center gap-2 text-[#4D63A8] mb-1">
+<span class="w-2 h-2 rounded-full bg-[#FF5C3A]"></span>
+<span class="font-label-coord text-label-coord uppercase tracking-widest text-[#565B66]">CURATED DOMAINS</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-[#16181D] font-bold">
+            Explore what sparks your curiosity.
+          </h2>
+<p class="font-body-md text-body-md text-[#565B66] mt-1.5">
+            Choose a subject and start discovering.
+          </p>
+</div>
+
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Card 1: History -->
+<a href="history.html" class="category-card bg-white rounded-xl p-6 border border-[#DEDED8] shadow-sm hover:shadow-md hover:border-[#8A8D94] hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between group block text-inherit no-underline focus:outline-none focus-visible:ring-2 focus-visible:ring-[#20232B]"><div class="space-y-5"><div class="w-full h-48 bg-[#F5F5F2] rounded-lg flex items-center justify-center overflow-hidden relative border border-[#DEDED8]/60"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDw8aFMbwEDYn_Q-T-lJZr2mxtJ1imwxWl7jnaxUgemMKsO3ZaB2nKuF3DOaTuSYtFtcRwLSefcZWm2TAX9LnFouRNdbVPQG-lQz3VuQ4m2-aRu9eYvJwAafIdJADXjVunSAPsJOaM_pBZUmzWu3RZvTq1j_1YSA8-y6f1rz--cziEixs-PaUZsM3d3zyhP6SrUjeaLOSeq14ASYY2mCQuu6Y-022G9cfLJspzMWWKe1OPzrXDVIC73Pw" alt="History illustration - Napoleon Bonaparte on a horse" class="w-full h-full object-cover transform scale-110 transition-transform duration-300 group-hover:scale-115"></div><div class="space-y-1.5"><h3 class="font-headline-md text-headline-md font-bold text-[#16181D] group-hover:text-[#4D63A8] transition-colors">History</h3><p class="font-body-sm text-body-sm text-[#565B66] leading-relaxed">Explore the people, events, and ideas that shaped our world.</p></div></div><div class="pt-6 flex items-center justify-end text-[#565B66] group-hover:text-[#20232B]"><span class="material-symbols-outlined text-[18px] transform group-hover:translate-x-1 transition-transform">arrow_forward</span></div></a>
+<!-- Card 2: Geography -->
+<a href="geography.html" aria-label="Explore Geography" class="category-card block text-inherit no-underline focus:outline-none focus-visible:ring-2 focus-visible:ring-[#20232B] bg-white rounded-xl p-6 border border-[#DEDED8] shadow-sm hover:shadow-md hover:border-[#8A8D94] hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between group"><div class="space-y-5"><div class="w-full h-48 bg-[#F5F5F2] rounded-lg flex items-center justify-center overflow-hidden relative border border-[#DEDED8]/60"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBs6KPXElbiXD3kdiUxei3rJxe_oQtEIttmarHjG1noSFvIl6pX547HwghVJPI4Vzz8AuWMTJ1NfARG8PEPQ_Sw5BkKZJjkVspT2uhGA-mHC-0l1dILBqSTJy__jsJH4gzUAc587VgS4Y5C8UgpDlFnyi0rsMV6FUBnScZ9RYErg9isyRaixpSaCjtpIeDOLV7blPFbiMMKBP8MjGjvcC_G-HjHGQydNYEQbKeFjgTvRaNrY_r4HKaRg" alt="Geography illustration - World Map" class="w-full h-full object-cover transform scale-105 transition-transform duration-300 group-hover:scale-110"></div><div class="space-y-1.5"><h3 class="font-headline-md text-headline-md font-bold text-[#16181D] group-hover:text-[#4D63A8] transition-colors">Geography</h3><p class="font-body-sm text-body-sm text-[#565B66] leading-relaxed">Discover places, landscapes, and the connections between them.</p></div></div><div class="pt-6 flex items-center justify-end text-[#565B66] group-hover:text-[#20232B]"><span class="material-symbols-outlined text-[18px] transform group-hover:translate-x-1 transition-transform">arrow_forward</span></div></a>
+<!-- Card 3: Science -->
+<a href="science.html" aria-label="Explore Science" class="category-card block text-inherit no-underline focus-visible:ring-2 focus-visible:ring-[#20232B] bg-white rounded-xl p-6 border border-[#DEDED8] shadow-sm hover:shadow-md hover:border-[#8A8D94] hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between group"><div class="space-y-5"><div class="w-full h-48 bg-[#F5F5F2] rounded-lg flex items-center justify-center overflow-hidden relative border border-[#DEDED8]/60"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBavcJWwNiB3xGZQ1M9OtDVYkQgBX_IoqSGLdXU4Wy9mulaJyLFkow1ynpq5ASnjJjmOhmutJcx3WepR25-4m1VRSeBycAm-N0dQ4l_5eldFmjU1JfWwOLN0iVaMc7oM9D1GxrUP_NqVDEU4JOMMzsL1n6uvaNxURKdbwCtTXRnXMR_SBbA8yuYIRmltJG8RvOZIXcBXTJtZMzTrEPj5QpraHfu5yPALVvHhhjIVUAWdeyEDO0vM0pWMQ" alt="Science illustration - Albert Einstein beside a blackboard" class="w-full h-full object-cover transform scale-110 transition-transform duration-300 group-hover:scale-115"></div><div class="space-y-1.5"><h3 class="font-headline-md text-headline-md font-bold text-[#16181D] group-hover:text-[#4D63A8] transition-colors">Science</h3><p class="font-body-sm text-body-sm text-[#565B66] leading-relaxed">Understand the discoveries and principles behind our universe.</p></div></div><div class="pt-6 flex items-center justify-end text-[#565B66] group-hover:text-[#20232B]"><span class="material-symbols-outlined text-[18px] transform group-hover:translate-x-1 transition-transform">arrow_forward</span></div></a>
+<!-- Card 4: Philosophy -->
+<a href="philosophy.html" aria-label="Explore Philosophy" class="category-card block text-inherit no-underline focus-visible:ring-2 focus-visible:ring-[#20232B] bg-white rounded-xl p-6 border border-[#DEDED8] shadow-sm hover:shadow-md hover:border-[#8A8D94] hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between group"><div class="space-y-5"><div class="w-full h-48 bg-[#F5F5F2] rounded-lg flex items-center justify-center overflow-hidden relative border border-[#DEDED8]/60"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDfou9zeO9K-OLy5eyEX5OixK9JXfu8axDen8bIHNQ1PKloBV03ZL2Jcoki97n6xSCS1TXP_dOTi8NevN2KP1BI5wC7QsPIgVjEI_eCPC5TEi89ZmgI0hlzn6zDvVQXnjbAfwSdU8UmQGyP-8_xCsmUx34HwsDlKZNs9M2148jGz8Ot61GpjuwsQu7iiE_ShpbYOXaJP63lSvvKW_5IUldF4TUNNvsVtMv7PVJTXvRYxD4P6iAkWK7UzA" alt="Philosophy illustration - Ancient Greek philosophers discussing ideas" class="w-full h-full object-cover transform scale-110 transition-transform duration-300 group-hover:scale-115"></div><div class="space-y-1.5"><h3 class="font-headline-md text-headline-md font-bold text-[#16181D] group-hover:text-[#4D63A8] transition-colors">Philosophy</h3><p class="font-body-sm text-body-sm text-[#565B66] leading-relaxed">Explore big questions about knowledge, existence, and meaning.</p></div></div><div class="pt-6 flex items-center justify-end text-[#565B66] group-hover:text-[#20232B]"><span class="material-symbols-outlined text-[18px] transform group-hover:translate-x-1 transition-transform">arrow_forward</span></div></a>
+<!-- Card 5: Art & Culture -->
+<a href="art-culture.html" aria-label="Explore Art &amp; Culture" class="category-card block text-inherit no-underline focus-visible:ring-2 focus-visible:ring-[#20232B] bg-white rounded-xl p-6 border border-[#DEDED8] shadow-sm hover:shadow-md hover:border-[#8A8D94] hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between group"><div class="space-y-5"><div class="w-full h-48 bg-[#F5F5F2] rounded-lg flex items-center justify-center overflow-hidden relative border border-[#DEDED8]/60"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBc4MyB0qTdmdGa9-OjMX3UjrtRIzdXCQzxW2eeETU2PfOXcxR1UyErDZUyJzQqMyExOYv3AJ3pZHAEjWrjhEham7aipHExG6ubfYa7kbEG2NNSlTldwg2xBykb5SuteCYK-YKDYRF5HrGGRmIIyqt7HumkdDxCNPQhVfbSUNQNzwmK9PhimYcBTqWToZ7D6sTlmAKg0ELIy5pBc8hOTUndBkwnGs4qjp7FqS-qzqwjU-m1e-4i5LyUrQ" alt="Art &amp; Culture illustration - Classical sculpture bust" class="w-full h-full object-cover transform scale-110 transition-transform duration-300 group-hover:scale-115"></div><div class="space-y-1.5"><h3 class="font-headline-md text-headline-md font-bold text-[#16181D] group-hover:text-[#4D63A8] transition-colors">Art &amp; Culture</h3><p class="font-body-sm text-body-sm text-[#565B66] leading-relaxed">Discover creative expression, traditions, and human imagination.</p></div></div><div class="pt-6 flex items-center justify-end text-[#565B66] group-hover:text-[#20232B]"><span class="material-symbols-outlined text-[18px] transform group-hover:translate-x-1 transition-transform">arrow_forward</span></div></a>
+<!-- Card 6: Technology -->
+<a href="technology.html" aria-label="Explore Technology" class="category-card block text-inherit no-underline focus-visible:ring-2 focus-visible:ring-[#20232B] bg-white rounded-xl p-6 border border-[#DEDED8] shadow-sm hover:shadow-md hover:border-[#8A8D94] hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between group"><div class="space-y-5"><div class="w-full h-48 bg-[#F5F5F2] rounded-lg flex items-center justify-center overflow-hidden relative border border-[#DEDED8]/60"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAA1n95Tqw8kxxzjmKwDF6ncu2devb5PWXKFMufQAfarsd-6fllqSdY6Jy7BXHu9kGGCoQer6x4ZTbyNwyspLpJvzbKZj2OGTnmBltoJkCk6PUDHw50cuD_VrHAMIzdGy0G-KZjTyitvNIWSGaWhP_fOdyGnlzcOmFn4SRiUqSV9oOBUFXzvYlVqLDOWvScZrD6Mgkiq76oalvBDBkI2jF6EjcDLn_5vfrkK3tpwZL8rAW6yVYTIGlOCw" alt="Technology illustration - Microchip and circuits" class="w-full h-full object-cover transform scale-110 transition-transform duration-300 group-hover:scale-115"></div><div class="space-y-1.5"><h3 class="font-headline-md text-headline-md font-bold text-[#16181D] group-hover:text-[#4D63A8] transition-colors">Technology</h3><p class="font-body-sm text-body-sm text-[#565B66] leading-relaxed">Understand the inventions and systems transforming our lives.</p></div></div><div class="pt-6 flex items-center justify-end text-[#565B66] group-hover:text-[#20232B]"><span class="material-symbols-outlined text-[18px] transform group-hover:translate-x-1 transition-transform">arrow_forward</span></div></a>
+</div>
+</section>
+<!-- 3. HOW IT WORKS SECTION -->
+<section class="bg-[#EEEEEA] rounded-2xl p-8 lg:p-12 border border-[#DEDED8] shadow-sm relative overflow-hidden scroll-mt-24" id="how-it-works">
+<!-- Top cartographic register notation -->
+<div class="text-center max-w-xl mx-auto mb-12">
+<h2 class="font-headline-lg text-headline-lg font-bold text-[#16181D]">
+          Learn through curiosity.
+        </h2>
+<p class="font-body-md text-body-md text-[#565B66] mt-2">
+          An intuitive, measured approach to surveying human knowledge without rote memorization.
+        </p>
+</div>
+<!-- 3 Step Cards in a 3-column row -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 relative">
+<!-- Connecting baseline on desktop -->
+<div class="hidden md:block absolute top-7 left-1/6 right-1/6 h-[1px] bg-[#DEDED8] -z-0"></div>
+<!-- Step 01 -->
+<div class="bg-white rounded-xl p-6 border border-[#DEDED8] shadow-sm flex flex-col items-start relative z-10 space-y-4">
+<div class="w-12 h-12 rounded-lg bg-[#F5F5F2] border border-[#DEDED8] flex items-center justify-center font-headline-sm text-headline-sm font-bold text-[#20232B]">
+            01
+          </div>
+<div class="space-y-1.5">
+<h3 class="font-title-card text-title-card font-bold text-[#16181D]">
+              Choose a Topic
+            </h3>
+<p class="font-body-sm text-body-sm text-[#565B66] leading-relaxed">
+              Find something you want to understand, from ancient trade routes to modern algorithms.
+            </p>
+</div>
+</div>
+<!-- Step 02 -->
+<div class="bg-white rounded-xl p-6 border border-[#DEDED8] shadow-sm flex flex-col items-start relative z-10 space-y-4">
+<div class="w-12 h-12 rounded-lg bg-[#F5F5F2] border border-[#DEDED8] flex items-center justify-center font-headline-sm text-headline-sm font-bold text-[#20232B]">
+            02
+          </div>
+<div class="space-y-1.5">
+<h3 class="font-title-card text-title-card font-bold text-[#16181D]">
+              Answer a Question
+            </h3>
+<p class="font-body-sm text-body-sm text-[#565B66] leading-relaxed">
+              Test your thinking with engaging questions designed to provoke thought rather than recall.
+            </p>
+</div>
+</div>
+<!-- Step 03 -->
+<div class="bg-white rounded-xl p-6 border border-[#DEDED8] shadow-sm flex flex-col items-start relative z-10 space-y-4">
+<div class="w-12 h-12 rounded-lg bg-[#F5F5F2] border border-[#DEDED8] flex items-center justify-center font-headline-sm text-headline-sm font-bold text-[#20232B]">
+            03
+          </div>
+<div class="space-y-1.5">
+<h3 class="font-title-card text-title-card font-bold text-[#16181D]">
+              Discover the Explanation
+            </h3>
+<p class="font-body-sm text-body-sm text-[#565B66] leading-relaxed">
+              Learn the reasoning and explore further with rich historical and scientific contextual notes.
+            </p>
+</div>
+</div>
+</div>
+<!-- Action Footer for How It Works -->
+<div class="mt-12 text-center">
+<a class="inline-flex items-center gap-2 font-label-lg text-label-lg bg-[#20232B] hover:bg-[#323744] active:bg-[#0C0E12] text-white px-8 py-3.5 rounded-lg shadow-sm transition-all duration-150 hover:-translate-y-0.5 hover:shadow-md active:translate-y-0" href="#categories"><span class="">Start Learning</span><span class="material-symbols-outlined text-[18px]">north_east</span></a>
+</div>
+</section>
+</div>
+</div>
+<!-- Interactive Logic for Hero Daily Six Quiz -->
+<script src="assets/quiz/quiz.js"></script>
+<script>
+(function(){
+const dailySixQuestions = [
+  {
+    "id": 1,
+    "category": "Geography",
+    "question": "Which of these countries has territory in both Europe and South America?",
+    "options": [
+      {
+        "key": "A",
+        "text": "France"
+      },
+      {
+        "key": "B",
+        "text": "Germany"
+      },
+      {
+        "key": "C",
+        "text": "Poland"
+      },
+      {
+        "key": "D",
+        "text": "Austria"
+      }
+    ],
+    "correctKey": "A",
+    "explanation": "French Guiana lies in South America and is an overseas department of France. Metropolitan France lies in Europe.",
+    "topicLink": "Explore Geography ↗"
+  },
+  {
+    "id": 2,
+    "category": "History",
+    "question": "Which civilization developed the Mesopotamian writing tradition that evolved into cuneiform?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Egyptians"
+      },
+      {
+        "key": "B",
+        "text": "Minoans"
+      },
+      {
+        "key": "C",
+        "text": "Sumerians"
+      },
+      {
+        "key": "D",
+        "text": "Romans"
+      }
+    ],
+    "correctKey": "C",
+    "explanation": "Writing emerged in southern Mesopotamia around 3400 BCE as pictographs. This tradition developed into wedge-shaped cuneiform; early Egyptian writing developed separately.",
+    "topicLink": "Explore History ↗"
+  },
+  {
+    "id": 3,
+    "category": "Science",
+    "question": "What particle is primarily responsible for conducting electricity through metallic conductors?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Protons"
+      },
+      {
+        "key": "B",
+        "text": "Free electrons"
+      },
+      {
+        "key": "C",
+        "text": "Neutrons"
+      },
+      {
+        "key": "D",
+        "text": "Positrons"
+      }
+    ],
+    "correctKey": "B",
+    "explanation": "In metals, outermost valence electrons become delocalized and flow freely through the atomic lattice when an electric potential is applied.",
+    "topicLink": "Explore Science ↗"
+  },
+  {
+    "id": 4,
+    "category": "Philosophy",
+    "question": "Which philosophical thought experiment asks if a ship remains the same object after all its wooden planks are replaced?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Ship of Theseus"
+      },
+      {
+        "key": "B",
+        "text": "Plato's Cave"
+      },
+      {
+        "key": "C",
+        "text": "Buridan's Donkey"
+      },
+      {
+        "key": "D",
+        "text": "Achilles and the Tortoise"
+      }
+    ],
+    "correctKey": "A",
+    "explanation": "First recorded by Plutarch, the Ship of Theseus explores whether identity persists over time as physical constituents change entirely.",
+    "topicLink": "Explore Philosophy ↗"
+  },
+  {
+    "id": 5,
+    "category": "Art & Culture",
+    "question": "In painting, chiaroscuro primarily models volume using contrasts between what?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Perspective vanishing points"
+      },
+      {
+        "key": "B",
+        "text": "Light and shadow"
+      },
+      {
+        "key": "C",
+        "text": "Pigment dilution"
+      },
+      {
+        "key": "D",
+        "text": "Geometric symmetry"
+      }
+    ],
+    "correctKey": "B",
+    "explanation": "Chiaroscuro uses light and shade to suggest three-dimensional form. Tenebrism describes a more pronounced use of darkness and concentrated light.",
+    "topicLink": "Explore Art & Culture ↗"
+  },
+  {
+    "id": 6,
+    "category": "Technology",
+    "question": "What does a zero-knowledge proof allow a prover to demonstrate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "That a message is encrypted without requiring an encryption key"
+      },
+      {
+        "key": "B",
+        "text": "That a file is compressed without losing any original information"
+      },
+      {
+        "key": "C",
+        "text": "That a network is secure without checking its individual devices"
+      },
+      {
+        "key": "D",
+        "text": "That a statement is true without revealing its secret witness"
+      }
+    ],
+    "correctKey": "D",
+    "explanation": "A zero-knowledge proof establishes a statement’s validity without revealing information beyond that validity. For knowledge proofs, the secret witness itself is not disclosed.",
+    "topicLink": "Explore Technology ↗"
+  }
+];
+
+CurioQuiz.mount(document.getElementById('daily-six-card'), dailySixQuestions.map(q=>({...q,options:q.options.map(o=>o.text),correctIndex:q.options.findIndex(o=>o.key===q.correctKey)})), true);
+})();
+</script></main><footer class="w-full bg-[#EEEEEA] border-t border-[#DEDED8] py-12"><div class="max-w-[1200px] mx-auto px-6 lg:px-8"><div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 pb-8"><div class="space-y-2"><div class="flex items-center gap-1.5"><span class="font-headline-sm text-headline-sm font-bold text-[#16181D]">Curio</span><span class="w-1.5 h-1.5 rounded-full bg-[#FF5C3A]"></span></div><p class="font-body-sm text-body-sm text-[#565B66]">Learn the world, one question at a time.</p></div><nav class="flex flex-wrap items-center gap-x-8 gap-y-2" data-active-classes="text-[#16181D] font-semibold"><a class="font-body-sm text-body-sm text-[#565B66] hover:text-[#16181D] transition-colors" data-path="about" href="index.html#how-it-works">About</a><a class="font-body-sm text-body-sm text-[#565B66] hover:text-[#16181D] transition-colors" data-path="curriculum" href="index.html#categories">Curriculum</a><a class="font-body-sm text-body-sm text-[#565B66] hover:text-[#16181D] transition-colors" data-path="topics" href="index.html#categories">Topics</a><a class="font-body-sm text-body-sm text-[#565B66] hover:text-[#16181D] transition-colors" data-path="privacy-policy" href="privacy.html">Privacy</a><a class="font-body-sm text-body-sm text-[#565B66] hover:text-[#16181D] transition-colors" data-path="terms-of-service" href="terms.html">Terms</a></nav></div><div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-[#DEDED8]"><p class="font-label-coord text-label-coord uppercase tracking-widest text-[#565B66]">© 2026 Curio. All rights reserved.</p></div></div></footer>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.102.0/dist/umd/supabase.js" defer></script>
+<script src="assets/auth/config.js" defer></script>
+<script src="assets/auth/client.js" defer></script>
+<script src="assets/auth/session.js" defer></script>
+</body></html>

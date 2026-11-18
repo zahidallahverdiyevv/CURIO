@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="web_standard" name="shell-type"/>
+  <title>Curio — Technology</title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+  <style>
+    @layer base {
+      html, body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+      }
+      body {
+        overscroll-behavior: none;
+      }
+      main > :first-child {
+        margin-top: 0 !important;
+      }
+      main > :last-child {
+        margin-bottom: 0 !important;
+      }
+    }
+    ::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Base button and interactive link micro-interactions (150–200ms) */
+    a, button {
+      transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 180ms;
+    }
+
+    /* Topic cards subtle lift on hover (2–4px) with soft shadow transition */
+    .topic-card {
+      transition: transform 200ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 200ms cubic-bezier(0.16, 1, 0.3, 1), border-color 180ms ease;
+      will-change: transform, box-shadow;
+    }
+    .topic-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 25px -5px rgba(22, 24, 29, 0.08), 0 8px 10px -6px rgba(22, 24, 29, 0.04);
+    }
+
+    /* Accessibility: Respect prefers-reduced-motion */
+    @media (prefers-reduced-motion: reduce) {
+      .topic-card, a, button, img {
+        transition: none !important;
+        transform: none !important;
+        animation: none !important;
+      }
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "surface": "#F5F5F2",
+            "surface-warm": "#F5F5F2",
+            "on-surface": "#16181D",
+            "on-surface-variant": "#565B66",
+            "primary": "#20232B",
+            "brand-coral": "#FF5C3A",
+            "brand-ink": "#16181D",
+            "brand-muted": "#565B66",
+            "brand-border": "#DEDED8",
+            "outline": "#8A8D94",
+            "outline-variant": "#DEDED8",
+            "secondary": "#4D63A8"
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            "headline-md": ['"Plus Jakarta Sans"', 'sans-serif'],
+            "headline-lg": ['"Plus Jakarta Sans"', 'sans-serif'],
+            "display-hero": ['"Plus Jakarta Sans"', 'sans-serif'],
+            "body-md": ['"Plus Jakarta Sans"', 'sans-serif'],
+            "label-lg": ['"Plus Jakarta Sans"', 'sans-serif'],
+            "label-coord": ['"Plus Jakarta Sans"', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="bg-[#F5F5F2] font-sans text-[#16181D] antialiased">
+  <!-- Fixed Header (Unified across Curio) -->
+  <header class="fixed top-0 left-0 w-full z-50 bg-[#F5F5F2]/90 backdrop-blur-xl border-b border-[#DEDED8] shadow-[0_1px_4px_rgba(0,0,0,0.02)]">
+    <div class="h-20 max-w-[1200px] mx-auto px-6 lg:px-8 flex items-center justify-between">
+      <div class="flex items-center">
+        <a class="flex items-center gap-1.5 text-decoration-none group" href="index.html" aria-label="Curio Homepage">
+          <span class="font-headline-md text-2xl font-bold tracking-tight text-[#16181D]">Curio</span>
+          <span class="w-1.5 h-1.5 rounded-full bg-[#FF5C3A] mt-1"></span>
+        </a>
+      </div>
+      <div class="flex items-center gap-5 sm:gap-6">
+        <a class="font-semibold text-[14px] text-[#565B66] hover:text-[#16181D] transition-colors" data-path="sign-in" href="signin.html">Sign In</a>
+        <a class="inline-flex items-center justify-center font-semibold text-[14px] px-5 py-2.5 rounded-lg bg-[#20232B] hover:bg-[#323744] active:bg-[#0C0E12] text-white transition-all duration-150 shadow-sm hover:shadow hover:-translate-y-0.5 active:translate-y-0 cursor-pointer" href="index.html#categories" aria-label="Start Exploring">Start Exploring</a>
+        <a href="signin.html" aria-label="Account access" class="w-8 h-8 rounded-full bg-[#20232B] flex items-center justify-center"><span aria-hidden="true" class="material-symbols-outlined text-white text-[18px]">person</span></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="w-full pt-20 bg-[#F5F5F2] min-h-[calc(100vh-20rem)]">
+    <div class="flex flex-col w-full">
+      <div class="max-w-[1200px] w-full mx-auto px-6 lg:px-8 pb-24">
+        <!-- Breadcrumb Navigation -->
+        <nav aria-label="Breadcrumb" class="pt-8 pb-4">
+          <ol class="flex items-center gap-1.5 text-[12px] font-medium text-[#565B66]">
+            <li>
+              <a class="hover:text-[#16181D] transition-colors" href="index.html">Home</a>
+            </li>
+            <li aria-hidden="true" class="select-none text-[#DEDED8]">/</li>
+            <li aria-current="page" class="text-[#16181D] font-semibold">
+              Technology
+            </li>
+          </ol>
+        </nav>
+
+        <!-- Technology Hero Section -->
+        <section class="mt-4 pb-10 border-b border-[#DEDED8]">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="w-1.5 h-1.5 rounded-full bg-[#FF5C3A]"></span>
+            <span class="text-[11px] font-bold tracking-widest text-[#FF5C3A] uppercase">
+              Explore how things work
+            </span>
+          </div>
+          <h1 class="font-extrabold text-[44px] md:text-[56px] leading-[1.1] text-[#16181D] tracking-[-0.03em] mb-4">
+            Technology
+          </h1>
+          <p class="text-[18px] leading-[28px] text-[#565B66] max-w-2xl">
+            Understand the devices, networks, and inventions that shape our connected world.
+          </p>
+        </section>
+
+        <!-- Topic Collection Section -->
+        <section class="pt-10">
+          <div class="mb-8">
+            <h2 class="font-bold text-[28px] leading-[36px] text-[#16181D] tracking-[-0.02em] mb-2">
+              Explore a system, discover an innovation.
+            </h2>
+            <p class="text-[15px] leading-[24px] text-[#565B66]">
+              Explore eight fascinating paths through technology.
+            </p>
+          </div>
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<a href="computer-fundamentals.html" class="topic-card group bg-white border border-[#DEDED8] rounded-xl hover:border-[#8A8D94] flex flex-col h-full overflow-hidden p-5 text-inherit no-underline focus-visible:ring-2 focus-visible:ring-[#20232B]">
+ <div class="aspect-[16/10] w-full rounded-lg bg-[#F5F5F2] mb-5 flex items-center justify-center relative overflow-hidden"><img src="assets/technology/computer-fundamentals.png" alt="Desktop computer components including a motherboard, processor, RAM, graphics card, and cooling fans" class="absolute inset-0 w-full h-full object-cover" width="1376" height="768" loading="lazy" decoding="async"/></div>
+ <div class="flex flex-col flex-1 justify-between"><div class="mb-6"><h3 class="font-bold text-[18px] leading-[24px] tracking-[-0.01em] mb-2">Computer Fundamentals</h3><p class="text-[13px] leading-[20px] text-[#565B66]">Understand hardware, software, data, and how computers work.</p></div><div class="flex items-center justify-between pt-3 border-t border-[#F5F5F2]"><span class="text-[12px] font-semibold text-[#565B66]">Explore topic</span><span aria-hidden="true" class="material-symbols-outlined text-[18px]">arrow_forward</span></div></div></a>
+<a href="programming-concepts.html" aria-label="Explore Programming Concepts quiz" class="topic-card group bg-white border border-[#DEDED8] rounded-xl hover:border-[#8A8D94] flex flex-col h-full overflow-hidden p-5 text-inherit no-underline focus-visible:ring-2 focus-visible:ring-[#20232B]">
+ <div class="aspect-[16/10] w-full rounded-lg bg-[#F5F5F2] mb-5 flex items-center justify-center relative overflow-hidden"><img src="assets/technology/programming-concepts.png" alt="Programming languages including Python, Java, JavaScript, C++, SQL, and PHP" class="absolute inset-0 w-full h-full object-cover" width="1376" height="768" loading="lazy" decoding="async"/></div>
+ <div class="flex flex-col flex-1 justify-between"><div class="mb-6"><h3 class="font-bold text-[18px] leading-[24px] tracking-[-0.01em] mb-2">Programming Concepts</h3><p class="text-[13px] leading-[20px] text-[#565B66]">Explore algorithms, variables, functions, and computational thinking.</p></div><div class="flex items-center justify-between pt-3 border-t border-[#F5F5F2]"><span class="text-[12px] font-semibold text-[#565B66]">Explore topic</span><span aria-hidden="true" class="material-symbols-outlined text-[18px]">schedule</span></div></div></a>
+<a href="internet-networks.html" aria-label="Explore Internet &amp; Networks quiz" class="topic-card group bg-white border border-[#DEDED8] rounded-xl hover:border-[#8A8D94] flex flex-col h-full overflow-hidden p-5 text-inherit no-underline focus-visible:ring-2 focus-visible:ring-[#20232B]">
+ <div class="aspect-[16/10] w-full rounded-lg bg-[#F5F5F2] mb-5 flex items-center justify-center relative overflow-hidden"><img src="assets/technology/internet-networks.png" alt="Computers and network devices connected across a global digital network" class="absolute inset-0 w-full h-full object-cover" width="1376" height="768" loading="lazy" decoding="async"/></div>
+ <div class="flex flex-col flex-1 justify-between"><div class="mb-6"><h3 class="font-bold text-[18px] leading-[24px] tracking-[-0.01em] mb-2">Internet &amp; Networks</h3><p class="text-[13px] leading-[20px] text-[#565B66]">Discover how connected devices exchange information.</p></div><div class="flex items-center justify-between pt-3 border-t border-[#F5F5F2]"><span class="text-[12px] font-semibold text-[#565B66]">Explore topic</span><span aria-hidden="true" class="material-symbols-outlined text-[18px]">schedule</span></div></div></a>
+<a href="cybersecurity-basics.html" aria-label="Explore Cybersecurity Basics quiz" class="topic-card group bg-white border border-[#DEDED8] rounded-xl hover:border-[#8A8D94] flex flex-col h-full overflow-hidden p-5 text-inherit no-underline focus-visible:ring-2 focus-visible:ring-[#20232B]">
+ <div class="aspect-[16/10] w-full rounded-lg bg-[#F5F5F2] mb-5 flex items-center justify-center relative overflow-hidden"><img src="assets/technology/cybersecurity-basics.png" alt="Hooded person working at computer monitors in a dark cybersecurity setting" class="absolute inset-0 w-full h-full object-cover" width="1376" height="768" loading="lazy" decoding="async"/></div>
+ <div class="flex flex-col flex-1 justify-between"><div class="mb-6"><h3 class="font-bold text-[18px] leading-[24px] tracking-[-0.01em] mb-2">Cybersecurity Basics</h3><p class="text-[13px] leading-[20px] text-[#565B66]">Learn how encryption, authentication, and secure habits protect data.</p></div><div class="flex items-center justify-between pt-3 border-t border-[#F5F5F2]"><span class="text-[12px] font-semibold text-[#565B66]">Explore topic</span><span aria-hidden="true" class="material-symbols-outlined text-[18px]">schedule</span></div></div></a>
+<a href="artificial-intelligence.html" aria-label="Explore Artificial Intelligence quiz" class="topic-card group bg-white border border-[#DEDED8] rounded-xl hover:border-[#8A8D94] flex flex-col h-full overflow-hidden p-5 text-inherit no-underline focus-visible:ring-2 focus-visible:ring-[#20232B]">
+ <div class="aspect-[16/10] w-full rounded-lg bg-[#F5F5F2] mb-5 flex items-center justify-center relative overflow-hidden"><img src="assets/technology/artificial-intelligence.png" alt="Humanoid robot interacting with a digital interface in a technology laboratory" class="absolute inset-0 w-full h-full object-cover" width="1376" height="768" loading="lazy" decoding="async"/></div>
+ <div class="flex flex-col flex-1 justify-between"><div class="mb-6"><h3 class="font-bold text-[18px] leading-[24px] tracking-[-0.01em] mb-2">Artificial Intelligence</h3><p class="text-[13px] leading-[20px] text-[#565B66]">Explore learning systems, models, and machine intelligence.</p></div><div class="flex items-center justify-between pt-3 border-t border-[#F5F5F2]"><span class="text-[12px] font-semibold text-[#565B66]">Explore topic</span><span aria-hidden="true" class="material-symbols-outlined text-[18px]">schedule</span></div></div></a>
+<a href="digital-electronics.html" aria-label="Explore Digital Electronics quiz" class="topic-card group bg-white border border-[#DEDED8] rounded-xl hover:border-[#8A8D94] flex flex-col h-full overflow-hidden p-5 text-inherit no-underline focus-visible:ring-2 focus-visible:ring-[#20232B]">
+ <div class="aspect-[16/10] w-full rounded-lg bg-[#F5F5F2] mb-5 flex items-center justify-center relative overflow-hidden"><img src="assets/technology/digital-electronics.png" alt="Electronic circuit board with microchips, traces, and components" class="absolute inset-0 w-full h-full object-cover" width="1376" height="768" loading="lazy" decoding="async"/></div>
+ <div class="flex flex-col flex-1 justify-between"><div class="mb-6"><h3 class="font-bold text-[18px] leading-[24px] tracking-[-0.01em] mb-2">Digital Electronics</h3><p class="text-[13px] leading-[20px] text-[#565B66]">Discover circuits, logic gates, sensors, and digital signals.</p></div><div class="flex items-center justify-between pt-3 border-t border-[#F5F5F2]"><span class="text-[12px] font-semibold text-[#565B66]">Explore topic</span><span aria-hidden="true" class="material-symbols-outlined text-[18px]">schedule</span></div></div></a>
+<a href="technology-society.html" aria-label="Explore Technology &amp; Society quiz" class="topic-card group bg-white border border-[#DEDED8] rounded-xl hover:border-[#8A8D94] flex flex-col h-full overflow-hidden p-5 text-inherit no-underline focus-visible:ring-2 focus-visible:ring-[#20232B]">
+ <div class="aspect-[16/10] w-full rounded-lg bg-[#F5F5F2] mb-5 flex items-center justify-center relative overflow-hidden"><img src="assets/technology/technology-society.png" alt="Customer making a smartphone payment at a cafe counter" class="absolute inset-0 w-full h-full object-cover" width="1376" height="768" loading="lazy" decoding="async"/></div>
+ <div class="flex flex-col flex-1 justify-between"><div class="mb-6"><h3 class="font-bold text-[18px] leading-[24px] tracking-[-0.01em] mb-2">Technology &amp; Society</h3><p class="text-[13px] leading-[20px] text-[#565B66]">Examine accessibility, privacy, and the social impact of invention.</p></div><div class="flex items-center justify-between pt-3 border-t border-[#F5F5F2]"><span class="text-[12px] font-semibold text-[#565B66]">Explore topic</span><span aria-hidden="true" class="material-symbols-outlined text-[18px]">schedule</span></div></div></a>
+<a href="history-innovation.html" aria-label="Explore History of Innovation quiz" class="topic-card group bg-white border border-[#DEDED8] rounded-xl hover:border-[#8A8D94] flex flex-col h-full overflow-hidden p-5 text-inherit no-underline focus-visible:ring-2 focus-visible:ring-[#20232B]">
+ <div class="aspect-[16/10] w-full rounded-lg bg-[#F5F5F2] mb-5 flex items-center justify-center relative overflow-hidden"><img src="assets/technology/history-innovation.png" alt="Engineers working with an early room-sized computer" class="absolute inset-0 w-full h-full object-cover" width="1376" height="768" loading="lazy" decoding="async"/></div>
+ <div class="flex flex-col flex-1 justify-between"><div class="mb-6"><h3 class="font-bold text-[18px] leading-[24px] tracking-[-0.01em] mb-2">History of Innovation</h3><p class="text-[13px] leading-[20px] text-[#565B66]">Trace the breakthroughs that transformed tools and communication.</p></div><div class="flex items-center justify-between pt-3 border-t border-[#F5F5F2]"><span class="text-[12px] font-semibold text-[#565B66]">Explore topic</span><span aria-hidden="true" class="material-symbols-outlined text-[18px]">schedule</span></div></div></a>
+</div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer (Unified across Curio) -->
+  <footer class="w-full bg-[#EEEEEA] border-t border-[#DEDED8] py-12">
+    <div class="max-w-[1200px] mx-auto px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 pb-8">
+        <div class="space-y-2">
+          <div class="flex items-center gap-1.5">
+            <span class="font-headline-sm text-xl font-bold text-[#16181D]">Curio</span>
+            <span class="w-1.5 h-1.5 rounded-full bg-[#FF5C3A]"></span>
+          </div>
+          <p class="font-body-sm text-[14px] text-[#565B66]">Learn the world, one question at a time.</p>
+        </div>
+        <nav class="flex flex-wrap items-center gap-x-8 gap-y-2" data-active-classes="text-[#16181D] font-semibold">
+          <a class="font-body-sm text-[14px] text-[#565B66] hover:text-[#16181D] transition-colors" data-path="about" href="index.html#how-it-works">About</a>
+          <a class="font-body-sm text-[14px] text-[#565B66] hover:text-[#16181D] transition-colors" data-path="curriculum" href="index.html#categories">Curriculum</a>
+          <a class="font-body-sm text-[14px] text-[#565B66] hover:text-[#16181D] transition-colors" data-path="topics" href="index.html#categories">Topics</a>
+          <a class="font-body-sm text-[14px] text-[#565B66] hover:text-[#16181D] transition-colors" data-path="privacy-policy" href="privacy.html">Privacy</a>
+          <a class="font-body-sm text-[14px] text-[#565B66] hover:text-[#16181D] transition-colors" data-path="terms-of-service" href="terms.html">Terms</a>
+        </nav>
+      </div>
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-[#DEDED8]">
+        <p class="font-label-coord text-[11px] uppercase tracking-widest text-[#565B66]">© 2026 Curio. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.102.0/dist/umd/supabase.js" defer></script>
+<script src="assets/auth/config.js" defer></script>
+<script src="assets/auth/client.js" defer></script>
+<script src="assets/auth/session.js" defer></script>
+</body>
+</html>

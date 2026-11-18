@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Curio — Knowledge &amp; Belief Quiz</title><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100..900&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}
+
+/* Smooth scrolling with sticky header offset (matches the Daily Six pattern) */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+/* Visible keyboard focus for every interactive element */
+a:focus-visible, button:focus-visible {
+  outline: 2px solid #20232B;
+  outline-offset: 2px;
+}
+
+/* Headings that receive programmatic focus should not draw a ring */
+#question-title:focus, #completion-title:focus {
+  outline: none;
+}
+
+/* Answer options: same hover/transition pattern as the Daily Six quiz */
+.quiz-option {
+  transition: background-color 180ms ease, border-color 180ms ease, color 180ms ease, box-shadow 180ms ease, transform 150ms ease;
+}
+
+.quiz-option:enabled:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px -2px rgba(22, 24, 29, 0.06);
+}
+
+/* Accessibility: respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+  *, *::before, *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+  .quiz-option:enabled:hover {
+    transform: none !important;
+  }
+}
+</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"inverse-primary":"#c4c6d1","tertiary-container":"#4b0800","primary-container":"#20232b","surface-container":"#eeeeeb","on-tertiary-container":"#f35332","secondary-container":"#9db3fe","on-tertiary-fixed":"#3e0500","outline-variant":"#c6c6cb","on-primary-fixed":"#181b23","on-secondary-fixed-variant":"#2c4386","outline":"#76777c","tertiary-fixed-dim":"#ffb4a4","inverse-on-surface":"#f1f1ee","on-secondary-fixed":"#00174c","on-surface-variant":"#46464b","on-error":"#ffffff","primary-fixed":"#e0e2ed","surface-container-low":"#f4f4f1","error":"#ba1a1a","on-primary-container":"#888a94","surface-container-lowest":"#ffffff","surface-bright":"#f9f9f6","on-primary":"#ffffff","tertiary":"#230200","surface-tint":"#5b5e67","error-container":"#ffdad6","surface-dim":"#dadad7","background":"#f5f5f2","tertiary-fixed":"#ffdad3","secondary":"#455b9f","on-surface":"#1a1c1b","on-secondary-container":"#2c4386","on-primary-fixed-variant":"#44474f","on-secondary":"#ffffff","primary-fixed-dim":"#c4c6d1","on-background":"#1a1c1b","on-tertiary":"#ffffff","surface-container-highest":"#e2e3e0","surface-container-high":"#e8e8e5","secondary-fixed-dim":"#b5c4ff","on-tertiary-fixed-variant":"#8c1700","surface":"#f5f5f2","secondary-fixed":"#dbe1ff","inverse-surface":"#2f312f","surface-variant":"#e2e3e0","primary":"#0a0d15","on-error-container":"#93000a"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{margin:"1.5rem","gutter-sm":"1rem","space-xl":"2.5rem","space-lg":"1.5rem","space-sm":"0.5rem","margin-sm":"1rem","margin-lg":"3rem",gutter:"1.5rem","space-xs":"0.25rem","gutter-lg":"2rem","space-md":"1rem"},fontFamily:{"display-lg-mobile":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"]},fontSize:{"display-lg-mobile":["38px",{lineHeight:"44px",letterSpacing:"-0.025em",fontWeight:"800"}],"headline-lg":["28px",{lineHeight:"36px",letterSpacing:"-0.02em",fontWeight:"700"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.02em",fontWeight:"600"}],"headline-md":["22px",{lineHeight:"28px",letterSpacing:"-0.015em",fontWeight:"600"}],"body-sm":["13px",{lineHeight:"20px",letterSpacing:"0.005em",fontWeight:"400"}],"headline-xl":["40px",{lineHeight:"48px",letterSpacing:"-0.025em",fontWeight:"700"}],"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.01em",fontWeight:"600"}],"display-lg":["56px",{lineHeight:"64px",letterSpacing:"-0.03em",fontWeight:"800"}],"body-md":["15px",{lineHeight:"24px",letterSpacing:"0em",fontWeight:"400"}],"label-sm":["11px",{lineHeight:"14px",letterSpacing:"0.04em",fontWeight:"700"}],"headline-xl-mobile":["30px",{lineHeight:"36px",letterSpacing:"-0.02em",fontWeight:"700"}],"body-lg":["18px",{lineHeight:"28px",letterSpacing:"-0.005em",fontWeight:"400"}],"headline-sm":["18px",{lineHeight:"24px",letterSpacing:"-0.01em",fontWeight:"600"}]}}}};</script><link rel="stylesheet" href="assets/quiz/quiz.css"/></head><body class="bg-[#F5F5F2] font-body-md text-on-surface antialiased selection:bg-on-tertiary-container selection:text-surface-container-lowest"><header class="fixed top-0 inset-x-0 z-50 h-20 bg-[#F5F5F2]/90 backdrop-blur-md border-b border-surface-container-highest"><div class="h-20 max-w-7xl mx-auto px-margin md:px-gutter-lg flex items-center justify-between"><a aria-label="Curio Homepage" class="flex items-center gap-1.5" data-path="home" href="index.html"><span class="font-display-lg text-headline-md tracking-tight font-extrabold text-on-surface">Curio</span><span class="w-2.5 h-2.5 rounded-full bg-on-tertiary-container mb-1"></span></a><div class="flex items-center gap-space-md sm:gap-space-lg"><a class="font-label-lg text-label-lg text-on-surface hover:text-on-surface-variant transition-colors" data-path="sign-in" href="signin.html">Sign In</a><a class="inline-flex items-center justify-center bg-primary-container text-surface-container-lowest rounded-lg px-space-lg py-2.5 font-label-lg text-label-lg hover:bg-surface-tint active:bg-primary transition-all shadow-sm" data-path="explore" href="index.html#categories">Start Exploring</a><a href="signin.html" aria-label="Account access" class="w-9 h-9 rounded-full flex items-center justify-center"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span aria-hidden="true" class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></a></div></div></header><main class="w-full pt-20 bg-[#F5F5F2] min-h-screen"><div class="flex flex-col w-full">
+<div class="max-w-[1200px] w-full mx-auto px-margin md:px-gutter-lg py-10">
+<!-- 1. BREADCRUMB -->
+<nav aria-label="Breadcrumb" class="flex items-center gap-2 mb-8">
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" href="index.html">Home</a>
+<span aria-hidden="true" class="material-symbols-outlined text-outline text-[14px]">chevron_right</span>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" href="philosophy.html">Philosophy</a>
+<span aria-hidden="true" class="material-symbols-outlined text-outline text-[14px]">chevron_right</span>
+<span aria-current="page" class="font-label-md text-label-md text-on-surface font-semibold">Knowledge &amp; Belief</span>
+</nav>
+<!-- 2. HERO / QUIZ INTRO -->
+<section class="mb-10">
+<div class="inline-flex items-center gap-2 mb-3">
+<span class="w-2 h-2 rounded-full bg-on-tertiary-container"></span>
+<span class="font-label-sm text-label-sm text-on-tertiary-container uppercase tracking-widest font-extrabold">Philosophy Quiz</span>
+</div>
+<h1 class="font-display-lg text-headline-xl lg:text-display-lg text-on-surface tracking-tight mb-3">
+        Knowledge &amp; Belief
+      </h1>
+<div>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+          15 questions. Explore evidence, skepticism, and the limits of knowledge.
+        </p>
+</div>
+</section>
+<!-- 3. MAIN QUIZ CARD CONTAINER -->
+<div class="w-full flex justify-center">
+<div class="w-full max-w-[760px]">
+<!-- Screen-reader announcements (answer result, completion) -->
+<div aria-atomic="true" aria-live="polite" class="sr-only" id="sr-status"></div>
+<!-- ACTIVE QUESTION CONTAINER -->
+<article class="bg-surface-container-lowest rounded-[16px] border border-[#DEDED8] p-6 sm:p-8 lg:p-10 shadow-sm" id="question-card">
+<!-- Header Meta Row -->
+<div class="flex items-center justify-between pb-1">
+<div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-surface-container text-on-surface font-label-sm text-label-sm font-semibold">
+<span aria-hidden="true" class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="sr-only">Difficulty: </span><span id="difficulty-badge">Easy</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider font-bold" id="question-counter">
+              QUESTION 1 OF 15
+            </span>
+</div>
+<!-- Progress Bar -->
+<div class="w-full mt-4 mb-6">
+<div aria-label="Quiz progress" aria-valuemax="15" aria-valuemin="1" aria-valuenow="1" aria-valuetext="Question 1 of 15" class="h-2 w-full rounded-full bg-surface-container overflow-hidden" id="progress-track" role="progressbar">
+<div class="h-full bg-on-tertiary-container transition-all duration-500 rounded-full" id="progress-indicator" style="width: 6.67%;"></div>
+</div>
+</div>
+<!-- Question + options (faded between questions) -->
+<div id="question-body">
+<!-- Question Prompt -->
+<h2 class="font-headline-lg text-headline-md lg:text-headline-lg text-on-surface mb-6 leading-snug" id="question-title" tabindex="-1">Which branch of philosophy studies knowledge?</h2>
+<!-- Four Answer Options (A, B, C, D) -->
+<div aria-labelledby="question-title" class="flex flex-col gap-3" id="answers-container" role="group">
+<!-- Dynamically populated via renderQuestion -->
+</div>
+</div>
+<!-- 4. DEDICATED EDUCATIONAL FEEDBACK AREA (Toggled upon answer selection) -->
+<div class="hidden mt-6 pt-2" id="feedback-panel">
+<div class="rounded-xl p-5 sm:p-6 border transition-colors shadow-sm flex flex-col gap-4" id="feedback-card">
+<div class="flex items-start gap-3">
+<div class="w-8 h-8 rounded-full flex items-center justify-center shrink-0" id="feedback-icon-wrap">
+<span aria-hidden="true" class="material-symbols-outlined text-[20px]" id="feedback-icon">check_circle</span>
+</div>
+<div class="flex-1">
+<div class="flex flex-wrap items-center gap-2">
+<span class="inline-flex items-center px-2.5 py-0.5 rounded-md font-label-sm text-label-sm font-bold uppercase tracking-wider" id="feedback-badge">Correct</span>
+<h3 class="font-headline-sm text-headline-sm font-bold" id="feedback-headline">Nicely done!</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface mt-2 leading-relaxed" id="feedback-text"></p>
+</div>
+</div>
+<!-- Next Question / View Results Row -->
+<div class="flex items-center justify-end pt-2 border-t border-surface-container">
+<button class="inline-flex items-center justify-center gap-2 bg-[#20232B] text-surface-container-lowest px-6 py-2.5 rounded-[8px] font-label-lg text-label-lg hover:bg-surface-tint active:bg-primary transition-all shadow-sm" id="next-question-btn" type="button">
+<span id="next-question-label">Next Question</span>
+<span aria-hidden="true" class="material-symbols-outlined text-[18px]" id="next-question-icon">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</article>
+<!-- 5. COMPLETION STATE SCREEN (Activated on final question view results) -->
+<article class="hidden bg-surface-container-lowest rounded-[16px] border border-[#DEDED8] p-8 sm:p-10 lg:p-12 shadow-sm text-center" id="completion-card">
+<!-- Neutral completion mark (same pattern as the Daily Six completion state) -->
+<div aria-hidden="true" class="mx-auto w-20 h-20 rounded-full bg-surface-container flex items-center justify-center mb-6 text-on-surface shadow-sm">
+<span class="material-symbols-outlined text-[44px]">check</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-tertiary-container uppercase tracking-widest font-extrabold mb-2 block">
+            Assessment Completed
+          </span>
+<h2 class="font-display-lg text-headline-xl lg:text-headline-xl text-on-surface font-extrabold tracking-tight mb-2" id="completion-title" tabindex="-1">
+            Quiz Complete
+          </h2>
+<!-- Score Showcase -->
+<div class="my-6 p-6 rounded-xl bg-surface-container-low max-w-md mx-auto flex flex-col items-center justify-center border border-[#DEDED8]">
+<p class="sr-only" id="completion-score-sr"></p>
+<div aria-hidden="true" class="flex items-baseline gap-2">
+<span class="font-display-lg text-display-lg text-primary font-extrabold tracking-tight" id="completion-score-display">0</span>
+<span class="font-headline-md text-headline-md text-on-surface-variant font-bold">/ 15</span>
+</div>
+<div class="mt-2 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md font-bold" id="completion-badge-display">
+<span id="completion-accuracy-text">0% accuracy</span>
+</div>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-lg mx-auto mb-8 leading-relaxed" id="completion-message"></p>
+<!-- Result breakdown -->
+<div class="grid grid-cols-2 gap-3 max-w-md mx-auto mb-8 text-left">
+<div class="bg-surface-container p-3.5 rounded-lg">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Correct</span>
+<span class="font-headline-md text-headline-sm font-bold text-[#1E7A4F]" id="metric-correct-count">0</span>
+</div>
+<div class="bg-surface-container p-3.5 rounded-lg">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Incorrect</span>
+<span class="font-headline-md text-headline-sm font-bold text-[#B3261E]" id="metric-incorrect-count">0</span>
+</div>
+</div>
+<!-- Action Buttons -->
+<div class="flex flex-col sm:flex-row items-center justify-center gap-3">
+
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#20232B] text-surface-container-lowest px-6 py-3 rounded-[8px] font-label-lg text-label-lg font-semibold hover:bg-surface-tint active:bg-primary transition-all shadow-sm" href="philosophy.html">
+<span>Back to Philosophy</span>
+<span aria-hidden="true" class="material-symbols-outlined text-[18px]">menu_book</span>
+</a>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div>
+<script src="assets/quiz/quiz.js"></script>
+<script>
+(function(){
+const questions = [
+  {
+    "question": "Which branch of philosophy studies knowledge?",
+    "difficulty": "Easy",
+    "options": [
+      "Epistemology",
+      "Political philosophy",
+      "Aesthetics",
+      "Ethics"
+    ],
+    "correctIndex": 0,
+    "explanation": "Epistemology studies knowledge, justification and related questions about belief."
+  },
+  {
+    "question": "What distinguishes believing a claim from its being true?",
+    "difficulty": "Easy",
+    "options": [
+      "Belief is an attitude; truth concerns the claim",
+      "Belief concerns the future; truth concerns the past",
+      "Belief concerns numbers; truth concerns images",
+      "Belief requires writing; truth requires speaking"
+    ],
+    "correctIndex": 0,
+    "explanation": "People can believe true or false propositions; conviction does not itself establish truth."
+  },
+  {
+    "question": "Which source of knowledge depends on another person's report?",
+    "difficulty": "Easy",
+    "options": [
+      "Deduction",
+      "Perception",
+      "Introspection",
+      "Testimony"
+    ],
+    "correctIndex": 3,
+    "explanation": "Testimony includes learning through what others tell or communicate to us."
+  },
+  {
+    "question": "What is skepticism in an epistemological context?",
+    "difficulty": "Easy",
+    "options": [
+      "Questioning whether knowledge claims are justified",
+      "Treating every belief as a moral duty",
+      "Accepting whatever most people believe",
+      "Explaining how political institutions are elected"
+    ],
+    "correctIndex": 0,
+    "explanation": "Skepticism challenges knowledge claims or their justification in various domains and degrees."
+  },
+  {
+    "question": "Which example involves learning through perception?",
+    "difficulty": "Easy",
+    "options": [
+      "Inferring a conclusion from two premises",
+      "Accepting a fact reported by a friend",
+      "Recalling a previously learned password",
+      "Seeing that a traffic light is red"
+    ],
+    "correctIndex": 3,
+    "explanation": "Perception supplies information through the senses; memory, inference and testimony are different sources."
+  },
+  {
+    "question": "What do Gettier cases challenge?",
+    "difficulty": "Medium",
+    "options": [
+      "Justified true belief as a sufficient account",
+      "True belief as a necessary condition for knowledge",
+      "Justification as irrelevant to the concept of knowledge",
+      "Knowledge as incompatible with any sensory evidence"
+    ],
+    "correctIndex": 0,
+    "explanation": "Gettier-style cases describe justified true beliefs whose truth seems too lucky to count as knowledge."
+  },
+  {
+    "question": "Why is a lucky correct guess not normally treated as knowledge?",
+    "difficulty": "Medium",
+    "options": [
+      "Its content is justified merely by matching the answer",
+      "Its certainty exceeds the strength required for knowledge",
+      "Its truth lacks the required epistemic connection",
+      "Its truth was established by too much supporting evidence"
+    ],
+    "correctIndex": 2,
+    "explanation": "Knowledge requires more than accidentally arriving at a true answer; theories differ on the additional conditions."
+  },
+  {
+    "question": "Which case most clearly illustrates confirmation bias?",
+    "difficulty": "Medium",
+    "options": [
+      "Suspending judgment while an independent source is consulted",
+      "Testing the favored explanation against a strong alternative",
+      "Seeking supporting evidence while neglecting objections",
+      "Giving contrary evidence more weight after checking it"
+    ],
+    "correctIndex": 2,
+    "explanation": "Confirmation bias favors information supporting an existing belief and discounts contrary information."
+  },
+  {
+    "question": "What is a priori justification traditionally understood to be independent of?",
+    "difficulty": "Medium",
+    "options": [
+      "Considering relations between concepts",
+      "Particular sensory experience",
+      "Understanding the concepts involved",
+      "Following a valid chain of inference"
+    ],
+    "correctIndex": 1,
+    "explanation": "A priori justification is contrasted with justification dependent on experience; understanding concepts and reasoning can still be involved."
+  },
+  {
+    "question": "What is the problem of induction concerned with?",
+    "difficulty": "Medium",
+    "options": [
+      "Explaining why contradictions cannot both hold",
+      "Deducing conclusions from the meanings of terms",
+      "Checking whether an argument preserves truth",
+      "Justifying inferences beyond observed cases"
+    ],
+    "correctIndex": 3,
+    "explanation": "Past observations do not deductively guarantee unobserved or future cases; the challenge is to explain their support."
+  },
+  {
+    "question": "Why is 'the thermometer is reliable because it agrees with itself' inadequate as a calibration test?",
+    "difficulty": "Hard",
+    "options": [
+      "Agreement with a preferred prediction is the calibration standard",
+      "Instruments are accurate whenever they give stable readings",
+      "Repeated agreement does not establish accuracy",
+      "Repeated agreement establishes accuracy without comparison"
+    ],
+    "correctIndex": 2,
+    "explanation": "A consistently biased instrument can repeat the same incorrect result; independent standards are needed."
+  },
+  {
+    "question": "A witness is honest but has poor visibility. Which distinction matters?",
+    "difficulty": "Hard",
+    "options": [
+      "Validity and soundness",
+      "Truth and logical necessity",
+      "Knowledge and acquaintance",
+      "Sincerity and perceptual reliability"
+    ],
+    "correctIndex": 3,
+    "explanation": "Honest reporting does not guarantee accurate perception under difficult conditions."
+  },
+  {
+    "question": "What distinguishes reliabilism from requiring accessible reasons for every belief?",
+    "difficulty": "Hard",
+    "options": [
+      "A reliable belief must result from a consciously checked argument",
+      "A person's conscious access to reasons is sufficient for reliability",
+      "Reliable belief-forming processes can justify beliefs",
+      "A process is reliable when the believer feels confident in it"
+    ],
+    "correctIndex": 2,
+    "explanation": "Reliabilist accounts emphasize processes that tend to produce true beliefs, rather than requiring reasons fully available to reflection."
+  },
+  {
+    "question": "A stopped clock shows the correct time when someone checks it. Which epistemic concern does this illustrate?",
+    "difficulty": "Hard",
+    "options": [
+      "Justification is incompatible with beliefs about time",
+      "An unreliable source makes each statement false",
+      "A correct conclusion establishes a reliable method",
+      "A true belief can arise through luck"
+    ],
+    "correctIndex": 3,
+    "explanation": "The match is accidental relative to the faulty information source, resembling concerns central to Gettier-style examples."
+  },
+  {
+    "question": "What is the principal challenge of an infinite regress of justification?",
+    "difficulty": "Hard",
+    "options": [
+      "An argument's conclusion is true whenever its premises are sincere",
+      "Support is established by repeating the initial belief",
+      "Each supporting reason seems to need further support",
+      "Every supporting reason must be an empirical observation"
+    ],
+    "correctIndex": 2,
+    "explanation": "Regress arguments motivate competing foundationalist, coherentist and other accounts of justification."
+  }
+];
+document.getElementById('completion-card').hidden=true;
+CurioQuiz.mount(document.getElementById('question-card'), questions, false);
+})();
+</script></main><footer class="w-full bg-[#F5F5F2] border-t border-surface-container-highest py-12 px-margin md:px-gutter-lg"><div class="max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-space-lg"><div class="space-y-space-xs"><div class="flex items-center gap-1.5"><span class="font-display-lg text-headline-sm tracking-tight font-extrabold text-on-surface">Curio</span><span class="w-2 h-2 rounded-full bg-on-tertiary-container mb-0.5"></span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Learn the world, one question at a time.</p></div><nav class="flex flex-wrap items-center gap-x-space-lg gap-y-space-xs" data-active-classes="text-on-surface font-semibold"><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="index.html#how-it-works">About</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="curriculum" href="index.html#categories">Curriculum</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="topics" href="index.html#categories">Topics</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="privacy-policy" href="privacy.html">Privacy</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="terms-of-service" href="terms.html">Terms</a></nav></div><div class="max-w-7xl mx-auto mt-space-lg pt-space-md border-t border-surface-container flex flex-col sm:flex-row items-center justify-between gap-space-sm font-label-sm text-label-sm text-on-surface-variant"><p>© 2026 Curio. All rights reserved.</p></div></footer><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.102.0/dist/umd/supabase.js" defer></script>
+<script src="assets/auth/config.js" defer></script>
+<script src="assets/auth/client.js" defer></script>
+<script src="assets/auth/session.js" defer></script>
+</body></html>
