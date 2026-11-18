@@ -12,7 +12,7 @@
     "test:production": "node tests/test-production.cjs"
   },
   "devDependencies": {
-    "@supabase/supabase-js": "2.102.0",
+    "@supabase/supabase-js": "2.119.0",
     "jsdom": "26.1.0",
     "tailwindcss": "3.4.17"
   }
