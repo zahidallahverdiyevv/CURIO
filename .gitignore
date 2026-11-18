@@ -13,3 +13,15 @@ son_sehife_work/
 .agents/
 *.pem
 *.key
+
+# Local review exports and historical project records (sources stay tracked).
+docs/archive/
+docs/screenshots/
+docs/quiz-review/*
+!docs/quiz-review/README.md
+!docs/quiz-review/sources.md
+docs/AUTH-20*.md
+docs/QUIZ-EDITORIAL-20*.md
+docs/QUIZ-EXPANSION-20*.md
+docs/SITE-AUDIT-20*.md
+/*-review-20*.md

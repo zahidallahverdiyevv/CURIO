@@ -1,6 +1,6 @@
 ---
 name: Curio — Contemporary Explorer
-source_of_truth: code(1).html (uploaded Homepage snapshot)
+source_of_truth: current root HTML pages and shared assets
 colors:
   background: '#F5F5F2'
   surface: '#F5F5F2'
@@ -195,24 +195,9 @@ a, button {
 **Do not paste these declarations over the working code.** This excerpt records its behavior; the full implementation also includes Tailwind utilities and JavaScript-driven transitions. The sticky header is `h-20` (80px); scroll padding is 88px and target sections also use `scroll-mt-24` (96px).
 
 
-## Current Homepage Design & Integration Guardrails
+## Integration guidance
 
-- **Hero:** Preserve the existing heading “Curiosity makes the world bigger.” and its supporting text.
-- **Daily Six:** Preserve the six-question daily experience, answer feedback, explanations, and Next Question interaction.
-- **Categories:** Preserve six illustrated category cards: History, Geography, Science, Philosophy, Art & Culture, and Technology.
-- **How It Works:** Preserve the existing “Learn through curiosity.” section and its three-step explanation.
-- **Header (observed):** The uploaded HTML already has Curio logo, Sign In, Start Exploring, and profile icon; no Explore/Curriculum/Topics header links. Start Exploring uses `href="javascript:void(0)"` as a placeholder for a **future Stitch-designed Sign Up page**; do not silently route it to categories or generate an unrequested page. Sign In currently has `href="#"`, and the profile icon is a noninteractive `div`; authentication is not implemented.
-- **Hero CTAs:** `Explore Topics` links to `#categories`, `How It Works` to `#how-it-works`; both use smooth anchor navigation. Keep existing actions unless explicitly redesigned.
-- **Integration:** Future pages are designed in Google Stitch first and imported into Antigravity afterward. Reuse existing styles and components, verify links, and avoid changing the Homepage or quiz logic as a side effect.
-- **Scope:** This document is a visual and interaction guide, **not** an authentication, backend, database, or routing specification.
-
-## Known scope limits and source observations
-
-- The footer in the uploaded HTML **still contains** `Curriculum` and `Topics` placeholder links, even though these were removed from the header. This document records the discrepancy; it does not silently authorize removing footer links.
-- The category cards are presently `<article>` elements without actual category-page links in this snapshot. New pages and routes are future work.
-- Daily Six question data is hardcoded in the HTML JavaScript; the snapshot does not establish a daily reset or persistence mechanism.
-- The `server(1).js` file serves static files on port 3000 and does not affect animation or component styles.
-- Current `code(1).html` uses Tailwind via CDN and a custom inline Tailwind configuration; when adding Stitch pages, prefer matching these effective classes rather than interpreting radius names from generic Tailwind defaults in other configurations.
+Preserve the homepage hero, six category cards, Daily Six interactions and How It Works section. Account behavior is documented in AUTH-SETUP.md; use the current HTML and assets as the implementation reference. Category cards and footer links are functional. Quiz data is public and progress is not persisted. Keep visual updates separate from changes to learning behavior.
 
 ## Design Consistency Checklist
 

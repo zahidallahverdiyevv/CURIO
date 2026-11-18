@@ -1,18 +1,15 @@
-# CURIO — latest review copies
+# Quiz review workflow
 
-The latest copies are **v3, dated 18 November 2026**. They match the 630 new questions used by the local site. Feedback has now been received for all six categories. The revised questions still need independent re-review. Earlier unversioned and v2 files are historical copies and should not be used as the current answer key. Answer letters changed across all 42 quizzes because option ordering was revised; History and Geography question text did not change in this revision.
+The 42 authored quizzes contain 630 questions. Their editable sources are in `content/quizzes/`; the six original quizzes and Daily Six remain in their HTML pages.
 
-- [All 630 questions, options, marked answers and explanations](all-quizzes-review-2026-11-18-v3.md)
-- [History — 105 questions](history-review-2026-11-18-v3.md)
-- [Geography — 105 questions](geography-review-2026-11-18-v3.md)
-- [Science — 105 questions](science-review-2026-11-18-v3.md)
-- [Philosophy — 105 questions](philosophy-review-2026-11-18-v3.md)
-- [Art & Culture — 105 questions](art-culture-review-2026-11-18-v3.md)
-- [Technology — 105 questions](technology-review-2026-11-18-v3.md)
-- [Revision notes and checks](../QUIZ-EDITORIAL-2026-11-18.md)
-- [Four revised sets together — 420 questions](four-revised-sets-2026-11-18-v3.md)
-- [Four revised sets as separate files in ZIP](four-revised-sets-2026-11-18-v3.zip)
-- [Answer-cue audit data](answer-cues-audit.json)
-- [Targeted source checks](sources.md)
+Generate local review copies from the current sources:
 
-These are review copies, not a claim of independent fact certification. The marked answers must be checked rather than assumed correct. Please return corrections using **quiz slug + question number**, not just answer letters: option ordering can change between revisions. The six original 15-question quizzes and Daily Six are separate and were not rewritten in this expansion.
+```sh
+npm run review:quizzes
+```
+
+This exports the six category answer keys, an answer-cue audit and a combined review file into this directory. Export scripts currently use the revision label `2026-11-18-v3`; rerunning them updates the contents from the current source rather than proving a new independent review.
+
+Generated answer packages and ZIP files are Git-ignored. Historical copies were preserved locally during repository cleanup; they are not required to build or test the site. [Targeted references](sources.md) remain tracked.
+
+Reviewer feedback was received for all six categories. Revised questions still require independent re-review. Marked answers are not certification of factual correctness. Report findings using **quiz slug + question number**, with a source and correction where relevant; answer letters can change between revisions.
