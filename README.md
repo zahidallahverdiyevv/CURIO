@@ -1,5 +1,7 @@
 # CURIO
 
+**[Canlı sayta keç →](https://zahidallahverdiyevv.github.io/CURIO/)**
+
 İngilisdilli öyrənmə və quiz platforması: altı bölmə, 48 mövzu quizi, Daily Six və interaktiv dünya xəritəsi. HTML və JavaScript istifadə edir. İnkişaf zamanı Tailwind CDN, yayımlanan versiyada isə yerli yığılmış CSS və pinned SDK işləyir. Node.js yerli serveri səhifələri təqdim edir; hesab funksiyaları Supabase Authentication ilə işləyir.
 
 ## İşə salmaq
