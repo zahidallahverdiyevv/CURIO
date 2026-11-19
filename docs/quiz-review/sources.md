@@ -1,6 +1,6 @@
-# Targeted reference checks — 17 November 2026
+# Quiz references
 
-These primary and institutional references were consulted for selected facts and conceptual distinctions. They do not certify every sentence or every question in the 630-question set. General curricular material was authored separately; independent review is ongoing.
+References used to check selected quiz facts and conceptual distinctions. This list covers targeted checks rather than a source for every question.
 
 ## History and historical evidence
 
@@ -63,5 +63,3 @@ Map geometry and its public-domain source are documented separately in [WORLD-MA
 - [Woolf — Time Passes, primary text](https://en.wikisource.org/wiki/To_the_Lighthouse/Time_Passes): the central section of To the Lighthouse.
 - [New Zealand education resource — Māui and the Sun](https://eng.mataurangamaori.tki.org.nz/Rauemi-tautoko/Te-Reo-Maori/Nga-Pakiwaitara-Maori-me-nga-Purakau-Onaianei/Maui-me-te-ra): the Māori narrative.
 - [CCEA — Hitchcock's cinematic style](https://ccea.org.uk/downloads/docs/Support/Fact%20File%3A%20AS/2019/AS%20MIA%20Fact%20File%3A%20Alfred%20Hitchcock%26%23039%3Bs%20Cinematic%20Style.pdf): coordinated camera movement and zoom.
-
-These are targeted references, not an exhaustive per-question bibliography or independent certification of all revised content.

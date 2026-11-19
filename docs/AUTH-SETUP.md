@@ -16,7 +16,7 @@ The Supabase JavaScript SDK is pinned to 2.102.0. `client.js` creates the client
 4. Allow the exact `auth-callback.html` and `reset-password.html` URLs, including any hosting subdirectory. Keep production entries precise.
 5. Review backend password policy, rate limits and bot protection. A frontend cooldown does not replace backend enforcement.
 
-Custom SMTP has been configured for the current development project. Successful saving is not proof of inbox delivery. Do not copy historical local URLs into production configuration.
+Verify SMTP delivery using a test inbox after configuring a new environment.
 
 Google sign-in remains disabled. Enable the frontend flag only after configuring the provider and testing its callback; no OAuth secret belongs in the repository.
 
@@ -32,6 +32,6 @@ Google sign-in remains disabled. Enable the frontend flag only after configuring
 
 `npm test` covers handler validation, pending and error states, session controls, safe profile rendering and pinned-SDK PKCE behavior with mocked HTTP. It does not create real users or send real email.
 
-Before launch, use an account and inbox controlled by the tester to verify signup, confirmation, reload, cross-tab state, sign out, recovery, expired/reused links and old/new password behavior on the actual HTTPS host. SMTP delivery, provider availability and callback configuration must be checked separately from unit tests.
+For each deployment environment, use a test account and inbox to verify signup, confirmation, reload, cross-tab state, sign out, recovery, expired/reused links and old/new password behavior on the actual HTTPS host. SMTP delivery, provider availability and callback configuration must be checked separately from unit tests.
 
 Official references: [password auth](https://supabase.com/docs/guides/auth/passwords), [redirect URLs](https://supabase.com/docs/guides/auth/redirect-urls), [SMTP](https://supabase.com/docs/guides/auth/auth-smtp), [password security](https://supabase.com/docs/guides/auth/password-security).

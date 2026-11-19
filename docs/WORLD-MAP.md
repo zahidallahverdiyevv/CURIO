@@ -1,6 +1,6 @@
 # Find the Country — interactive world map
 
-Added 17 November 2026. Open `/world-map.html` or use the interactive map banner on Geography.
+Open [Find the Country](https://zahidallahverdiyevv.github.io/CURIO/world-map.html) directly or from the Geography page.
 
 Each round chooses 15 different countries: five Easy, five Medium and five Hard, drawn from 63 curated targets. Players select the country outline on a real world map rather than choosing a text option. Three different guesses are allowed. First/second/third-guess points are 100/70/40; using the region hint subtracts 20 points from a successful answer. Repeated clicks on the same wrong country do not consume another guess. A reveal scores zero. The next button unlocks once the country is found or revealed. A completed round shows all 15 results and can start a new round.
 

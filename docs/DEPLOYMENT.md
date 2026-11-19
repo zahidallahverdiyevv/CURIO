@@ -1,6 +1,6 @@
 # Production deployment
 
-The public beta is published from `main` through GitHub Pages. Source remains ordinary HTML/JS; no framework migration is required.
+CURIO is published from `main` through GitHub Pages at [zahidallahverdiyevv.github.io/CURIO](https://zahidallahverdiyevv.github.io/CURIO/).
 
 ## Build and preview
 
@@ -16,7 +16,7 @@ The local production preview runs at `http://127.0.0.1:3090/CURIO/`, including t
 
 The build regenerates only `dist/`. It includes root HTML pages and public assets, compiles the six Tailwind themes to local CSS and copies the pinned Supabase SDK from the installed package. It excludes docs, quiz exports, tests, server source, credentials and Git metadata. Deploy the generated bundle, not the repository root.
 
-The output includes page descriptions, canonical URLs, account-page noindex, sitemap, favicon, a 404 page and a script hash CSP. Hashes permit only the exact inline initializers; other JavaScript is local. Remaining Google font/image hosts and the configured Supabase API are explicitly allowed. GitHub Pages controls HTTP headers and caching. HTML CSP cannot enforce frame-ancestors or HSTS; do not describe it as a substitute for a host-level header policy.
+The output includes page descriptions, canonical URLs, account-page noindex, sitemap, favicon, a 404 page and a script hash CSP. Hashes permit only the exact inline initializers; other JavaScript is local. Remaining Google font/image hosts and the configured Supabase API are explicitly allowed. GitHub Pages controls HTTP headers and caching. The HTML CSP does not control framing or transport-security headers.
 
 ## Release path
 
@@ -39,4 +39,4 @@ After deployment, check HTTPS home, category/quiz feedback, map, guest profile, 
 
 Auth unit/SDK tests use mocked HTTP. Actual confirmation email delivery and password recovery require a tester-controlled inbox and account. PKCE links should be opened in the browser that initiated the request. A successful build does not prove email delivery.
 
-Rollback by reverting the release through a PR and letting the same tested pipeline publish it. A successful deployment record and its page URL prove publication; pushing code alone does not.
+Rollback by reverting the release through a PR and letting the same tested pipeline publish it. Confirm that the deployment completes successfully and check the live URL after rollback.

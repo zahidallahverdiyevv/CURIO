@@ -1,15 +1,35 @@
-# Quiz review workflow
+# Quiz editing and review
 
-The 42 authored quizzes contain 630 questions. Their editable sources are in `content/quizzes/`; the six original quizzes and Daily Six remain in their HTML pages.
+CURIO has 48 topic quizzes. The editable sources for 42 quizzes are in `content/quizzes/`; the six original quizzes and Daily Six are defined in their HTML pages.
 
-Generate local review copies from the current sources:
+## Edit content
+
+Update the relevant category file, then regenerate the quiz pages and run checks:
+
+```sh
+npm run build:quizzes
+npm test
+```
+
+Each topic contains 15 questions, divided evenly between Easy, Medium and Hard. Review the generated HTML diff before committing.
+
+## Prepare a review copy
 
 ```sh
 npm run review:quizzes
 ```
 
-This exports the six category answer keys, an answer-cue audit and a combined review file into this directory. Export scripts currently use the revision label `2026-11-18-v3`; rerunning them updates the contents from the current source rather than proving a new independent review.
+This generates category answer keys, a combined review file and an answer-cue report in this directory. Generated review files and ZIP archives are excluded from Git. The exporter currently uses the filename label `2026-11-18-v3`; the contents come from the current sources.
 
-Generated answer packages and ZIP files are Git-ignored. Historical copies were preserved locally during repository cleanup; they are not required to build or test the site. [Targeted references](sources.md) remain tracked.
+## Review criteria
 
-Reviewer feedback was received for all six categories. Revised questions still require independent re-review. Marked answers are not certification of factual correctness. Report findings using **quiz slug + question number**, with a source and correction where relevant; answer letters can change between revisions.
+- Check facts and explanations against reliable sources.
+- Make sure the question has one defensible answer.
+- Use plausible distractors with comparable length and grammatical structure.
+- Avoid wording that reveals the answer, including repeated phrases and unmatched absolute claims.
+- Match the difficulty label to the knowledge or reasoning required.
+- Check for repeated questions and clues supplied by other questions.
+
+Automated checks validate structure and behavior; factual accuracy requires editorial review. Report corrections using the quiz slug and question number, with a supporting source. Answer letters may change when options are reordered.
+
+See [quiz references](sources.md) for the sources used in targeted fact checks.
