@@ -1,75 +1,65 @@
 # CURIO
 
-**[Canlı sayta keç →](https://zahidallahverdiyevv.github.io/CURIO/)**
+Learn the world, one question at a time.
 
-İngilisdilli öyrənmə və quiz platforması: altı bölmə, 48 mövzu quizi, Daily Six və interaktiv dünya xəritəsi. HTML və JavaScript istifadə edir. İnkişaf zamanı Tailwind CDN, yayımlanan versiyada isə yerli yığılmış CSS və pinned SDK işləyir. Node.js yerli serveri səhifələri təqdim edir; hesab funksiyaları Supabase Authentication ilə işləyir.
+[Visit CURIO](https://zahidallahverdiyevv.github.io/CURIO/) · [Development guide](#development) · [Report a security issue](SECURITY.md)
 
-## İşə salmaq
+CURIO is a quiz platform covering history, geography, science, philosophy, art and culture, and technology. Each answer comes with an explanation, and an interactive world map lets you practise finding countries.
 
-Node.js 22 və ya 24 istifadə edin:
+## Features
+
+- **48 topic quizzes** with 15 questions each, answer explanations and a results review.
+- **Find the Country**, a 15-question map game with hints, zoom controls and scoring.
+- **Daily Six**, a short six-question selection across the curriculum.
+- **User accounts** with email confirmation, password recovery and profile editing.
+
+All learning activities are available without an account. Scores reset when the page reloads; account progress is not saved. Daily Six currently uses a fixed question set.
+
+## Development
+
+Requires Node.js 22 or 24.
 
 ```sh
 npm ci
 npm start
 ```
 
-Ünvan: `http://127.0.0.1:3000`. Başqa port üçün PowerShell-də:
+Open [127.0.0.1:3000](http://127.0.0.1:3000). Authentication setup and local callback URLs are covered in the [authentication guide](docs/AUTH-SETUP.md).
 
-```powershell
-$env:PORT = '3001'
-npm start
-```
+## Stack and structure
 
-`localhost` eyni brauzer yaddaşının işlənməsi üçün `127.0.0.1` ünvanına yönləndirilir. Supabase-də həmin portun callback və reset ünvanlarına icazə verilməlidir. Serveri başladıldığı terminalda `Ctrl+C` ilə dayandırın.
+The site uses HTML, JavaScript and Tailwind CSS, with Supabase Authentication for accounts. Node.js provides the local development server and build tools. GitHub Pages serves the production build.
 
-## İmkanlar
-
-- 48 mövzuda hər biri 15 sual: 720 sual, dərhal izah, nəticə və cavablara baxış.
-- Daily Six-də altı sabit sual; gündəlik avtomatik yenilənmə hazırda yoxdur.
-- Dünya xəritəsində 176 ölkə/ərazi konturu, hər raundda 15 hədəf, üç cəhd, ipucu və xal.
-- Email/parol qeydiyyatı, email təsdiqi, giriş, parol bərpası və profil. Çıxış profildədir. Google girişi deaktivdir.
-- Quiz və xəritə nəticələri səhifə yaddaşındadır; hesaba yazılmır və səhifə yenilənəndə sıfırlanır.
-
-## Layihənin quruluşu
-
-| Yol | Məzmun |
+| Directory | Purpose |
 | --- | --- |
-| `*.html` | Ana səhifə, bölmələr, quizlər, xəritə, hesab və hüquqi səhifələr |
-| `assets/auth/` | Public Supabase konfiqurasiyası, auth və profil məntiqi |
-| `assets/quiz/` | Ortaq quiz/xəritə məntiqi, CSS və yerli xəritə məlumatı |
-| `assets/` | Şəkillər |
-| `content/quizzes/` | 42 yeni quizin 630 redaktə olunan sualı və 48 mövzunun kataloqu |
-| `scripts/` | Məzmun yığımı, validatorlar və review eksportu |
-| `tests/` | Sayt, quiz, xəritə, auth, profil, SDK və HTTP yoxlamaları |
-| `docs/` | Cari developer sənədləri və mənbə istinadları |
-| `.github/` | Avtomatik testlər və Dependabot konfiqurasiyası |
-| `server.js` | Yalnız HTML/assets təqdim edən yerli server |
+| `assets/` | Shared scripts, styles, images and map data |
+| `content/quizzes/` | Editable quiz content and topic catalogue |
+| `scripts/` | Content generation, validation and production build |
+| `tests/` | Quiz, map, authentication and server checks |
+| `docs/` | Setup, design, deployment and content references |
 
-## Yoxlama və məzmun redaktəsi
+Pages live in the repository root. Production CSS and the Supabase SDK are bundled locally.
+
+## Checks and build
 
 ```sh
-npm run validate
 npm test
+npm run build
+npm run test:production
 ```
 
-Testlər 64 səhifənin keçidlərini, 726 sualın strukturunu, 147 tam quiz gedişini, xəritəni, hesab formalarını və server marşrutlarını yoxlayır. Server testi boş `3087` portu tələb edir. Auth handler/SDK testləri saxta məlumat və mock HTTP istifadə edir; real hesab yaratmır, parol dəyişmir və email göndərmir.
+The build writes the publishable site to `dist/`. Pull requests run checks on Node.js 22 and 24; merges to `main` trigger deployment to GitHub Pages.
 
-Yeni sualları `content/quizzes/` daxilində redaktə etdikdən sonra:
+For content changes, see the [quiz editing guide](docs/quiz-review/README.md). For hosting configuration and rollback, see the [deployment guide](docs/DEPLOYMENT.md).
 
-```sh
-npm run build:quizzes
-npm run review:quizzes
-npm test
-```
+## Documentation
 
-Review paketləri `docs/quiz-review/` daxilində yerli yaradılır və Git-ə daxil edilmir. Mövcud sual mənbələri repoda qalır. Ətraflı: [review qaydası](docs/quiz-review/README.md), [mənbələr](docs/quiz-review/sources.md).
+- [Authentication](docs/AUTH-SETUP.md)
+- [Design](docs/DESIGN.md)
+- [World map and data attribution](docs/WORLD-MAP.md)
+- [Quiz references](docs/quiz-review/sources.md)
+- [Security policy](SECURITY.md)
 
-## Təhlükəsizlik və yayım
+## Contact
 
-Brauzer konfiqurasiyasındakı Supabase URL və publishable key ictimai istifadə üçün nəzərdə tutulub. SMTP parolu, app password, secret/service_role açarı və istifadəçi məlumatı repoya əlavə edilməməlidir. Təhlükəsizlik problemi üçün [SECURITY.md](SECURITY.md) qaydasını izləyin.
-
-Yayım GitHub Pages üzərindən ilkin beta kimi aparılır. `npm run build` yalnız ictimai faylları `dist/` qovluğuna yığır; `npm run test:production` hazır faylları və script CSP-ni yoxlayır. JavaScript və CSS saytdan yüklənir, fontlar və bəzi şəkillər Google xidmətlərindən gəlir. Supabase redirect-ləri yayımlanan ünvana uyğun olmalıdır. SMTP qurulub; real email/recovery sınağı build yoxlamasından ayrıdır. Yayım və geri qaytarma qaydası: [DEPLOYMENT](docs/DEPLOYMENT.md).
-
-Köhnə auditlər, ekran görüntüləri və təkrar review/ZIP eksportları cari mənbə ağacından çıxarılıb, yerli arxivdə saxlanılıb. İlkin public commitdəki nüsxələr Git tarixçəsində qalır. Repo public-dir; ayrıca açıq mənbə lisenziyası verilməyib.
-
-Əlavə sənədlər: [Auth qurulması](docs/AUTH-SETUP.md), [dizayn](docs/DESIGN.md), [dünya xəritəsi və mənbəsi](docs/WORLD-MAP.md).
+Questions and support: [curiolearn.help@gmail.com](mailto:curiolearn.help@gmail.com).

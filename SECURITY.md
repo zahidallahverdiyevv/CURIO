@@ -2,16 +2,18 @@
 
 ## Reporting a vulnerability
 
-Please do not publish passwords, tokens, account data or exploit details in a public issue. Use this repository's private vulnerability reporting option when available, or email **curiolearn.help@gmail.com** with a short description and safe reproduction steps. Never include a real password or secret key.
+Use [GitHub private vulnerability reporting](https://github.com/zahidallahverdiyevv/CURIO/security/advisories/new) or email [curiolearn.help@gmail.com](mailto:curiolearn.help@gmail.com).
 
-Reports should identify the affected page or file, the expected and observed behavior, and the potential impact. Use accounts and data you control. Do not access other users' data or run disruptive tests.
+Include the affected page or file, reproduction steps, expected and observed behavior, and potential impact. Remove passwords, tokens and personal account data from examples and screenshots. Please keep exploit details private while a report is being assessed.
 
-## Project status
+Test only with accounts and data you control. Avoid disruptive testing or accessing another person's data.
 
-CURIO is under active development and has not launched as a production service. Security fixes target the current main branch; historical snapshots are not maintained releases. No response-time guarantee or paid bug bounty is offered.
+## Supported version
 
-## Credentials and public content
+Security fixes are applied to the current `main` branch. CURIO is a public beta; older commits are not maintained as separate releases.
 
-The Supabase URL and publishable key in browser configuration are intentionally public. Secret/service_role keys, SMTP credentials and account exports must never be committed. Learning questions and client-side answers are public content, not a protected assessment service.
+## Credential handling
 
-If a credential is accidentally published, revoke or rotate it at its provider. Removing a file in a later commit does not remove it from Git history or existing copies.
+The browser uses a Supabase project URL and publishable key. Keep privileged keys, SMTP credentials and account exports out of source control. If a secret is exposed, revoke it at the provider and replace it in the relevant configuration.
+
+Quiz questions and answers are public learning content. They are delivered to the browser and are not intended for secure examinations.
